@@ -17,9 +17,7 @@ a:hover {
 }
 
 #container {
-	min-height: 4589px;
 	height: 100%;
-	max-width: 1915px;
 	width: 100%;
 	margin: 0 auto;
 	position: relative;
@@ -42,17 +40,17 @@ a:hover {
     margin-top: 3px;
 }
 
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: black;
+}
+
 .iconsWidth {
 	width: 38px;
 }
 
-#PRlogoNames, #DIGITALlogoNames, #EVENTlogoNames, #CREATIVElogoNames {
-	display: none;
-}
-
 #solutionsBackground {
 	width: 100%;
-	height: 1298px;
+	height: 1297px;
 }
 
 .mobileVersionImage {
@@ -63,20 +61,37 @@ a:hover {
 
 #solutionsPr {
 	width: 100%;
-	height: 1298px;
+	height: 1297px;
 }
 
-#prTextBackground {
+#socialMedia {
 	width: 100%;
-	height: 423px;
-		background-color: white;
+	height: 452px;
+	background-color: white;
 }
 
-#textDiv {
-	width: 70%;
-	height: 111px;
-    margin-left: 18%;
-    margin-top: 18%;
+#spaceBetween {
+	width: 100%;
+	height: 117px;
+}
+
+#spaceBetweenImg {
+	width: 100%;
+	height: 117px;
+}
+
+#website {
+	width: 100%;
+	height: 427px;
+	background-color: white;
+}
+
+#textReferenzen {
+    width: 100%;
+    height: 15px;
+    position: absolute;
+    margin-top: 250px;
+    text-align: center;
 }
 
 .textPR {
@@ -88,22 +103,26 @@ a:hover {
     color: black;
 }
 
-#referenzen {
-	width: 100%;
-	height: 1517px;
-	}
-
-#referenzenImg {
-	width: 100%;
-	height: 1517px;
+#textDiv {
+	width: 68%;
+	height: 111px;
+    margin-left: 18%;
+    margin-top: 6%;
 }
 
-#textReferenzen {
-    width: 100%;
-    height: 15px;
-    position: absolute;
-    margin-top: 250px;
-    text-align: center;
+.textDigital {
+	color: grey;
+	font-size: 24px;
+}
+
+#referenzen {
+	width: 100%;
+	height: 1626px;
+}
+
+#referenzenLogo {
+	width: 100%;
+	height: 1626px;
 }
 
 #email {
@@ -121,10 +140,10 @@ a:hover {
 }
 
 #contact {
-    width: 67%;
+    width: 74%;
     height: 713px;
     position: absolute;
-    margin-left: 18%;
+    margin-left: 15%;
     margin-top: 5%;
 }
 
@@ -144,9 +163,9 @@ a:hover {
 	color: #f8f4f4;
 }
 
-#solutionsLogoBottom{
+#solutionsLogoBottom {
     margin-left: 11%;
-    margin-top: 3%;
+    margin-top: 2%;
 }
 
 #logBottom {
@@ -167,11 +186,11 @@ a:hover {
     border-color: white;
 }
 
-.navbar-inverse .navbar-toggle .icon-bar {
-    background-color: black;
-}
 
 /*Media Queries*/
+
+
+/*iPads*/
 
 @media only screen and (max-width: 1024px) {
 
@@ -179,15 +198,21 @@ body {
 	font-size: 19px;
 }
 
-#container {
-	width: 100%;
-	height: 0px;
-	min-height: 0px;
-}
-
 #map {
     float: none;
     display: none;
+}
+
+.textPR {
+	font-size: 19px;
+}
+
+.textDigital {
+	font-size: 19px;
+}
+
+.textContact {
+	font-size: 19px;
 }
 
 #solutionsBackground {
@@ -200,49 +225,39 @@ body {
 	height: 600px;
 }
 
-#referenzen {
+#socialMedia {
 	width: 100%;
-	height: 500px;
+	height: 489px;
+	font-size: 11px;
 }
 
-#referenzenImg {
+#website {
 	width: 100%;
-	height: 500px;
+	height: 474px;
+}
+
+#referenzen {
+	width: 100%;
+	height: 600px;
+}
+
+#referenzenLogo {
+	width: 100%;
+	height: 600px;
 }
 
 #textReferenzen {
 	margin-top: 61px;
 }
 
-#textDiv {
-    margin-top: 71px;
+#email {
+	height: 243px;
+	width: 100%;
 }
 
-.textPR {
+.emailText {
+	margin-top: -45px;
 	font-size: 19px;
-}
-
-#prTextBackground {
-	height: 259px;
-}
-
-.navbar-brand {
-    padding-top: 0px;
-    margin-left: -25px;
-    margin-top: 17px;
-}
-
-.navbar-toggle {
-    margin-right: 0px;
-}
-
-.navbar-nav {
-    display: inline-flex;
-}
-
-#solutionsLogoBottom {
-    margin-left: 15%;
-    margin-top: 10px;
 }
 
 #contactMap {
@@ -264,23 +279,34 @@ body {
 	margin-top: 0px;
 }
 
-.textContact {
-    font-size: 19px;
+.navbar-brand {
+    padding-top: 0px;
+    margin-left: -25px;
+    margin-top: 17px;
+}
+
+.navbar-toggle {
+    margin-right: 0px;
+}
+
+.navbar-nav {
+    display: inline-flex;
+}
+
+#solutionsLogoBottom {
+    margin-left: 13%;
+    margin-top: 3%;
 }
 
 }
+
+/*Large screen mobiles */
 
 @media only screen and (max-width: 767px) {
 
 
 body {
 	font-size: 14px;
-}
-
-#container {
-	width: 100%;
-	height: 0px;
-	min-height: 0px;
 }
 
 #map {
@@ -293,13 +319,24 @@ body {
 	height: 400px;
 }
 
+.textDigital {
+	font-size: 14px;
+}
+
 #solutionsPr {
 	width: 100%;
 	height: 400px;
 }
 
-#email {
-	height: 300px;
+#socialMedia {
+    width: 100%;
+    height: 414px;
+    font-size: 14px;
+}
+
+#website {
+	width: 100%;
+	height: 334px;
 }
 
 #referenzen {
@@ -307,7 +344,7 @@ body {
 	height: 500px;
 }
 
-#referenzenImg {
+#referenzenLogo {
 	width: 100%;
 	height: 500px;
 }
@@ -316,17 +353,14 @@ body {
 	margin-top: 61px;
 }
 
-.textPR {
+#email {
+	height: 243px;
+	width: 100%;
+}
+
+.emailText {
+	margin-top: -45px;
 	font-size: 14px;
-}
-
-#prTextBackground {
-	height: 259px;
-}
-
-#solutionsLogoBottom {
-    margin-left: 19%;
-    margin-top: 9px;
 }
 
 #contactMap {
@@ -339,6 +373,10 @@ body {
 	height: 600px;
 }
 
+.textPR {
+	font-size: 14px;
+}
+
 #contact {
 	height: 0px;
 }
@@ -348,18 +386,10 @@ body {
 	margin-top: 8px;
 }
 
-.textContact {
-    font-size: 14px;
-}
-
 .navbar-brand {
     padding-top: 0px;
     margin-left: -25px;
     margin-top: 1%;
-}
-
-.emailText {
-	margin-top: -11px;
 }
 
 .navbar-toggle {
@@ -377,22 +407,24 @@ body {
     border-color: white;
 }
 
-#PRlogoNames, #DIGITALlogoNames, #EVENTlogoNames, #CREATIVElogoNames {
-	display: block;
+#solutionsLogoBottom {
+    margin-left: 17%;
+    margin-top: 4%;
+    font-size: 14px;
+}
+
+.textContact {
+	font-size: 14px;
 }
 
 }
+
+/*iPhones and other mobiles*/
 
 @media only screen and (max-width: 480px) {
 
 body {
-	font-size: 11px;
-}
-
-#container {
-	width: 100%;
-	height: 0px;
-	min-height: 0px;
+	font-size: 12px;
 }
 
 #map {
@@ -402,26 +434,17 @@ body {
 
 #solutionsBackground {
 	width: 100%;
-	height: 400px;
+	height: 444px;
+}
+
+.textDigital {
+	font-size: 12px;
+    margin-top: -8px;
 }
 
 #solutionsPr {
 	width: 100%;
-	height: 400px;
-}
-
-#referenzen {
-	width: 100%;
-	height: 500px;
-}
-
-#referenzenImg {
-	width: 100%;
-	height: 500px;
-}
-
-#textReferenzen {
-	margin-top: 61px;
+	height: 444px;
 }
 
 .mobileVersionImage {
@@ -430,12 +453,62 @@ body {
     display: initial;
 }
 
-.textPR {
+#socialMedia {
+	width: 100%;
+	height: 454px;
 	font-size: 11px;
 }
 
-#prTextBackground {
-	height: 259px;
+#website {
+	width: 100%;
+	height: 421px;
+}
+
+#referenzen {
+	width: 100%;
+	height: 500px;
+}
+
+#referenzenLogo {
+	width: 100%;
+	height: 500px;
+}
+
+#textReferenzen {
+	margin-top: 61px;
+}
+
+#email {
+	height: 243px;
+	width: 100%;
+}
+
+.emailText {
+	margin-top: -45px;
+	font-size: 12px;
+}
+
+#contactMap {
+	width: 100%;
+	height: 600px;
+}
+
+#footerBackground {
+	width: 100%;
+	height: 600px;
+}
+
+.textPR {
+	font-size: 12px;
+}
+
+#contact {
+	height: 0px;
+}
+
+#textContact {
+	margin-left: 25%;
+	margin-top: 29px;
 }
 
 .navbar-brand {
@@ -458,40 +531,13 @@ body {
     border-color: white;
 }
 
-#PRlogoNames {
-	margin-left: 30%;
-}
-
-#PRlogoNames, #DIGITALlogoNames, #EVENTlogoNames, #CREATIVElogoNames {
-	display: block;
-}
-
 #solutionsLogoBottom {
     margin-left: 32%;
     margin-top: 7%;
 }
 
-#contactMap {
-	width: 100%;
-	height: 600px;
-}
-
-#footerBackground {
-	width: 100%;
-	height: 600px;
-}
-
-#contact {
-	height: 0px;
-}
-
-#textContact {
-	margin-left: 25%;
-	margin-top: 29px;
-}
-
 .textContact {
-    font-size: 11px;
+	font-size: 12px;
 }
 
 }
@@ -500,6 +546,8 @@ body {
 
 .iconsWidth {
     width: 23px;
+}
+
 }
 
 
