@@ -1,0 +1,11 @@
+body {
+	font-size: 18px;
+	font-size: "Ubuntu";
+}
+
+#container {
+    width: 85%;
+    height: 910px;
+    margin-left: 8%;
+    margin-top: 9%;
+}

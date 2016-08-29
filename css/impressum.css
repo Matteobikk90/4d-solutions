@@ -1,0 +1,759 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Ubuntu"; 
+	font-size: 22px;
+	color: #FAFAFA;
+	line-height: 22px;
+}
+
+#firstBackground {
+	width: 100%;
+	height: 700px;
+	position: relative;
+}
+
+#home4d {
+	height: 700px;
+    width: 100%;
+}
+
+#solutionsLogo{
+	height: 242px;
+    margin-top: 165px;
+}
+
+#solutionsText {
+    text-align: center;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 39%;
+    color: #f8f4f4;
+}
+
+#impressumText {
+    margin-left: 29%;
+    position: absolute;
+    text-align: center;
+}
+
+#iconsContainer {
+    height: 634px;
+    width: 100%;
+}
+
+#iconsBackground {
+    width: 100%;
+    height: 800px;
+    margin-top: -5%;
+}
+
+
+#container {
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+#containerNav {
+	width: 100%;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar-inverse {
+    background-color: white;
+    border-color: none;
+}
+
+.navbar-brand {
+    margin-top: 3px;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: black;
+}
+
+.iconsWidth {
+	width: 38px;
+}
+
+.textDigital {
+	color: black;
+	font-size: 24px;
+}
+
+#contactMap {
+	width: 100%;
+	height: 845px;	
+	position: absolute;
+}
+
+#contact {
+    width: 74%;
+    height: 713px;
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+#footerBackground {
+	width: 100%;
+	height: 845px;
+}
+
+#textContact {
+    width:50%;
+    float:left;
+    margin-top: 8%;
+}
+
+.textContact {
+	font-size: 24px;
+	color: #f8f4f4;
+}
+
+#solutionsLogoBottom {
+    margin-left: 11%;
+    margin-top: 2%;
+}
+
+#logBottom {
+	float: left;
+}
+
+#map {
+    width:50%;
+    float:left;
+    margin-top: 12%;
+}
+
+#gmap_canvas {
+	color: black;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: white;
+}
+
+
+/*Media Queries*/
+
+
+/*iPads*/
+
+@media only screen and (max-width: 1024px) {
+
+body {
+	font-size: 19px;
+}
+
+#map {
+    float: none;
+    display: none;
+}
+
+.textPR {
+	font-size: 19px;
+}
+
+.textDigital {
+	font-size: 19px;
+}
+
+.textContact {
+	font-size: 19px;
+}
+
+#firstBackground {
+    width: 100%;
+    height: 600px;
+}
+
+#solutionsBackground {
+	width: 100%;
+	height: 400px;
+}
+
+#solutionsPr {
+	width: 100%;
+	height: 400px;
+}
+
+#pText {
+    margin-left: 17%;
+    width: 65%;
+    padding-top: 27px;
+    text-align: center;
+    font-size: 19px;
+    color: #f8f4f4;
+}
+
+#solutionsText {
+    text-align: center;
+    margin-left: 31%;
+}
+
+#solutionsLogo {
+    width: 40%;
+    height: 106px;
+    margin-top: 175px;
+}
+
+#socialMedia {
+	width: 100%;
+	height: 489px;
+	font-size: 11px;
+}
+
+#website {
+	width: 100%;
+	height: 474px;
+}
+
+#impressumText {
+    margin-left: 21%;
+    position: absolute;
+    text-align: center;
+}
+
+#referenzen {
+	width: 100%;
+	height: 600px;
+}
+
+#referenzenLogo {
+	width: 100%;
+	height: 600px;
+}
+
+#textReferenzen {
+	margin-top: 61px;
+}
+
+#email {
+	height: 243px;
+	width: 100%;
+}
+
+.emailText {
+	margin-top: -45px;
+	font-size: 19px;
+}
+
+#iconsBackground {
+    width: 100%;
+    height: 800px;
+    margin-top: -10%;
+}
+
+#contactMap {
+	width: 100%;
+	height: 600px;
+}
+
+#footerBackground {
+	width: 100%;
+	height: 600px;
+}
+
+#contact {
+	height: 0px;
+}
+
+#textContact {
+	margin-left: 33%;
+	margin-top: 0px;
+}
+
+#home4d {
+    height: 600px;
+    width: 100%;
+}
+
+.navbar-brand {
+    padding-top: 0px;
+    margin-left: -25px;
+    margin-top: 17px;
+}
+
+.navbar-toggle {
+    margin-right: 0px;
+}
+
+.navbar-nav {
+    display: inline-flex;
+}
+
+#solutionsLogoBottom {
+    margin-left: 13%;
+    margin-top: 3%;
+}
+
+}
+
+/*Large screen mobiles */
+
+@media only screen and (max-width: 767px) {
+
+body {
+	font-size: 19px;
+}
+
+#map {
+    float: none;
+    display: none;
+}
+
+.textPR {
+	font-size: 14px;
+}
+
+.textDigital {
+	font-size: 14px;
+}
+
+.textContact {
+	font-size: 14px;
+}
+
+#solutionsBackground {
+	width: 100%;
+	height: 400px;
+}
+
+#solutionsPr {
+	width: 100%;
+	height: 400px;
+}
+
+#solutionsLogo {
+    height: 124px;
+    margin-top: 133px;
+}
+
+#socialMedia {
+	width: 100%;
+	height: 489px;
+	font-size: 14px;
+}
+
+#website {
+	width: 100%;
+	height: 474px;
+}
+
+#pText {
+    font-size: 14px;
+    color: #f8f4f4;
+}
+
+#impressumText {
+    margin-left: 26%;
+    position: absolute;
+    text-align: center;
+}
+
+#referenzen {
+	width: 100%;
+	height: 600px;
+}
+
+#referenzenLogo {
+	width: 100%;
+	height: 600px;
+}
+
+#textReferenzen {
+	margin-top: 61px;
+}
+
+#email {
+	height: 243px;
+	width: 100%;
+}
+
+.emailText {
+	margin-top: -45px;
+	font-size: 19px;
+}
+
+#iconsBackground {
+    width: 100%;
+    height: 800px;
+    margin-top: -19%;
+}
+
+#contactMap {
+	width: 100%;
+	height: 600px;
+}
+
+#footerBackground {
+	width: 100%;
+	height: 600px;
+}
+
+#contact {
+	height: 0px;
+}
+
+#textContact {
+	margin-left: 28%;
+	margin-top: 8px;
+}
+
+#solutionsText {
+    text-align: center;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 29%;
+    color: grey;
+}
+
+.navbar-brand {
+    padding-top: 0px;
+    margin-left: -25px;
+    margin-top: 1%;
+}
+
+.navbar-toggle {
+    margin-right: 0px;
+}
+
+.navbar-nav {
+    display: inline-flex;
+    margin-top: 8%;
+    margin-left: -13%;
+    float: right;
+}
+
+.navbar-inverse, .navbar-collapse, .navbar-inverse, .navbar-form {
+    border-color: white;
+}
+
+#solutionsLogoBottom {
+    margin-left: 17%;
+    margin-top: 4%;
+    font-size: 14px;
+}
+
+.impressumAgbSize {
+    font-size: 14px;
+}
+
+}
+
+/*iPhones and other mobiles*/
+
+@media only screen and (max-width: 480px) {
+
+body {
+	font-size: 11px;
+}
+
+#map {
+    float: none;
+    display: none;
+}
+
+.textPR {
+	font-size: 11px;
+}
+
+.textDigital {
+	font-size: 11px;
+}
+
+.textContact {
+	font-size: 11px;
+}
+
+#solutionsBackground {
+	width: 100%;
+	height: 400px;
+}
+
+#solutionsPr {
+	width: 100%;
+	height: 400px;
+}
+
+#solutionsLogo {
+    height: 133px;
+    margin-top: 133px;
+}
+
+#pText {
+    font-size: 11px;
+    color: #f8f4f4;
+}
+
+#socialMedia {
+	width: 100%;
+	height: 489px;
+	font-size: 11px;
+}
+
+#website {
+	width: 100%;
+	height: 474px;
+}
+
+#impressumText {
+    margin-left: 15%;
+    position: absolute;
+    text-align: center;
+}
+
+#referenzen {
+	width: 100%;
+	height: 600px;
+}
+
+#referenzenLogo {
+	width: 100%;
+	height: 600px;
+}
+
+#textReferenzen {
+	margin-top: 61px;
+}
+
+#email {
+	height: 243px;
+	width: 100%;
+}
+
+.emailText {
+	margin-top: -45px;
+	font-size: 19px;
+}
+
+#iconsBackground {
+    width: 100%;
+    height: 800px;
+    margin-top: -19%;
+}
+
+#contactMap {
+	width: 100%;
+	height: 600px;
+}
+
+#footerBackground {
+	width: 100%;
+	height: 600px;
+}
+
+#contact {
+	height: 0px;
+}
+
+#textContact {
+	margin-left: 28%;
+	margin-top: 8px;
+}
+
+#solutionsText {
+    text-align: center;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 11%;
+    color: grey;
+}
+
+.navbar-brand {
+    padding-top: 0px;
+    margin-left: -25px;
+    margin-top: 1%;
+}
+
+.navbar-toggle {
+    margin-right: 0px;
+}
+
+.navbar-nav {
+    display: inline-flex;
+    margin-top: 8%;
+    margin-left: -13%;
+    float: right;
+}
+
+.navbar-inverse, .navbar-collapse, .navbar-inverse, .navbar-form {
+    border-color: white;
+}
+
+#solutionsLogoBottom {
+    margin-left: 31%;
+    margin-top: 7%;
+    font-size: 11px;
+}
+
+.impressumAgbSize {
+    font-size: 11px;
+}
+
+
+
+
+}
+
+@media only screen and (max-width: 350px) {
+
+body {
+	font-size: 11px;
+}
+
+#map {
+    float: none;
+    display: none;
+}
+
+.textPR {
+	font-size: 11px;
+}
+
+.textDigital {
+	font-size: 11px;
+}
+
+.textContact {
+	font-size: 11px;
+}
+
+#solutionsBackground {
+	width: 100%;
+	height: 400px;
+}
+
+#solutionsPr {
+	width: 100%;
+	height: 400px;
+}
+
+#solutionsLogo {
+    height: 113px;
+    margin-top: 133px;
+}
+
+#socialMedia {
+	width: 100%;
+	height: 489px;
+	font-size: 11px;
+}
+
+#website {
+	width: 100%;
+	height: 474px;
+}
+
+#impressumText {
+    margin-left: 9%;
+    position: absolute;
+    text-align: center;
+}
+
+#referenzen {
+	width: 100%;
+	height: 600px;
+}
+
+#referenzenLogo {
+	width: 100%;
+	height: 600px;
+}
+
+#textReferenzen {
+	margin-top: 61px;
+}
+
+#email {
+	height: 243px;
+	width: 100%;
+}
+
+.emailText {
+	margin-top: -45px;
+	font-size: 19px;
+}
+
+#iconsBackground {
+    width: 100%;
+    height: 800px;
+    margin-top: -21%;
+}
+
+#contactMap {
+	width: 100%;
+	height: 600px;
+}
+
+#footerBackground {
+	width: 100%;
+	height: 600px;
+}
+
+#contact {
+	height: 0px;
+}
+
+#textContact {
+	margin-left: 28%;
+	margin-top: 8px;
+}
+
+#solutionsText {
+    text-align: center;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 7%;
+    color: grey;
+}
+
+.navbar-brand {
+    padding-top: 0px;
+    margin-left: -25px;
+    margin-top: 1%;
+}
+
+.iconsWidth {
+    width: 23px;
+}
+
+.navbar-toggle {
+    margin-right: 0px;
+}
+
+.navbar-nav {
+    display: inline-flex;
+    margin-top: 21%;
+    margin-left: -13%;
+    float: right;
+}
+
+.navbar-inverse, .navbar-collapse, .navbar-inverse, .navbar-form {
+    border-color: white;
+}
+
+#solutionsLogoBottom {
+    margin-left: 38%;
+    margin-top: 9%;
+    font-size: 11px;
+}
+
+.impressumAgbSize {
+    font-size: 11px;
+}
+
+
+
+
+}
+
+

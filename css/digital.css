@@ -1,0 +1,541 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Ubuntu"; 
+	font-size: 22px;
+	color: #FAFAFA;
+	line-height: 22px;
+}
+
+a:hover {
+	text-decoration-line: none;
+	text-decoration: none;
+}
+
+#container {
+	max-width: 1915px;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+#containerNav {
+	width: 100%;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar-inverse {
+    background-color: white;
+    border-color: none;
+}
+
+.navbar-brand {
+    margin-top: 3px;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: black;
+}
+
+.iconsWidth {
+	width: 38px;
+}
+
+#solutionsBackground {
+	width: 100%;
+	height: 1297px;
+}
+
+#solutionsPr {
+	width: 100%;
+	height: 1297px;
+}
+
+#socialMedia {
+	width: 100%;
+	height: 452px;
+	background-color: white;
+}
+
+#spaceBetween {
+	width: 100%;
+	height: 117px;
+}
+
+#spaceBetweenImg {
+	width: 100%;
+	height: 117px;
+}
+
+#website {
+	width: 100%;
+	height: 427px;
+	background-color: white;
+}
+
+#textReferenzen {
+    width: 100%;
+    height: 15px;
+    position: absolute;
+    margin-top: 250px;
+    text-align: center;
+}
+
+.textPR {
+	color: #f7f4fd;
+	font-size: 24px;
+}
+
+.textPRDas {
+    color: black;
+}
+
+#textDiv {
+	width: 68%;
+	height: 111px;
+    margin-left: 18%;
+    margin-top: 6%;
+}
+
+.textDigital {
+	color: grey;
+	font-size: 24px;
+}
+
+#referenzen {
+	width: 100%;
+	height: 1626px;
+}
+
+#referenzenLogo {
+	width: 100%;
+	height: 1626px;
+}
+
+#email {
+	width: 100%;
+	height: 334px;
+	background-color: white;
+	text-align: center;
+	color: #1c1030;
+}
+
+#contactMap {
+	width: 100%;
+	height: 845px;	
+	position: absolute;
+}
+
+#contact {
+    width: 74%;
+    height: 713px;
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+#footerBackground {
+	width: 100%;
+	height: 845px;
+}
+
+#textContact {
+    width:50%;
+    float:left;
+    margin-top: 8%;
+}
+
+.textContact {
+	font-size: 24px;
+	color: #f8f4f4;
+}
+
+#solutionsLogoBottom {
+    margin-left: 11%;
+    margin-top: 2%;
+}
+
+#logBottom {
+	float: left;
+}
+
+#map {
+    width:50%;
+    float:left;
+    margin-top: 12%;
+}
+
+#gmap_canvas {
+	color: black;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: white;
+}
+
+
+/*Media Queries*/
+
+
+/*iPads*/
+
+@media only screen and (max-width: 1024px) {
+
+body {
+	font-size: 19px;
+}
+
+#map {
+    float: none;
+    display: none;
+}
+
+.textPR {
+	font-size: 19px;
+}
+
+.textDigital {
+	font-size: 19px;
+}
+
+.textContact {
+	font-size: 19px;
+}
+
+#solutionsBackground {
+	width: 100%;
+	height: 600px;
+}
+
+#solutionsPr {
+	width: 100%;
+	height: 600px;
+}
+
+#socialMedia {
+	width: 100%;
+	height: 489px;
+	font-size: 11px;
+}
+
+#website {
+	width: 100%;
+	height: 474px;
+}
+
+#referenzen {
+	width: 100%;
+	height: 600px;
+}
+
+#referenzenLogo {
+	width: 100%;
+	height: 600px;
+}
+
+#textReferenzen {
+	margin-top: 61px;
+}
+
+#email {
+	height: 243px;
+	width: 100%;
+}
+
+.emailText {
+	margin-top: -45px;
+	font-size: 19px;
+}
+
+#contactMap {
+	width: 100%;
+	height: 600px;
+}
+
+#footerBackground {
+	width: 100%;
+	height: 600px;
+}
+
+#contact {
+	height: 0px;
+}
+
+#textContact {
+	margin-left: 33%;
+	margin-top: 0px;
+}
+
+.navbar-brand {
+    padding-top: 0px;
+    margin-left: -25px;
+    margin-top: 17px;
+}
+
+.navbar-toggle {
+    margin-right: 0px;
+}
+
+.navbar-nav {
+    display: inline-flex;
+}
+
+#solutionsLogoBottom {
+    margin-left: 13%;
+    margin-top: 3%;
+}
+
+}
+
+/*Large screen mobiles */
+
+@media only screen and (max-width: 767px) {
+
+
+body {
+	font-size: 14px;
+}
+
+#map {
+    float: none;
+    display: none;
+}
+
+#solutionsBackground {
+	width: 100%;
+	height: 400px;
+}
+
+.textDigital {
+	font-size: 14px;
+}
+
+#solutionsPr {
+	width: 100%;
+	height: 400px;
+}
+
+#socialMedia {
+    width: 100%;
+    height: 489px;
+    font-size: 14px;
+}
+
+#website {
+	width: 100%;
+	height: 474px;
+}
+
+#referenzen {
+	width: 100%;
+	height: 500px;
+}
+
+#referenzenLogo {
+	width: 100%;
+	height: 500px;
+}
+
+#textReferenzen {
+	margin-top: 61px;
+}
+
+#email {
+	height: 243px;
+	width: 100%;
+}
+
+.emailText {
+	margin-top: -45px;
+	font-size: 14px;
+}
+
+#contactMap {
+	width: 100%;
+	height: 600px;
+}
+
+#footerBackground {
+	width: 100%;
+	height: 600px;
+}
+
+.textPR {
+	font-size: 14px;
+}
+
+#contact {
+	height: 0px;
+}
+
+#textContact {
+	margin-left: 33%;
+	margin-top: 8px;
+}
+
+.navbar-brand {
+    padding-top: 0px;
+    margin-left: -25px;
+    margin-top: 1%;
+}
+
+.navbar-toggle {
+    margin-right: 0px;
+}
+
+.navbar-nav {
+    display: inline-flex;
+    margin-top: 9%;
+    margin-left: 22%;
+    float: right;
+}
+
+.navbar-inverse, .navbar-collapse, .navbar-inverse, .navbar-form {
+    border-color: white;
+}
+
+#solutionsLogoBottom {
+    margin-left: 17%;
+    margin-top: 4%;
+    font-size: 14px;
+}
+
+.textContact {
+	font-size: 14px;
+}
+
+}
+
+/*iPhones and other mobiles*/
+
+@media only screen and (max-width: 480px) {
+
+body {
+	font-size: 12px;
+}
+
+#map {
+    float: none;
+    display: none;
+}
+
+#solutionsBackground {
+	width: 100%;
+	height: 444px;
+}
+
+.textDigital {
+	font-size: 12px;
+    margin-top: -8px;
+}
+
+#solutionsPr {
+	width: 100%;
+	height: 444px;
+}
+
+#socialMedia {
+	width: 100%;
+	height: 454px;
+	font-size: 11px;
+}
+
+#website {
+	width: 100%;
+	height: 421px;
+}
+
+#referenzen {
+	width: 100%;
+	height: 500px;
+}
+
+#referenzenLogo {
+	width: 100%;
+	height: 500px;
+}
+
+#textReferenzen {
+	margin-top: 61px;
+}
+
+#email {
+	height: 243px;
+	width: 100%;
+}
+
+.emailText {
+	margin-top: -45px;
+	font-size: 12px;
+}
+
+#contactMap {
+	width: 100%;
+	height: 600px;
+}
+
+#footerBackground {
+	width: 100%;
+	height: 600px;
+}
+
+.textPR {
+	font-size: 12px;
+}
+
+#contact {
+	height: 0px;
+}
+
+#textContact {
+	margin-left: 25%;
+	margin-top: 29px;
+}
+
+.navbar-brand {
+    padding-top: 0px;
+    margin-left: -25px;
+}
+
+.navbar-toggle {
+    margin-right: 0px;
+}
+
+.navbar-nav {
+    display: inline-flex;
+    margin-top: 13%;
+    margin-left: -10%;
+    float: right;
+}
+
+.navbar-inverse, .navbar-collapse, .navbar-inverse, .navbar-form {
+    border-color: white;
+}
+
+#solutionsLogoBottom {
+    margin-left: 32%;
+    margin-top: 7%;
+}
+
+.textContact {
+	font-size: 12px;
+}
+
+}
+
+@media only screen and (max-width: 350px) {
+
+.iconsWidth {
+    width: 23px;
+}
+
+}
+
+
