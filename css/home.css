@@ -209,8 +209,8 @@ div li a:hover {
 	color: #f8f4f4;
 }
 
-#solutionsLogoBottom{
-    margin-left: 11%;
+#solutionsLogoBottom {
+    margin-left: 9%;
     margin-top: 3%;
 }
 
@@ -412,12 +412,19 @@ nav {
 }
 
 #solutionsLogoBottom {
-    margin-left: 18%;
+    margin-left: 11%;
     margin-top: 13px;
 }
 
 #contact {
 	margin-left: 38%;
+}
+
+#textContact {
+    width: 50%;
+    float: left;
+    margin-top: 8%;
+    margin-left: 5%;
 }
 
 }
@@ -586,19 +593,24 @@ body {
 
 #firstBackground {
     width: 100%;
-    height: 600px;
+    height: 400px;
+}
+
+#home4d {
+    width: 100%;
+    height: 400px;
 }
 
 #solutionsText {
     text-align: center;
-    margin-top: 0px;
+    margin-top: -104px;
     margin-left: 12%;
     width: 75%;
 }
 
 #solutionsLogo {
     width: 35%;
-    height: 122px;
+    height: 98px;
     margin-top: 130px;
 }
 
@@ -705,7 +717,7 @@ nav ul {
 }
 
 #solutionsLogoBottom {
-    margin-left: 34%;
+    margin-left: 28%;
     margin-top: 12px;
 }
 
@@ -745,9 +757,20 @@ nav ul {
     margin-left: 35%;
 }
 
+#referenzenLogo {
+    width: 100%;
+    height: 400px;
+}
+
+#referenzen {
+    width: 100%;
+    height: 400px;
+}
+
 #textContact {
     margin-left: -6%;
     margin-top: 16px;
+    width: 51%;
 }
 
 }

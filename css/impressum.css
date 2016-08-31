@@ -41,6 +41,11 @@ body {
     text-align: center;
 }
 
+.impressumAgbSize {
+    color: white;
+    font-size: 24px;
+}
+
 #iconsContainer {
     height: 634px;
     width: 100%;
@@ -142,8 +147,38 @@ body {
     border-color: white;
 }
 
+#PrIcon {
+    display: none;
+}
+
 
 /*Media Queries*/
+
+@media only screen and (min-width: 1800) {
+
+.PrIcon {
+    display: none;
+}
+
+#PrIcon {
+    display: none;
+}
+
+#solutionsText {
+    text-align: center;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 45%;
+    color: #f8f4f4;
+}
+
+#impressumText {
+    margin-left: 41%;
+    position: absolute;
+    text-align: center;
+}
+
+}
 
 
 /*iPads*/
@@ -161,6 +196,10 @@ body {
 
 .textPR {
 	font-size: 19px;
+}
+
+#PrIcon {
+    display: none;
 }
 
 .textDigital {
@@ -300,10 +339,18 @@ body {
 
 /*Large screen mobiles */
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
 
 body {
 	font-size: 19px;
+}
+
+.PrIcon {
+    display: none;
+}
+
+#PrIcon {
+    display: none;
 }
 
 #map {
@@ -312,15 +359,15 @@ body {
 }
 
 .textPR {
-	font-size: 14px;
+	font-size: 19px;
 }
 
 .textDigital {
-	font-size: 14px;
+	font-size: 19px;
 }
 
 .textContact {
-	font-size: 14px;
+	font-size: 19px;
 }
 
 #solutionsBackground {
@@ -341,7 +388,7 @@ body {
 #socialMedia {
 	width: 100%;
 	height: 489px;
-	font-size: 14px;
+	font-size: 19px;
 }
 
 #website {
@@ -350,12 +397,12 @@ body {
 }
 
 #pText {
-    font-size: 14px;
+    font-size: 19px;
     color: #f8f4f4;
 }
 
 #impressumText {
-    margin-left: 27%;
+    margin-left: 22%;
     position: absolute;
     text-align: center;
 }
@@ -420,7 +467,7 @@ body {
 .navbar-brand {
     padding-top: 0px;
     margin-left: -25px;
-    margin-top: 1%;
+    margin-top: 19px;
 }
 
 .navbar-toggle {
@@ -429,7 +476,7 @@ body {
 
 .navbar-nav {
     display: inline-flex;
-    margin-top: 8%;
+    /* margin-top: 8%; */
     margin-left: -13%;
     float: right;
 }
@@ -439,13 +486,13 @@ body {
 }
 
 #solutionsLogoBottom {
-    margin-left: 17%;
+    margin-left: 15%;
     margin-top: 4%;
-    font-size: 14px;
+    font-size: 19px;
 }
 
 .impressumAgbSize {
-    font-size: 14px;
+    font-size: 19px;
 }
 
 }
@@ -455,7 +502,7 @@ body {
 @media only screen and (max-width: 480px) {
 
 body {
-	font-size: 11px;
+	font-size: 14px;
 }
 
 #map {
@@ -464,15 +511,15 @@ body {
 }
 
 .textPR {
-	font-size: 11px;
+	font-size: 14px;
 }
 
 .textDigital {
-	font-size: 11px;
+	font-size: 14px;
 }
 
 .textContact {
-	font-size: 11px;
+	font-size: 14px;
 }
 
 #solutionsBackground {
@@ -486,19 +533,29 @@ body {
 }
 
 #solutionsLogo {
-    height: 133px;
+    height: 110px;
     margin-top: 133px;
 }
 
 #pText {
-    font-size: 11px;
+    font-size: 14px;
     color: #f8f4f4;
 }
 
 #socialMedia {
 	width: 100%;
 	height: 489px;
-	font-size: 11px;
+	font-size: 14px;
+}
+
+#firstBackground {
+    width: 100%;
+    height: 400px;
+}
+
+#home4d {
+    height: 400px;
+    width: 100%;
 }
 
 #website {
@@ -507,7 +564,7 @@ body {
 }
 
 #impressumText {
-    margin-left: 18%;
+    margin-left: 14%;
     position: absolute;
     text-align: center;
 }
@@ -533,7 +590,7 @@ body {
 
 .emailText {
 	margin-top: -45px;
-	font-size: 19px;
+	font-size: 14px;
 }
 
 #iconsBackground {
@@ -544,12 +601,12 @@ body {
 
 #contactMap {
 	width: 100%;
-	height: 600px;
+	height: 530px;
 }
 
 #footerBackground {
 	width: 100%;
-	height: 600px;
+	height: 530px;
 }
 
 #contact {
@@ -557,22 +614,22 @@ body {
 }
 
 #textContact {
-	margin-left: 28%;
+	margin-left: 29%;
 	margin-top: 8px;
 }
 
 #solutionsText {
     text-align: center;
     position: absolute;
-    margin-top: 40px;
-    margin-left: 11%;
+    margin-top: -24px;
+    margin-left: 13%;
     color: grey;
 }
 
 .navbar-brand {
     padding-top: 0px;
+    margin-top: 13px;
     margin-left: -25px;
-    margin-top: 1%;
 }
 
 .navbar-toggle {
@@ -586,21 +643,130 @@ body {
     float: right;
 }
 
+navbar-collapse, .navHeaderCollapse, .collapse, .in {
+    width: 106%;
+}
+
+.nav, .navbar-nav, .navbar-right {
+    display: block;
+    margin-top: -5px;
+    margin-left: 61px;
+    float: left;
+}
+
+li {
+    width: 285%;
+}
+
+.iconsWidth {
+    width: 41px;
+}
+
 .navbar-inverse, .navbar-collapse, .navbar-inverse, .navbar-form {
     border-color: white;
 }
 
+.navbar, .navbar-inverse, .navbar-static-top {
+    width: 100%;
+    position: fixed;
+}
+
+.PrIcon {
+    display: inline;
+    margin-left: 15%;
+    color: black;
+}
+
+#PrIcon {
+    color: black;
+    font-size: 14px;
+    display: inline;
+    margin-left: 15%;
+}
+
+
+
 #solutionsLogoBottom {
-    margin-left: 31%;
+    margin-left: 27%;
     margin-top: 7%;
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .impressumAgbSize {
-    font-size: 11px;
+    font-size: 14px;
+}
+
 }
 
 
+@media only screen and (max-width: 375px) {
+
+navbar-collapse, .navHeaderCollapse, .collapse, .in {
+    width: 106%;
+}
+
+.nav, .navbar-nav, .navbar-right {
+    display: block;
+    margin-top: -5px;
+    margin-left: 44px;
+    float: left;
+}
+
+li {
+    width: 285%;
+}
+
+.iconsWidth {
+    width: 41px;
+}
+
+.navbar-inverse, .navbar-collapse, .navbar-inverse, .navbar-form {
+    border-color: white;
+}
+
+.navbar, .navbar-inverse, .navbar-static-top {
+    width: 100%;
+    position: fixed;
+}
+.textContact {
+    font-size: 14px;
+}
+
+.navbar-toggle {
+    margin-top: 16px;
+}
+
+.PrIcon {
+    display: inline;
+    margin-left: 15%;
+    color: black;
+}
+
+#PrIcon {
+    color: black;
+    font-size: 14px;
+    display: inline;
+    margin-left: 15%;
+}
+
+#solutionsText {
+    text-align: center;
+    position: absolute;
+    margin-top: -4px;
+    margin-left: 9%;
+    color: grey;
+}
+
+#impressumText {
+    margin-left: 9%;
+    position: absolute;
+    text-align: center;
+}
+
+#textContact {
+    margin-left: 26%;
+    margin-top: 8px;
+}
 
 
 }
@@ -655,7 +821,7 @@ body {
 }
 
 #impressumText {
-    margin-left: 9%;
+    margin-left:12%;
     position: absolute;
     text-align: center;
 }
@@ -705,41 +871,16 @@ body {
 }
 
 #textContact {
-	margin-left: 28%;
-	margin-top: 8px;
+    margin-left: 24%;
+    margin-top: 8px;
 }
 
 #solutionsText {
     text-align: center;
     position: absolute;
-    margin-top: 40px;
-    margin-left: 7%;
+    margin-top: -10px;
+    margin-left: 2%;
     color: grey;
-}
-
-.navbar-brand {
-    padding-top: 0px;
-    margin-left: -25px;
-    margin-top: 1%;
-}
-
-.iconsWidth {
-    width: 23px;
-}
-
-.navbar-toggle {
-    margin-right: 0px;
-}
-
-.navbar-nav {
-    display: inline-flex;
-    margin-top: 21%;
-    margin-left: -13%;
-    float: right;
-}
-
-.navbar-inverse, .navbar-collapse, .navbar-inverse, .navbar-form {
-    border-color: white;
 }
 
 #solutionsLogoBottom {
@@ -748,8 +889,53 @@ body {
     font-size: 11px;
 }
 
-.impressumAgbSize {
-    font-size: 11px;
+navbar-collapse, .navHeaderCollapse, .collapse, .in {
+    width: 106%;
+}
+
+.nav, .navbar-nav, .navbar-right {
+    display: block;
+    margin-top: -5px;
+    margin-left: 28px;
+    float: left;
+}
+
+li {
+    width: 285%;
+}
+
+.iconsWidth {
+    width: 41px;
+}
+
+.navbar-inverse, .navbar-collapse, .navbar-inverse, .navbar-form {
+    border-color: white;
+}
+
+.navbar, .navbar-inverse, .navbar-static-top {
+    width: 100%;
+    position: fixed;
+}
+.textContact {
+    font-size: 14px;
+}
+
+.PrIcon {
+    display: inline;
+    margin-left: 15%;
+    color: black;
+    font-size: 14px;
+}
+
+#PrIcon {
+    color: black;
+    font-size: 14px;
+    display: inline;
+    margin-left: 15%;
+}
+
+.navbar-toggle {
+    margin-top: 16px;
 }
 
 
