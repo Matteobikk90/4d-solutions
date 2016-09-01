@@ -19,6 +19,10 @@ body {
     background-position: center;
 }
 
+.gmnoprint, .gm-style-cc {
+    display: none;
+}
+
 #solutionsLogo{
 	height: 242px;
     margin-top: 165px;

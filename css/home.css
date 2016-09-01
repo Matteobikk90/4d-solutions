@@ -99,6 +99,10 @@ nav li a:hover {
 	width: 100%;
 }
 
+.gmnoprint, .gm-style-cc {
+    display: none;
+}
+
 #iconsLogo {
     width: 95%;
     overflow: hidden;

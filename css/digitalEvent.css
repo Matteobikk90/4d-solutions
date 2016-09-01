@@ -23,6 +23,10 @@ a:hover {
 	position: relative;
 }
 
+.gmnoprint, .gm-style-cc {
+    display: none;
+}
+
 #containerNav {
 	width: 100%;
 }
