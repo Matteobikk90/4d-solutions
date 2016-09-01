@@ -12,14 +12,11 @@ body {
 }
 
 #firstBackground {
-	width: 100%;
-	height: 700px;
-	position: relative;
-}
-
-#home4d {
-	height: 700px;
+    height: 1000px;
     width: 100%;
+    background-image: url("../img/4dSolutionsLogo.png");
+    background-size: cover;
+    background-position: center;
 }
 
 #solutionsLogo{
@@ -30,13 +27,13 @@ body {
 #solutionsText {
     text-align: center;
     position: absolute;
-    margin-top: 40px;
-    margin-left: 39%;
+    margin-top: 670px;
+    margin-left: 45%;
     color: #f8f4f4;
 }
 
 #impressumText {
-    margin-left: 29%;
+    margin-left: 31%;
     position: absolute;
     text-align: center;
 }
@@ -75,6 +72,14 @@ body {
 .navbar-inverse {
     background-color: white;
     border-color: none;
+}
+
+#changeHomeLogo {
+    display: initial;
+}
+
+#changeHomeLogo4D {
+    display: none;
 }
 
 .navbar-brand {
@@ -154,7 +159,7 @@ body {
 
 /*Media Queries*/
 
-@media only screen and (min-width: 1800) {
+@media only screen and (min-width: 1800px) {
 
 .PrIcon {
     display: none;
@@ -167,15 +172,36 @@ body {
 #solutionsText {
     text-align: center;
     position: absolute;
-    margin-top: 40px;
-    margin-left: 45%;
+    margin-top: 874px;
+    margin-left: 47%;
     color: #f8f4f4;
 }
 
+#changeHomeLogo {
+    display: initial;
+}
+
+#changeHomeLogo4D {
+    display: none;
+}
+
 #impressumText {
-    margin-left: 41%;
+    margin-left: 39%;
     position: absolute;
     text-align: center;
+}
+
+#firstBackground {
+    height: 1500px;
+    width: 100%;
+    background-image: url("../img/4dSolutionsLogo.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#solutionsLogoBottom {
+    margin-left: 5%;
+    margin-top: 13px;
 }
 
 }
@@ -211,8 +237,11 @@ body {
 }
 
 #firstBackground {
+    height: 500px;
     width: 100%;
-    height: 600px;
+    background-image: url("../img/4dSolutionsLogo.png");
+    background-size: cover;
+    background-position: center;
 }
 
 #solutionsBackground {
@@ -236,13 +265,15 @@ body {
 
 #solutionsText {
     text-align: center;
-    margin-left: 31%;
+    margin-left: 43%;
+    margin-top: 234px;
 }
+
 
 #solutionsLogo {
     width: 40%;
     height: 106px;
-    margin-top: 175px;
+    margin-top: 174px;
 }
 
 #socialMedia {
@@ -251,13 +282,21 @@ body {
 	font-size: 11px;
 }
 
+#changeHomeLogo {
+    display: initial;
+}
+
+#changeHomeLogo4D {
+    display: none;
+}
+
 #website {
 	width: 100%;
 	height: 474px;
 }
 
 #impressumText {
-    margin-left: 21%;
+    margin-left: 31%;
     position: absolute;
     text-align: center;
 }
@@ -331,7 +370,7 @@ body {
 }
 
 #solutionsLogoBottom {
-    margin-left: 13%;
+    margin-left: 11%;
     margin-top: 3%;
 }
 
@@ -368,6 +407,14 @@ body {
 
 .textContact {
 	font-size: 19px;
+}
+
+#changeHomeLogo {
+    display: initial;
+}
+
+#changeHomeLogo4D {
+    display: none;
 }
 
 #solutionsBackground {
@@ -459,8 +506,8 @@ body {
 #solutionsText {
     text-align: center;
     position: absolute;
-    margin-top: 40px;
-    margin-left: 29%;
+    margin-top: 227px;
+    margin-left: 40%;
     color: grey;
 }
 
@@ -495,6 +542,14 @@ body {
     font-size: 19px;
 }
 
+#firstBackground {
+    height: 500px;
+    width: 100%;
+    background-image: url("../img/4dSolutionsLogo.png");
+    background-size: cover;
+    background-position: center;
+}
+
 }
 
 /*iPhones and other mobiles*/
@@ -516,6 +571,14 @@ body {
 
 .textDigital {
 	font-size: 14px;
+}
+
+#changeHomeLogo {
+    display: none;
+}
+
+#changeHomeLogo4D {
+    display: initial;
 }
 
 .textContact {
@@ -621,8 +684,8 @@ body {
 #solutionsText {
     text-align: center;
     position: absolute;
-    margin-top: -24px;
-    margin-left: 13%;
+    margin-top: 172px;
+    margin-left: 36%;
     color: grey;
 }
 
@@ -634,6 +697,7 @@ body {
 
 .navbar-toggle {
     margin-right: 0px;
+    margin-top: 15px;
 }
 
 .navbar-nav {
@@ -650,16 +714,17 @@ navbar-collapse, .navHeaderCollapse, .collapse, .in {
 .nav, .navbar-nav, .navbar-right {
     display: block;
     margin-top: -5px;
-    margin-left: 61px;
+    margin-left: -20px;
     float: left;
+    width: 71%;
 }
 
 li {
-    width: 285%;
+    width: 147%;
 }
 
 .iconsWidth {
-    width: 41px;
+    width: 33px;
 }
 
 .navbar-inverse, .navbar-collapse, .navbar-inverse, .navbar-form {
@@ -696,6 +761,14 @@ li {
     font-size: 14px;
 }
 
+#firstBackground {
+    height: 400px;
+    width: 100%;
+    background-image: url("../img/4dSolutionsLogo.png");
+    background-size: cover;
+    background-position: center;
+}
+
 }
 
 
@@ -708,16 +781,34 @@ navbar-collapse, .navHeaderCollapse, .collapse, .in {
 .nav, .navbar-nav, .navbar-right {
     display: block;
     margin-top: -5px;
-    margin-left: 44px;
+    margin-left: -20px;
     float: left;
+    width: 61%;
 }
 
 li {
-    width: 285%;
+    width: 147%;
 }
 
+#firstBackground {
+    height: 380px;
+    width: 100%;
+    background-image: url("../img/4dSolutionsLogo.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#changeHomeLogo {
+    display: none;
+}
+
+#changeHomeLogo4D {
+    display: initial;
+}
+
+
 .iconsWidth {
-    width: 41px;
+    width: 33px;
 }
 
 .navbar-inverse, .navbar-collapse, .navbar-inverse, .navbar-form {
@@ -752,8 +843,8 @@ li {
 #solutionsText {
     text-align: center;
     position: absolute;
-    margin-top: -4px;
-    margin-left: 9%;
+    margin-top: 156px;
+    margin-left: 35%;
     color: grey;
 }
 
@@ -780,6 +871,14 @@ body {
 #map {
     float: none;
     display: none;
+}
+
+#changeHomeLogo {
+    display: none;
+}
+
+#changeHomeLogo4D {
+    display: initial;
 }
 
 .textPR {
@@ -878,8 +977,8 @@ body {
 #solutionsText {
     text-align: center;
     position: absolute;
-    margin-top: -10px;
-    margin-left: 2%;
+    margin-top: 123px;
+    margin-left: 32%;
     color: grey;
 }
 
@@ -896,16 +995,16 @@ navbar-collapse, .navHeaderCollapse, .collapse, .in {
 .nav, .navbar-nav, .navbar-right {
     display: block;
     margin-top: -5px;
-    margin-left: 28px;
+    margin-left: -20px;
     float: left;
 }
 
 li {
-    width: 285%;
+    width: 147%;
 }
 
 .iconsWidth {
-    width: 41px;
+    width: 33px;
 }
 
 .navbar-inverse, .navbar-collapse, .navbar-inverse, .navbar-form {
@@ -936,6 +1035,14 @@ li {
 
 .navbar-toggle {
     margin-top: 16px;
+}
+
+#firstBackground {
+    height: 330px;
+    width: 100%;
+    background-image: url("../img/4dSolutionsLogo.png");
+    background-size: cover;
+    background-position: center;
 }
 
 

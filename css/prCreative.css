@@ -53,6 +53,14 @@ a:hover {
 	height: 1000px;
 }
 
+#solutionsBackgroundCreative {
+    height: 1000px;
+	width: 100%;
+    background-image: url("../img/solutionCreative.png");
+    background-size: cover;
+    background-position: center;
+}
+
 .mobileVersionImage {
 	width: 100%;
 	height: 1000px;
@@ -62,6 +70,14 @@ a:hover {
 #solutionsPr {
 	width: 100%;
 	height: 1000px;
+}
+
+#solutionsBackgroundPr {
+	height: 1000px;
+	width: 100%;
+    background-image: url("../img/01_Pr_HEADER.png");
+    background-size: cover;
+    background-position: center;
 }
 
 #prTextBackground {
@@ -79,8 +95,9 @@ a:hover {
 }
 
 .textPR {
-	color: #f7f4fd;
-	font-size: 24px;
+    color: #f7f4fd;
+    font-size: 24px;
+    margin-top: -33px;
 }
 
 .textPRDas {
@@ -88,9 +105,20 @@ a:hover {
 }
 
 #referenzen {
-	width: 100%;
 	height: 1000px;
-	}
+	width: 100%;
+    background-image: url("../img/02_PR_Referenzen.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#referenzenCreative {
+	height: 1000px;
+	width: 100%;
+    background-image: url("../img/05_CREATIVE_Referenzen.png");
+    background-size: cover;
+    background-position: center;
+}
 
 #referenzenImg {
 	width: 100%;
@@ -178,6 +206,10 @@ a:hover {
 	display: none;
 }
 
+#changeHomeLogo4D {
+	display: none;
+}
+
 /*Media Queries*/
 
 @media only screen and (min-width: 1800px) {
@@ -189,8 +221,24 @@ a:hover {
 
 #solutionsBackground {
 	width: 100%;
-	height: 1236px;
-} 
+	height: 1500px;
+}
+
+#solutionsBackgroundCreative {
+    height: 1500px;
+	width: 100%;
+    background-image: url("../img/solutionCreative.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#solutionsBackgroundPr {
+	height: 1500px;
+	width: 100%;
+    background-image: url("../img/01_Pr_HEADER.png");
+    background-size: cover;
+    background-position: center;
+}
 
 #textReferenzen {
 	width: 100%;
@@ -202,8 +250,24 @@ a:hover {
 	height: 1236px;
 } 
 
+#referenzen {
+	height: 1500px;
+	width: 100%;
+    background-image: url("../img/02_PR_Referenzen.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#referenzenCreative {
+	height: 1500px;
+	width: 100%;
+    background-image: url("../img/05_CREATIVE_Referenzen.png");
+    background-size: cover;
+    background-position: center;
+}
+
 #email {
-	margin-top: 233px;
+	margin-top: 9px;
 }
 
 #solutionsLogoBottom {
@@ -211,13 +275,26 @@ a:hover {
     margin-top: 12px;
 }
 
+.textPR {
+    color: #f7f4fd;
+    font-size: 24px;
+    margin-top: 41px;
+}
+
 .PrIcon {
 	display: none;
 }
 
+#changeHomeLogo4D {
+	display: none;
+}
 
-
-
+#textDiv {
+    width: 70%;
+    height: 111px;
+    margin-left: 23%;
+    margin-top: 310px;
+}
 
 }
 
@@ -238,11 +315,6 @@ body {
     display: none;
 }
 
-#solutionsBackground {
-	width: 100%;
-	height: 600px;
-}
-
 .mobileVersionImage {
 	width: 100%;
 	height: 600px;
@@ -251,12 +323,44 @@ body {
 
 #solutionsPr {
 	width: 100%;
-	height: 600px;
+	height: 500px;
+}
+
+#solutionsBackground {
+	width: 100%;
+	height: 500px;
+}
+
+#solutionsBackgroundCreative {
+    height: 500px;
+	width: 100%;
+    background-image: url("../img/solutionCreative.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#solutionsBackgroundPr {
+	height: 500px;
+	width: 100%;
+    background-image: url("../img/01_Pr_HEADER.png");
+    background-size: cover;
+    background-position: center;
 }
 
 #referenzen {
-	width: 100%;
 	height: 500px;
+	width: 100%;
+    background-image: url("../img/02_PR_Referenzen.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#referenzenCreative {
+	height: 500px;
+	width: 100%;
+    background-image: url("../img/05_CREATIVE_Referenzen.png");
+    background-size: cover;
+    background-position: center;
 }
 
 #referenzenImg {
@@ -273,7 +377,8 @@ body {
 }
 
 .textPR {
-	font-size: 19px;
+    font-size: 19px;
+    margin-top: -17px;
 }
 
 #prTextBackground {
@@ -326,6 +431,10 @@ body {
 	display: none;
 }
 
+#changeHomeLogo4D {
+	display: none;
+}
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -348,7 +457,23 @@ body {
 
 #solutionsBackground {
 	width: 100%;
-	height: 600px;
+	height: 500px;
+}
+
+#solutionsBackgroundCreative {
+    height: 500px;
+	width: 100%;
+    background-image: url("../img/solutionCreative.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#solutionsBackgroundPr {
+	height: 500px;
+	width: 100%;
+    background-image: url("../img/01_Pr_HEADER.png");
+    background-size: cover;
+    background-position: center;
 }
 
 .mobileVersionImage {
@@ -366,9 +491,24 @@ body {
 	height: 300px;
 }
 
+#changeHomeLogo4D {
+	display: none;
+}
+
 #referenzen {
-	width: 100%;
 	height: 500px;
+	width: 100%;
+    background-image: url("../img/02_PR_Referenzen.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#referenzenCreative {
+	height: 500px;
+	width: 100%;
+    background-image: url("../img/05_CREATIVE_Referenzen.png");
+    background-size: cover;
+    background-position: center;
 }
 
 #referenzenImg {
@@ -474,6 +614,17 @@ body {
 #solutionsBackground {
 	width: 100%;
 	height: 400px;
+}
+
+#solutionsBackgroundCreative {
+    height: 400px;
+	width: 100%;
+    background-image: url("../img/solutionCreative.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#solutionsBackgroundPr {
 	display: none;
 }
 
@@ -483,8 +634,19 @@ body {
 }
 
 #referenzen {
-	width: 100%;
 	height: 400px;
+	width: 100%;
+    background-image: url("../img/02_PR_Referenzen.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#referenzenCreative {
+	height: 400px;
+	width: 100%;
+    background-image: url("../img/05_CREATIVE_Referenzen.png");
+    background-size: cover;
+    background-position: center;
 }
 
 #referenzenImg {
@@ -496,11 +658,19 @@ body {
 	margin-top: 61px;
 }
 
-.mobileVersionImage {
+/*.mobileVersionImage {
     width: 100%;
     height: 400px;
     display: initial;
     margin-top: 59px;
+}*/
+
+.mobileVersionImagePr {
+    width: 100%;
+    height: 474px;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../img/prMobile.png");
 }
 
 #mobileVersionImage {
@@ -515,9 +685,11 @@ body {
 }
 
 #prTextBackground {
-	height: 330px;
-	margin-top: -274px;
+    height: 330px;
+    margin-top: -262px;
 }
+
+@medi
 
 .navbar-brand {
     padding-top: 0px;
@@ -527,6 +699,14 @@ body {
 
 .navbar-toggle {
     margin-right: 0px;
+}
+
+#changeHomeLogo {
+	display: none;
+}
+
+#changeHomeLogo4D {
+	display: initial;
 }
 
 .navbar-nav {
@@ -543,16 +723,17 @@ navbar-collapse, .navHeaderCollapse, .collapse, .in {
 .nav, .navbar-nav, .navbar-right {
     display: block;
     margin-top: -5px;
-    margin-left: 61px;
+    margin-left: -20px;
     float: left;
+    width: 71%;
 }
 
 li {
-	width: 285%;
+	width: 147%;
 }
 
 .iconsWidth {
-    width: 41px;
+    width: 33px;
 }
 
 .navbar-inverse, .navbar-collapse, .navbar-inverse, .navbar-form {
@@ -617,16 +798,17 @@ navbar-collapse, .navHeaderCollapse, .collapse, .in {
 .nav, .navbar-nav, .navbar-right {
     display: block;
     margin-top: -5px;
-    margin-left: 44px;
+    margin-left: -20px;
     float: left;
+    width: 61%;
 }
 
 li {
-	width: 285%;
+	width: 147%;
 }
 
 .iconsWidth {
-    width: 41px;
+    width: 33px;
 }
 
 .navbar-inverse, .navbar-collapse, .navbar-inverse, .navbar-form {
@@ -641,10 +823,60 @@ li {
     font-size: 14px;
 }
 
+#changeHomeLogo {
+	display: none;
+}
+
+#changeHomeLogo4D {
+	display: initial;
+}
+
 .PrIcon {
     display: inline;
     margin-left: 15%;
     color: black;
+}
+
+.textPR {
+    font-size: 14px;
+    margin-top: -24px;
+}
+
+#referenzen {
+	height: 380px;
+	width: 100%;
+    background-image: url("../img/02_PR_Referenzen.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#referenzenCreative {
+	height: 280px;
+	width: 100%;
+    background-image: url("../img/05_CREATIVE_Referenzen.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#solutionsBackground {
+	width: 100%;
+	height: 380px;
+}
+
+#solutionsBackgroundPr {
+	height: 380px;
+	width: 100%;
+    background-image: url("../img/01_Pr_HEADER.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#solutionsBackgroundCreative {
+    height: 380px;
+	width: 100%;
+    background-image: url("../img/solutionCreative.png");
+    background-size: cover;
+    background-position: center;
 }
 
 }
@@ -658,16 +890,29 @@ navbar-collapse, .navHeaderCollapse, .collapse, .in {
 .nav, .navbar-nav, .navbar-right {
     display: block;
     margin-top: -5px;
-    margin-left: 28px;
+    margin-left: -20px;
     float: left;
 }
 
 li {
-	width: 285%;
+	width: 147%;
+}
+
+.textPR {
+    font-size: 14px;
+    margin-top: -32px;
+}
+
+#changeHomeLogo {
+	display: none;
+}
+
+#changeHomeLogo4D {
+	display: initial;
 }
 
 .iconsWidth {
-    width: 41px;
+    width: 33px;
 }
 
 .navbar-inverse, .navbar-collapse, .navbar-inverse, .navbar-form {
@@ -696,6 +941,43 @@ li {
 
 #solutionsLogoBottom {
     margin-left: 38%;
+}
+
+#referenzen {
+	height: 330px;
+	width: 100%;
+    background-image: url("../img/02_PR_Referenzen.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#referenzenCreative {
+	height: 330px;
+	width: 100%;
+    background-image: url("../img/05_CREATIVE_Referenzen.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#solutionsBackground {
+	width: 100%;
+	height: 330px;
+}
+
+#solutionsBackgroundPr {
+	height: 330px;
+	width: 100%;
+    background-image: url("../img/01_Pr_HEADER.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#solutionsBackgroundCreative {
+    height: 330px;
+	width: 100%;
+    background-image: url("../img/solutionCreative.png");
+    background-size: cover;
+    background-position: center;
 }
 
 }

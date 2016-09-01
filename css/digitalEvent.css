@@ -53,9 +53,29 @@ a:hover {
 	height: 1000px;
 }
 
+#solutionsBackgroundDigital {
+    height: 1000px;
+	width: 100%;
+    background-image: url("../img/solutionDigital.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#solutionsBackgroundEvent {
+    height: 1000px;
+	width: 100%;
+    background-image: url("../img/solutionsEvent.png");
+    background-size: cover;
+    background-position: center;
+}
+
 .mobileVersionImage {
 	width: 100%;
 	height: 1298px;
+	display: none;
+}
+
+#changeHomeLogo4D {
 	display: none;
 }
 
@@ -121,7 +141,7 @@ a:hover {
     width: 100%;
     height: 15px;
     position: absolute;
-    margin-top: 142px;
+    margin-top: 105px;
     text-align: center;
 }
 
@@ -154,14 +174,27 @@ a:hover {
 }
 
 #referenzen {
-	width: 100%;
 	height: 1000px;
+	width: 100%;
+    background-image: url("../img/03_DIGITAL_Referenzen.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#referenzenEvent {
+	height: 1000px;
+	width: 100%;
+    background-image: url("../img/04_EVENT_Referenzen.png");
+    background-size: cover;
+    background-position: center;
 }
 
 #referenzenLogo {
 	width: 100%;
 	height: 1000px;
 }
+
+
 
 #email {
 	width: 100%;
@@ -244,10 +277,132 @@ a:hover {
 
 /*Media Queries*/
 
-@media only screen and (min-width: 1800) {
+@media only screen and (min-width: 1800px) {
+
+#solutionsPr {
+    width: 100%;
+    height: 1236px;
+} 
+
+#solutionsBackground {
+    width: 100%;
+    height: 1500px;
+}
+
+#textDiv {
+    margin-left: 22%;
+}
+
+#solutionsBackgroundCreative {
+    height: 1500px;
+    width: 100%;
+    background-image: url("../img/solutionCreative.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#solutionsBackgroundPr {
+    height: 1500px;
+    width: 100%;
+    background-image: url("../img/01_Pr_HEADER.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#textReferenzen {
+    width: 100%;
+    height: 1236px;
+} 
+
+#referenzenImg {
+    width: 100%;
+    height: 1236px;
+} 
+
+#referenzen {
+    height: 1500px;
+    width: 100%;
+    background-image: url("../img/02_PR_Referenzen.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#referenzenCreative {
+    height: 1500px;
+    width: 100%;
+    background-image: url("../img/05_CREATIVE_Referenzen.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#email {
+    margin-top: 9px;
+}
+
+#solutionsLogoBottom {
+    margin-left: 5%;
+    margin-top: 12px;
+}
+
+#websiteEvent {
+    height: 428px;
+}
+
+#textDivPromotion {
+    margin-top: 72px;
+    margin-left: 22%;
+}
+
+.textPR {
+    color: #f7f4fd;
+    font-size: 24px;
+    margin-top: 40px;
+}
+
+#textDivEvent {
+    margin-left: 22%;
+}
 
 .PrIcon {
-	display: none;
+    display: none;
+}
+
+#changeHomeLogo4D {
+    display: none;
+}
+
+.textPR {
+    color: #f7f4fd;
+    font-size: 24px;
+    margin-top: 48px;
+}
+
+#textPR {
+    margin-top: 2px;
+}
+
+#promoter {
+    margin-top: -686px;
+}
+
+#referenzenEvent {
+    height: 1254px;
+    width: 100%;
+    background-image: url("../img/04_EVENT_Referenzen.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#textDivDigital {
+    width: 74%;
+    /* margin-top: 48px; */
+    margin-left: 23%;
+}
+
+#textDivWebsite {
+    width: 74%;
+    /* margin-top: 48px; */
+    margin-left: 23%;
 }
 
 }
@@ -256,6 +411,10 @@ a:hover {
 
 body {
 	font-size: 19px;
+}
+
+#changeHomeLogo4D {
+	display: none;
 }
 
 #map {
@@ -278,6 +437,22 @@ body {
 #solutionsBackground {
 	width: 100%;
 	height: 600px;
+}
+
+#solutionsBackgroundDigital {
+    height: 500px;
+	width: 100%;
+    background-image: url("../img/solutionDigital.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#solutionsBackgroundEvent {
+    height: 500px;
+	width: 100%;
+    background-image: url("../img/solutionsEvent.png");
+    background-size: cover;
+    background-position: center;
 }
 
 .mobileVersionImage {
@@ -311,12 +486,22 @@ body {
 }
 
 #referenzen {
+	height: 500px;
 	width: 100%;
-	height: 600px;
+    background-image: url("../img/03_DIGITAL_Referenzen.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#referenzenEvent {
+	height: 500px;
+	width: 100%;
+    background-image: url("../img/04_EVENT_Referenzen.png");
+    background-size: cover;
+    background-position: center;
 }
 
 #promoter {
-    position: absolute;
     width: 50%;
     margin-left: 52%;
     margin-top: -138px;
@@ -361,7 +546,7 @@ body {
 }
 
 #textReferenzen {
-    margin-top: 80px;
+    margin-top: 40px;
 }
 
 #email {
@@ -427,6 +612,10 @@ body {
 	font-size: 19px;
 }
 
+#changeHomeLogo4D {
+	display: none;
+}
+
 #map {
     float: none;
     display: none;
@@ -435,6 +624,22 @@ body {
 #solutionsBackground {
 	width: 100%;
 	height: 600px;
+}
+
+#solutionsBackgroundDigital {
+    height: 500px;
+	width: 100%;
+    background-image: url("../img/solutionDigital.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#solutionsBackgroundEvent {
+    height: 500px;
+	width: 100%;
+    background-image: url("../img/solutionsEvent.png");
+    background-size: cover;
+    background-position: center;
 }
 
 .mobileVersionImage {
@@ -476,8 +681,19 @@ body {
 }
 
 #referenzen {
-	width: 100%;
 	height: 500px;
+	width: 100%;
+    background-image: url("../img/03_DIGITAL_Referenzen.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#referenzenEvent {
+	height: 500px;
+	width: 100%;
+    background-image: url("../img/04_EVENT_Referenzen.png");
+    background-size: cover;
+    background-position: center;
 }
 
 #referenzenLogo {
@@ -486,7 +702,7 @@ body {
 }
 
 #textReferenzen {
-	margin-top: 61px;
+	margin-top: 50px;
 }
 
 #textDivPromotion {
@@ -586,6 +802,14 @@ body {
 	font-size: 14px;
 }
 
+#changeHomeLogo {
+	display: none;
+}
+
+#changeHomeLogo4D {
+	display: initial;
+}
+
 #map {
     float: none;
     display: none;
@@ -595,6 +819,18 @@ body {
 	width: 100%;
 	height: 444px;
 	display: none;
+}
+
+#solutionsBackgroundDigital {
+    height: 400px;
+	width: 100%;
+    background-image: url("../img/solutionDigital.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#solutionsBackgroundEvent {
+    display: none;
 }
 
 .textDigital {
@@ -607,23 +843,24 @@ body {
 	height: 444px;
 }
 
-.mobileVersionImage {
+/*.mobileVersionImage {
     width: 100%;
     height: 400px;
     display: initial;
-}
+}*/
 
-#mobileVersionImage {
-    width: 100%;
+#mobileVersionImageEvent {
+	width: 100%;
     height: 400px;
-    display: initial;
-    margin-top: 59px;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../img/03_event_VISUAL_TOT.png");
 }
 
 #socialMedia {
-	width: 100%;
-	height: 388px;
-	font-size: 14px;
+    width: 100%;
+    height: 402px;
+    font-size: 14px;
 }
 
 #socialMediaEvent {
@@ -639,8 +876,19 @@ body {
 }
 
 #referenzen {
+	height: 400px;
 	width: 100%;
-	height: 500px;
+    background-image: url("../img/03_DIGITAL_Referenzen.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#referenzenEvent {
+	height: 400px;
+	width: 100%;
+    background-image: url("../img/04_EVENT_Referenzen.png");
+    background-size: cover;
+    background-position: center;
 }
 
 #referenzenLogo {
@@ -710,16 +958,13 @@ navbar-collapse, .navHeaderCollapse, .collapse, .in {
 .nav, .navbar-nav, .navbar-right {
     display: block;
     margin-top: -5px;
-    margin-left: 61px;
+    margin-left: -20px;
     float: left;
-}
-
-li {
-	width: 285%;
+    width: 71%;
 }
 
 .iconsWidth {
-    width: 41px;
+    width: 33px;
 }
 
 .navbar-inverse, .navbar-collapse, .navbar-inverse, .navbar-form {
@@ -748,6 +993,10 @@ li {
 	font-size: 14px;
 }
 
+#textReferenzen {
+    margin-top: 36px;
+}
+
 .textPRDasDigital {
     margin-top: 27px;
     color: black;
@@ -768,6 +1017,42 @@ li {
     font-size: 14px;
 }
 
+#changeHomeLogo {
+	display: none;
+}
+
+#textReferenzen {
+    margin-top: 34px;
+}
+
+#changeHomeLogo4D {
+	display: initial;
+}
+
+#mobileVersionImageEvent {
+	width: 100%;
+    height: 380px;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../img/03_event_VISUAL_TOT.png");
+}
+
+#solutionsBackgroundDigital {
+    height: 380px;
+	width: 100%;
+    background-image: url("../img/solutionDigital.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#solutionsBackgroundEvent {
+    height: 380px;
+	width: 100%;
+    background-image: url("../img/solutionsEvent.png");
+    background-size: cover;
+    background-position: center;
+}
+
 navbar-collapse, .navHeaderCollapse, .collapse, .in {
 	width: 106%;
 }
@@ -775,16 +1060,13 @@ navbar-collapse, .navHeaderCollapse, .collapse, .in {
 .nav, .navbar-nav, .navbar-right {
     display: block;
     margin-top: -5px;
-    margin-left: 44px;
+    margin-left: -20px;
     float: left;
-}
-
-li {
-	width: 285%;
+    width: 61%;
 }
 
 .iconsWidth {
-    width: 41px;
+    width: 33px;
 }
 
 .navbar-inverse, .navbar-collapse, .navbar-inverse, .navbar-form {
@@ -805,6 +1087,22 @@ li {
     color: black;
 }
 
+#referenzen {
+	height: 380px;
+	width: 100%;
+    background-image: url("../img/03_DIGITAL_Referenzen.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#referenzenEvent {
+	height: 380px;
+	width: 100%;
+    background-image: url("../img/04_EVENT_Referenzen.png");
+    background-size: cover;
+    background-position: center;
+}
+
 
 }
 
@@ -814,19 +1112,51 @@ navbar-collapse, .navHeaderCollapse, .collapse, .in {
 	width: 106%;
 }
 
+#solutionsBackgroundDigital {
+    height: 330px;
+	width: 100%;
+    background-image: url("../img/solutionDigital.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#mobileVersionImageEvent {
+	width: 100%;
+    height: 330px;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../img/03_event_VISUAL_TOT.png");
+}
+
+#solutionsBackgroundEvent {
+    height: 330px;
+	width: 100%;
+    background-image: url("../img/solutionsEvent.png");
+    background-size: cover;
+    background-position: center;
+}
+
 .nav, .navbar-nav, .navbar-right {
     display: block;
     margin-top: -5px;
-    margin-left: 28px;
+    margin-left: -20px;
     float: left;
 }
 
 li {
-	width: 285%;
+	width: 147%;
+}
+
+#textReferenzen {
+    margin-top: 29px;
+}
+
+#changeHomeLogo4D {
+	display: initial;
 }
 
 .iconsWidth {
-    width: 41px;
+    width: 33px;
 }
 
 .navbar-inverse, .navbar-collapse, .navbar-inverse, .navbar-form {
@@ -837,6 +1167,7 @@ li {
 	width: 100%;
 	position: fixed;
 }
+
 .textContact {
     font-size: 14px;
 }
@@ -884,6 +1215,22 @@ li {
     margin-left: 22%;
     margin-top: -6px;
     width: 51%;
+}
+
+#referenzen {
+	height: 330px;
+	width: 100%;
+    background-image: url("../img/03_DIGITAL_Referenzen.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#referenzenEvent {
+	height: 330px;
+	width: 100%;
+    background-image: url("../img/04_EVENT_Referenzen.png");
+    background-size: cover;
+    background-position: center;
 }
 
 
