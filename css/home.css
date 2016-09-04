@@ -461,6 +461,7 @@ nav {
 
 #contact {
 	margin-left: 38%;
+    width: 62%;
 }
 
 #textContact {
@@ -626,6 +627,7 @@ nav {
 
 #contact {
 	margin-top: -1px;
+    width: 62%;
 }
 
 
@@ -678,7 +680,12 @@ body {
 }
 
 nav {
-	margin-top: -60px;
+    width: 95%;
+    overflow: hidden;
+    text-align: center;
+    margin-left: -2%;
+    position: absolute;
+    margin-top: -8%;
 }
 
 nav ul {
@@ -686,7 +693,12 @@ nav ul {
 }
 
 #iconsLogo {
-    margin-top: -142px;
+    width: 95%;
+    overflow: hidden;
+    text-align: center;
+    margin-left: -2%;
+    position: absolute;
+    margin-top: -27%;
 }
 
 .emailText {
@@ -704,7 +716,7 @@ nav ul {
 
 #referenzenText {
     margin-left: 38%;
-    margin-top: 46px;
+    margin-top: 34px;
 }
 
 #iconsBackground {
@@ -783,6 +795,7 @@ nav ul {
 
 #contact {
 	margin-left: 38%;
+    width: 62%;
 }
 
 #textContact {
@@ -800,6 +813,37 @@ nav ul {
     margin-top: 153px;
     margin-left: 6%;
     width: 89%;
+}
+
+#contact {
+    width: 62%;
+    position: absolute;
+    margin-left: 37%;
+    margin-top: 5%;
+}
+
+#textContact {
+    margin-left: -6%;
+    margin-top: 62px;
+    width: 66%;
+}
+
+nav {
+    width: 95%;
+    overflow: hidden;
+    text-align: center;
+    margin-left: -4%;
+    position: absolute;
+    margin-top: -13%;
+}
+
+#iconsLogo {
+    width: 95%;
+    overflow: hidden;
+    text-align: center;
+    margin-left: -4%;
+    position: absolute;
+    margin-top: -34%;
 }
 
 }
@@ -831,6 +875,15 @@ nav ul {
     font-size: 11px;
 }
 
+#iconsLogo {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    margin-left: -7%;
+    position: absolute;
+    margin-top: -34%;
+}
+
 #referenzenText {
     margin-left: 35%;
     margin-top: 22px;
@@ -852,7 +905,23 @@ nav ul {
 #textContact {
     margin-left: -6%;
     margin-top: 16px;
-    width: 51%;
+    width: 69%;
+}
+
+#contact {
+    width: 53%;
+    position: absolute;
+    margin-left: 34%;
+    margin-top: 5%;
+}
+
+nav {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    margin-left: -8%;
+    position: absolute;
+    margin-top: -15%;
 }
 
 }
