@@ -432,6 +432,11 @@ a:hover {
     margin-left: 23%;
 }
 
+#textDivPromotion {
+    margin-top: 157px;
+    margin-left: 22%;
+}
+
 }
 
 @media only screen and (max-width: 1024px) {
@@ -1167,6 +1172,9 @@ navbar-collapse, .navHeaderCollapse, .collapse, .in {
     background-position: center;
 }
 
+#textPRDasPromotion {
+    margin-top: 10px;
+}
 
 }
 
