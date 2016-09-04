@@ -1,8 +1,8 @@
-* {
+/** {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-}
+}*/
 
 body {
 	font-family: 'Josefin Sans', sans-serif; 
@@ -111,8 +111,8 @@ a:hover {
 }
 
 #textDivWebsite {
-	width: 74%;
-	margin-left: 14%;
+    width: 82%;
+    margin-left: 14%;
 }
 
 .textPRDasWebsite {
@@ -139,6 +139,11 @@ a:hover {
 	width: 100%;
 	height: 324px;
 	background-color: white;
+}
+
+#websiteEvent {
+    width: 100%;
+    height: 250px;
 }
 
 #textReferenzen {
@@ -274,6 +279,11 @@ a:hover {
     background-color: black;
 }
 
+#socialMediaEvent {
+    width: 100%;
+    height: 260px;
+}
+
 .PrIcon {
 	display: none;
 }
@@ -281,14 +291,14 @@ a:hover {
 
 /*Media Queries*/
 
-@media only screen and (max-width: 2560px) {
+/*@media only screen and (max-width: 2560px) {
 
 #textDivPromotion {
     margin-top: 72px;
     margin-left: 22%;
 }
 
-}
+}*/
 
 @media only screen and (min-width: 1800px) {
 
@@ -400,7 +410,6 @@ a:hover {
 
 #promoterImg {
     width: 100%;
-    margin-top: 173px;
 }
 
 #referenzenEvent {
@@ -501,6 +510,11 @@ body {
 	width: 100%;
 	height: 325px;
 	font-size: 19px;
+}
+
+#websiteEvent {
+    width: 100%;
+    height: 61px;
 }
 
 #referenzen {
@@ -801,6 +815,10 @@ body {
 	color: black;
 }
 
+/*#textPRDasPromotion {
+    margin-top: -54px;
+}*/
+
 .textPRDasWebsite {
     margin-top: 24px;
     color: black;
@@ -1087,6 +1105,10 @@ navbar-collapse, .navHeaderCollapse, .collapse, .in {
     margin-left: -20px;
     float: left;
     width: 61%;
+}
+
+#textPRDasPromotion {
+    margin-top: -62px;
 }
 
 .iconsWidth {
