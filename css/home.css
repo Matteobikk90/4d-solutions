@@ -776,12 +776,12 @@ nav ul {
 
 #contactMap {
 	width: 100%;
-	height: 600PX;
+	height: 500PX;
 }
 
 #footerBackground {
 	width: 100%;
-	height: 600PX;
+	height: 500PX;
 }
 
 .textContact {
@@ -789,7 +789,7 @@ nav ul {
 }
 
 #solutionsLogoBottom {
-    margin-left: 28%;
+    margin-left: 12%;
     margin-top: 12px;
 }
 
@@ -799,8 +799,9 @@ nav ul {
 }
 
 #textContact {
-    margin-left: -6%;
-    margin-top: 62px;
+    margin-left: -44%;
+    width: 130%;
+    margin-top: 41px;
 }
 
 
@@ -816,16 +817,16 @@ nav ul {
 }
 
 #contact {
-    width: 62%;
+    width: 89%;
     position: absolute;
-    margin-left: 37%;
+    margin-left: 16%;
     margin-top: 5%;
 }
 
 #textContact {
     margin-left: -6%;
-    margin-top: 62px;
-    width: 66%;
+    margin-top: 19px;
+    width: 107%;
 }
 
 nav {
@@ -855,7 +856,7 @@ nav {
 }
 
 #solutionsLogoBottom {
-    margin-left: 37%;
+    margin-left: 14%;
     margin-top: 13px;
 }
 
@@ -903,9 +904,9 @@ nav {
 }
 
 #textContact {
-    margin-left: -6%;
+    margin-left: -59%;
     margin-top: 16px;
-    width: 69%;
+    width: 181%;
 }
 
 #contact {

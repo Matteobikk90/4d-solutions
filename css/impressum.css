@@ -681,8 +681,9 @@ body {
 }
 
 #textContact {
-	margin-left: 29%;
-	margin-top: 8px;
+	margin-left: -15%;
+    width: 107%;
+	margin-top: 41px;
 }
 
 #solutionsText {
@@ -753,11 +754,9 @@ li {
     margin-left: 15%;
 }
 
-
-
 #solutionsLogoBottom {
-    margin-left: 27%;
-    margin-top: 7%;
+    margin-left: 12%;
+    margin-top: 4%;
     font-size: 14px;
 }
 
@@ -859,8 +858,9 @@ li {
 }
 
 #textContact {
-    margin-left: 26%;
-    margin-top: 8px;
+    margin-left: -15%;
+    margin-top: 31px;
+    width: 120%;
 }
 
 
@@ -961,12 +961,12 @@ body {
 
 #contactMap {
 	width: 100%;
-	height: 600px;
+	height: 500px;
 }
 
 #footerBackground {
 	width: 100%;
-	height: 600px;
+	height: 500px;
 }
 
 #contact {
@@ -974,7 +974,8 @@ body {
 }
 
 #textContact {
-    margin-left: 24%;
+    margin-left: -18%;
+    width: 130%;
     margin-top: 8px;
 }
 
@@ -987,8 +988,8 @@ body {
 }
 
 #solutionsLogoBottom {
-    margin-left: 38%;
-    margin-top: 9%;
+    margin-left: 14%;
+    margin-top: 4%;
     font-size: 11px;
 }
 
