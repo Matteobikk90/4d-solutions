@@ -1025,11 +1025,13 @@ body {
 }
 
 #textDivEvent {
-	font-size: 14px;
+    font-size: 14px;
+    letter-spacing: 1px;
 }
 
 #textDivPromotion {
 	font-size: 14px;
+    letter-spacing: 1px;
 }
 
 navbar-collapse, .navHeaderCollapse, .collapse, .in {
@@ -1094,7 +1096,7 @@ navbar-collapse, .navHeaderCollapse, .collapse, .in {
 
 #socialMedia {
     width: 100%;
-    height: 435px;
+    height: 480px;
     font-size: 14px;
 }
 
@@ -1190,6 +1192,12 @@ navbar-collapse, .navHeaderCollapse, .collapse, .in {
 
 #textPRDasPromotion {
     margin-top: 10px;
+}
+
+#textDivWebsite {
+    width: 82%;
+    margin-left: 14%;
+    letter-spacing: 1px;
 }
 
 }
