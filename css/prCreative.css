@@ -89,6 +89,7 @@ a:hover {
     margin-top: -267px;
 	height: 327px;
 	background-color: white;
+    letter-spacing: 2px;
 }
 
 #textDiv {
@@ -135,6 +136,7 @@ a:hover {
     position: absolute;
     margin-top: 141px;
     text-align: center;
+    letter-spacing: 2px;
 }
 
 #email {
@@ -143,6 +145,7 @@ a:hover {
 	background-color: white;
 	text-align: center;
 	color: #1c1030;
+    letter-spacing: 2px;
 }
 
 .emailText {
@@ -161,6 +164,7 @@ a:hover {
     position: absolute;
     margin-left: 18%;
     margin-top: 5%;
+    letter-spacing: 2px;
 }
 
 #footerBackground {

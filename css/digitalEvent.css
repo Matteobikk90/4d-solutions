@@ -103,6 +103,7 @@ a:hover {
     width: 74%;
     /* margin-top: 48px; */
     margin-left: 14%;
+    letter-spacing: 1px;
 }
 
 .textPRDasDigital {
@@ -113,6 +114,7 @@ a:hover {
 #textDivWebsite {
     width: 82%;
     margin-left: 14%;
+    letter-spacing: 2px;
 }
 
 .textPRDasWebsite {
@@ -152,6 +154,7 @@ a:hover {
     position: absolute;
     margin-top: 105px;
     text-align: center;
+    letter-spacing: 2px;
 }
 
 .textPR {
@@ -168,6 +171,7 @@ a:hover {
 	height: 300px;
     margin-left: 18%;
     margin-top: 6%;
+    letter-spacing: 2px;
 }
 
 #textDivPromotion {
@@ -176,6 +180,7 @@ a:hover {
     height: 301px;
     margin-left: 18%;
     margin-top: 1px;
+    letter-spacing: 2px;
 }
 
 .textDigital {
@@ -212,6 +217,7 @@ a:hover {
 	background-color: white;
 	text-align: center;
 	color: #1c1030;
+    letter-spacing: 2px;
 }
 
 .emailText {
@@ -230,6 +236,7 @@ a:hover {
     position: absolute;
     margin-left: 15%;
     margin-top: 5%;
+    letter-spacing: 2px;
 }
 
 #footerBackground {

@@ -37,9 +37,10 @@ body {
 }
 
 #impressumText {
-    margin-left: 31%;
+    margin-left: 28%;
     position: absolute;
     text-align: center;
+    letter-spacing: 2px;
 }
 
 .impressumAgbSize {
@@ -134,7 +135,7 @@ body {
 }
 
 #solutionsLogoBottom {
-    margin-left: 11%;
+    margin-left: 8%;
     margin-top: 2%;
 }
 
