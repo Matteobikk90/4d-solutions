@@ -454,7 +454,7 @@ body {
 }
 
 #impressumText {
-    margin-left: 22%;
+    margin-left: 16%;
     position: absolute;
     text-align: center;
 }
@@ -765,6 +765,12 @@ li {
     font-size: 14px;
 }
 
+#impressumText {
+    margin-left: 2%;
+    position: absolute;
+    text-align: center;
+}
+
 #firstBackground {
     height: 400px;
     width: 100%;
@@ -853,7 +859,7 @@ li {
 }
 
 #impressumText {
-    margin-left: 8%;
+    margin-left: -1%;
     position: absolute;
     text-align: center;
 }
@@ -925,7 +931,7 @@ body {
 }
 
 #impressumText {
-    margin-left:12%;
+    margin-left: -1%;
     position: absolute;
     text-align: center;
 }
