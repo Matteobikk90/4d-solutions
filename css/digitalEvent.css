@@ -850,7 +850,7 @@ body {
 
 }
 
-@media only screen and (max-width: 480px) {
+/*@media only screen and (max-width: 480px) {
 
 #textDivPromotion {
     width: 74%;
@@ -866,7 +866,7 @@ body {
     color: black;
 }
 
-}
+}*/
 
 /*iPhones and other mobiles*/
 
@@ -937,11 +937,11 @@ body {
     font-size: 14px;
 }
 
-/*#socialMediaEvent {
+#socialMediaEvent {
     width: 100%;
-    height: 418px;
+    height: 458px;
     font-size: 14px;
-}*/
+}
 
 #website {
 	width: 100%;
