@@ -177,6 +177,14 @@ body {
     display: none;
 }
 
+#copyright {
+    width: 105%;
+    font-size: 11px;
+    margin-top: 20px;
+}
+
+
+
 
 /*Media Queries*/
 
@@ -207,7 +215,7 @@ body {
 }
 
 #impressumText {
-    margin-left: 39%;
+    margin-left: 37%;
     position: absolute;
     text-align: center;
 }

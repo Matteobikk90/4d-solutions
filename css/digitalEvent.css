@@ -897,8 +897,8 @@ body {
 }
 
 #textContact {
-	margin-left: 33%;
-	margin-top: 8px;
+    margin-left: 27%;
+    margin-top: 14px;
 }
 
 .navbar-brand {
@@ -955,8 +955,9 @@ body {
 
 #copyright {
     font-size: 7px;
-    margin-top: 12px;
-    width: 108%;
+    margin-top: 7px;
+    width: 116%;
+    height: 0px;
 }
 
 }
@@ -1003,9 +1004,9 @@ body {
 #copyright {
     font-size: 7px;
     height: 0px;
-    /* margin-top: 12px; */
-}
-
+    font-size: 7px;
+    margin-top: -5px;
+    width: 102%;
 }
 
 /*iPhones and other mobiles*/
@@ -1221,7 +1222,7 @@ navbar-collapse, .navHeaderCollapse, .collapse, .in {
 
 
 #solutionsLogoBottom {
-    margin-left: 13%;
+    margin-left: 11%;
     margin-top: 10px;
     font-size: 14px;
 }
@@ -1500,6 +1501,7 @@ li {
     font-size: 7px;
     height: 0px;
     margin-top: 1px;
+    width: 99%;
 }
 
 

@@ -103,7 +103,7 @@ a:hover {
     height: 327px;
     background-color: white;
     letter-spacing: 2px;
-    height: 293px;
+    height: 302px;
 }
 
 #textDiv {
@@ -242,10 +242,10 @@ a:hover {
 
 /*Media Queries*/
 
-@media only screen and (max-width: 2560px) {
+/*@media only screen and (max-width: 2560px) {
 
 #prTextBackground {
-    width: 93%;
+    width: 100%;
     margin-top: -267px;
     height: 327px;
     background-color: white;
@@ -253,7 +253,7 @@ a:hover {
     height: 247px;
 }
 
-}
+}*/
 
 @media only screen and (min-width: 1800px) {
 
@@ -265,6 +265,15 @@ a:hover {
 #solutionsBackground {
 	width: 100%;
 	height: 1500px;
+}
+
+#prTextBackground {
+    width: 90%;
+    height: 327px;
+    background-color: white;
+    letter-spacing: 2px;
+    height: 247px;
+    margin-bottom: 49px;
 }
 
 #solutionsBackgroundCreative {
@@ -421,7 +430,7 @@ body {
 }
 
 #textDiv {
-    margin-top: 254px;
+    margin-top: 295px;
 }
 
 .textPR {
@@ -434,7 +443,7 @@ body {
 }
 
 #prTextBackground {
-	height: 259px;
+    height: 304px;
 }
 
 .navbar-brand {
@@ -471,8 +480,8 @@ body {
 }
 
 #textContact {
-	margin-left: 33%;
-	margin-top: 0px;
+    margin-left: 29%;
+    margin-top: 0px;
 }
 
 .textContact {
@@ -505,6 +514,10 @@ body {
 	width: 100%;
 	height: 0px;
 	min-height: 0px;
+}
+
+#textPRDas {
+    margin-top: -20px;
 }
 
 #map {
@@ -605,7 +618,7 @@ body {
 }
 
 #textContact {
-    margin-left: 29%;
+    margin-left: 24%;
     margin-top: 42px;
 }
 
