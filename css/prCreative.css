@@ -634,6 +634,10 @@ body {
     display: none;
 }
 
+#hideMail {
+    display: initial;
+}
+
 #solutionsBackground {
 	width: 100%;
 	height: 400px;

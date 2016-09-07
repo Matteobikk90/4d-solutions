@@ -910,6 +910,10 @@ body {
     font-size: 15px;
 }
 
+#hideMail {
+    display: initial;
+}
+
 #textDivWebsite {
     width: 82%;
     margin-left: 14%;
