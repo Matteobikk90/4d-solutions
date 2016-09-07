@@ -366,7 +366,7 @@ a:hover {
 #referenzen {
     height: 1500px;
     width: 100%;
-    background-image: url("../img/02_PR_Referenzen.png");
+    background-image: url("../img/icons/digital_REFERENZE.png");
     background-size: cover;
     background-position: center;
 }
@@ -448,7 +448,7 @@ a:hover {
 #referenzenEvent {
     height: 1254px;
     width: 100%;
-    background-image: url("../img/04_EVENT_Referenzen.png");
+    background-image: url("../img/icons/EVENT_REFERENZE.png");
     background-size: cover;
     background-position: center;
 }
@@ -553,7 +553,7 @@ body {
 #referenzen {
 	height: 500px;
 	width: 100%;
-    background-image: url("../img/03_DIGITAL_Referenzen.png");
+    background-image: url("../img/icons/digital_REFERENZE.png");
     background-size: cover;
     background-position: center;
 }
@@ -561,7 +561,7 @@ body {
 #referenzenEvent {
 	height: 500px;
 	width: 100%;
-    background-image: url("../img/04_EVENT_Referenzen.png");
+    background-image: url("../img/icons/EVENT_REFERENZE.png");
     background-size: cover;
     background-position: center;
 }
@@ -763,7 +763,7 @@ body {
 #referenzen {
 	height: 500px;
 	width: 100%;
-    background-image: url("../img/03_DIGITAL_Referenzen.png");
+    background-image: url("../img/icons/digital_REFERENZE.png");
     background-size: cover;
     background-position: center;
 }
@@ -771,7 +771,7 @@ body {
 #referenzenEvent {
 	height: 500px;
 	width: 100%;
-    background-image: url("../img/04_EVENT_Referenzen.png");
+    background-image: url("../img/icons/EVENT_REFERENZE.png");
     background-size: cover;
     background-position: center;
 }
@@ -1024,7 +1024,7 @@ body {
 #referenzen {
 	height: 400px;
 	width: 100%;
-    background-image: url("../img/03_DIGITAL_Referenzen.png");
+    background-image: url("../img/icons/digital_REFERENZE.png");
     background-size: cover;
     background-position: center;
 }
@@ -1032,7 +1032,7 @@ body {
 #referenzenEvent {
 	height: 400px;
 	width: 100%;
-    background-image: url("../img/04_EVENT_Referenzen.png");
+    background-image: url("../img/icons/EVENT_REFERENZE.png");
     background-size: cover;
     background-position: center;
 }
@@ -1243,7 +1243,7 @@ navbar-collapse, .navHeaderCollapse, .collapse, .in {
 #referenzen {
 	height: 380px;
 	width: 100%;
-    background-image: url("../img/03_DIGITAL_Referenzen.png");
+    background-image: url("../img/icons/digital_REFERENZE.png");
     background-size: cover;
     background-position: center;
 }
@@ -1251,7 +1251,7 @@ navbar-collapse, .navHeaderCollapse, .collapse, .in {
 #referenzenEvent {
 	height: 380px;
 	width: 100%;
-    background-image: url("../img/04_EVENT_Referenzen.png");
+    background-image: url("../img/icons/EVENT_REFERENZE.png");
     background-size: cover;
     background-position: center;
 }
@@ -1382,7 +1382,7 @@ li {
 #referenzen {
 	height: 330px;
 	width: 100%;
-    background-image: url("../img/03_DIGITAL_Referenzen.png");
+    background-image: url("../img/icons/digital_REFERENZE.png");
     background-size: cover;
     background-position: center;
 }
@@ -1390,7 +1390,7 @@ li {
 #referenzenEvent {
 	height: 330px;
 	width: 100%;
-    background-image: url("../img/04_EVENT_Referenzen.png");
+    background-image: url("../img/icons/EVENT_REFERENZE.png");
     background-size: cover;
     background-position: center;
 }
