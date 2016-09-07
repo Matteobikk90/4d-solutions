@@ -483,6 +483,21 @@ a:hover {
     height: 390px;
 }
 
+#textPRDasEvent {
+    margin-top: -46px;
+    color: black;
+}
+
+}
+
+@media only screen and (max-width: 2300px) {
+    #textDivPromotion {
+    margin-top: 90px;
+    margin-left: 14%;
+    width: 51%;
+    height: 315px;
+}
+
 }
 
 @media only screen and (max-width: 1024px) {
