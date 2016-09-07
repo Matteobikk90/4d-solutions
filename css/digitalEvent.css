@@ -500,6 +500,17 @@ a:hover {
 
 }
 
+@media only screen and (max-width: 1300px) {
+
+#textDivPromotion {
+    margin-top: 26px;
+    margin-left: 14%;
+    width: 51%;
+    height: 315px;
+}
+
+}
+
 @media only screen and (max-width: 1024px) {
 
 body {
