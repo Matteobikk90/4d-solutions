@@ -723,6 +723,19 @@ body {
 
 }
 
+@media only screen and (max-width: 934px) {
+
+#textDivPromotion {
+    width: 45%;
+    position: absolute;
+    margin-left: 12%;
+    color: black;
+    overflow: hidden;
+    height: 285px;
+    margin-top: 10px;
+}
+
+}
 /*Large screen mobiles */
 
 @media only screen and (max-width: 768px) {
