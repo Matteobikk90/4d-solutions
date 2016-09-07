@@ -66,7 +66,7 @@ a:hover {
 }
 
 #solutionsBackgroundDigital {
-    height: 1000px;
+    height: 1500px;
 	width: 100%;
     background-image: url("../img/solutionDigital.png");
     background-size: cover;
@@ -74,9 +74,9 @@ a:hover {
 }
 
 #solutionsBackgroundEvent {
-    height: 1000px;
+    height: 1500px;
 	width: 100%;
-    background-image: url("../img/solutionsEvent.png");
+    background-image: url("../img/icons/EVENT_HEADER.jpg");
     background-size: cover;
     background-position: center;
 }
