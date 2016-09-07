@@ -267,6 +267,11 @@ div li a:hover {
     margin-left: 20%;
 }
 
+#copyright {
+    font-size: 10px;
+    margin-top: 10px;
+}
+
 /*Media Queries*/
 
 @media only screen and (min-width: 1550px) {
@@ -323,6 +328,11 @@ nav {
     background-image: url("../img/HOME_HEADER.png");
     background-size: cover;
     background-position: center;
+}
+
+#copyright {
+    font-size: 9px;
+    margin-top: 10px;
 }
 
 
@@ -481,6 +491,11 @@ nav {
     float: left;
     margin-top: 8%;
     margin-left: 5%;
+}
+
+#copyright {
+    font-size: 9px;
+    margin-top: 9px;
 }
 
 }
@@ -644,7 +659,10 @@ nav {
     width: 62%;
 }
 
-
+#copyright {
+    font-size: 7px;
+    margin-top: 12px;
+}
 
 }
 
@@ -817,6 +835,12 @@ nav ul {
     margin-left: -44%;
     width: 130%;
     margin-top: 41px;
+}
+
+#copyright {
+    font-size: 7px;
+    height: 0px;
+    /* margin-top: 12px; */
 }
 
 

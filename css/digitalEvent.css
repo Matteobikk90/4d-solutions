@@ -318,6 +318,11 @@ a:hover {
 	display: none;
 }
 
+#copyright {
+    font-size: 10px;
+    margin-top: 10px;
+}
+
 
 /*Media Queries*/
 
@@ -486,6 +491,11 @@ a:hover {
 #textPRDasEvent {
     margin-top: -46px;
     color: black;
+}
+
+#copyright {
+    font-size: 9px;
+    margin-top: 10px;
 }
 
 }
@@ -721,6 +731,11 @@ body {
 	display: none;
 }
 
+#copyright {
+    font-size: 9px;
+    margin-top: 9px;
+}
+
 }
 
 @media only screen and (max-width: 934px) {
@@ -938,6 +953,11 @@ body {
 	display: none;
 }
 
+#copyright {
+    font-size: 7px;
+    margin-top: 12px;
+}
+
 }
 
 @media only screen and (max-width: 480px) {
@@ -977,6 +997,12 @@ body {
     /* margin-top: 48px; */
     margin-left: 14%;
     letter-spacing: 1px;
+}
+
+#copyright {
+    font-size: 7px;
+    height: 0px;
+    /* margin-top: 12px; */
 }
 
 }
