@@ -576,6 +576,11 @@ body {
 	font-size: 14px;
 }
 
+.navbar-toggle {
+    margin-right: 0px;
+    margin-top: 15px;
+}
+
 #map {
     float: none;
     display: none;

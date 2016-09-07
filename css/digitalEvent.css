@@ -36,7 +36,7 @@ a:hover {
 }
 
 #containerNav {
-	width: 100%;
+	width: 101%;
 }
 
 .navbar {
@@ -105,6 +105,10 @@ a:hover {
 #spaceBetween {
 	width: 100%;
 	height: 117px;
+}
+
+.textPRDasDigital {
+    margin-top: 58px;
 }
 
 #textDivDigital {
@@ -871,7 +875,7 @@ body {
 }
 
 .textPRDasDigital {
-	margin-top: 15px;
+	margin-top: 33px;
 	color: black;
 }
 
@@ -894,7 +898,7 @@ body {
 
 #socialMediaEvent {
     width: 100%;
-    height: 400px;
+    height: 420px;
     font-size: 15px;
     color: black;
 }
@@ -974,6 +978,11 @@ body {
     display: none;
 }
 
+.navbar-toggle {
+    margin-right: 0px;
+    margin-top: 15px;
+}
+
 .textDigital {
 	font-size: 14px;
     margin-top: -8px;
@@ -1012,7 +1021,7 @@ body {
 
 #socialMediaEvent {
     width: 100%;
-    height: 458px;
+    height: 380px;
     font-size: 14px;
 }
 

@@ -400,6 +400,10 @@ body {
     margin-top: -17px;
 }
 
+.textPrDas {
+    margin-top: -26px;
+}
+
 #prTextBackground {
 	height: 259px;
 }
@@ -724,6 +728,7 @@ body {
 
 .navbar-toggle {
     margin-right: 0px;
+    margin-top: 15px;
 }
 
 #changeHomeLogo {
