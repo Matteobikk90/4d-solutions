@@ -51,6 +51,11 @@ body {
     letter-spacing: 2px;
 }
 
+.navbar-right {
+    float: right!important;
+    margin-right: -44px;
+}
+
 .impressumAgbSize {
     color: white;
     font-size: 24px;

@@ -36,6 +36,11 @@ a:hover {
     border-color: none;
 }
 
+.navbar-right {
+    float: right!important;
+    margin-right: -44px;
+}
+
 .navbar-brand {
     margin-top: 3px;
 }
