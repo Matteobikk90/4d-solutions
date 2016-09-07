@@ -186,7 +186,7 @@ a:hover {
 #textDivEvent {
 	width: 68%;
 	height: 300px;
-    margin-left: 18%;
+    margin-left: 14%;
     margin-top: 6%;
     letter-spacing: 2px;
 }
@@ -997,6 +997,13 @@ body {
 	display: initial;
 }
 
+.nav, .navbar-nav, .navbar-right {
+    display: block;
+    margin-top: -5px;
+    margin-right: 34%;
+    width: 71%;
+}
+
 #map {
     float: none;
     display: none;
@@ -1166,14 +1173,6 @@ navbar-collapse, .navHeaderCollapse, .collapse, .in {
 	width: 106%;
 }
 
-.nav, .navbar-nav, .navbar-right {
-    display: block;
-    margin-top: -5px;
-    margin-left: -20px;
-    float: left;
-    width: 71%;
-}
-
 .iconsWidth {
     width: 33px;
 }
@@ -1271,7 +1270,7 @@ navbar-collapse, .navHeaderCollapse, .collapse, .in {
 .nav, .navbar-nav, .navbar-right {
     display: block;
     margin-top: -5px;
-    margin-left: -20px;
+    margin-right: 45%;
     float: left;
     width: 61%;
 }
@@ -1363,9 +1362,10 @@ navbar-collapse, .navHeaderCollapse, .collapse, .in {
 .nav, .navbar-nav, .navbar-right {
     display: block;
     margin-top: -5px;
-    margin-left: -20px;
+    margin-right: 46%;
     float: left;
 }
+
 
 li {
 	width: 147%;

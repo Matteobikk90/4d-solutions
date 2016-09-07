@@ -749,10 +749,9 @@ navbar-collapse, .navHeaderCollapse, .collapse, .in {
 .nav, .navbar-nav, .navbar-right {
     display: block;
     margin-top: -5px;
-    margin-left: -20px;
-    float: left;
-    width: 71%;
+    margin-right: 64%;
 }
+
 
 li {
     width: 147%;
@@ -808,6 +807,20 @@ li {
     background-position: center;
 }
 
+#containerNav {
+    width: 101%;
+}
+
+}
+
+@media only screen and (max-width: 425px) {
+
+.nav, .navbar-nav, .navbar-right {
+    display: block;
+    margin-top: -5px;
+    margin-right: 64%;
+}
+
 }
 
 
@@ -820,10 +833,9 @@ navbar-collapse, .navHeaderCollapse, .collapse, .in {
 .nav, .navbar-nav, .navbar-right {
     display: block;
     margin-top: -5px;
-    margin-left: -20px;
-    float: left;
-    width: 61%;
+    margin-right: 59%;
 }
+
 
 li {
     width: 147%;
@@ -1036,9 +1048,10 @@ navbar-collapse, .navHeaderCollapse, .collapse, .in {
 .nav, .navbar-nav, .navbar-right {
     display: block;
     margin-top: -5px;
-    margin-left: -20px;
+    margin-right: 50%;
     float: left;
 }
+
 
 li {
     width: 147%;

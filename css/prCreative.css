@@ -758,8 +758,7 @@ navbar-collapse, .navHeaderCollapse, .collapse, .in {
 .nav, .navbar-nav, .navbar-right {
     display: block;
     margin-top: -5px;
-    margin-left: -20px;
-    float: left;
+    margin-right: 34%;
     width: 71%;
 }
 
@@ -835,7 +834,7 @@ navbar-collapse, .navHeaderCollapse, .collapse, .in {
 .nav, .navbar-nav, .navbar-right {
     display: block;
     margin-top: -5px;
-    margin-left: -20px;
+    margin-right: 45%;
     float: left;
     width: 61%;
 }
@@ -932,7 +931,7 @@ navbar-collapse, .navHeaderCollapse, .collapse, .in {
 .nav, .navbar-nav, .navbar-right {
     display: block;
     margin-top: -5px;
-    margin-left: -20px;
+    margin-right: 46%;
     float: left;
 }
 
