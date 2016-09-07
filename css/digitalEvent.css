@@ -23,6 +23,10 @@ a:hover {
 	position: relative;
 }
 
+#mailIcon{
+    margin-top: 4px;
+}
+
 .gmnoprint, .gm-style-cc {
     display: none;
 }
@@ -887,6 +891,11 @@ body {
 #map {
     float: none;
     display: none;
+}
+
+#mailIcon{
+    width: 71%;
+    margin-top: 6px;
 }
 
 #solutionsBackground {

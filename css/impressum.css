@@ -19,6 +19,10 @@ body {
     background-position: center;
 }
 
+#mailIcon{
+    margin-top: 4px;
+}
+
 .gmnoprint, .gm-style-cc {
     display: none;
 }
@@ -572,6 +576,11 @@ body {
 
 .textPR {
 	font-size: 14px;
+}
+
+#mailIcon{
+    width: 71%;
+    margin-top: 6px;
 }
 
 .textDigital {

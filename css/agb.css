@@ -11,6 +11,10 @@ body {
     letter-spacing: 1px;
 }
 
+#mailIcon{
+    margin-top: 4px;
+}
+
 #firstBackground {
     height: 1000px;
     width: 100%;
@@ -572,6 +576,11 @@ body {
 
 .textDigital {
 	font-size: 14px;
+}
+
+#mailIcon{
+    width: 71%;
+    margin-top: 6px;
 }
 
 #changeHomeLogo {

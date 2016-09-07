@@ -40,6 +40,10 @@ a:hover {
     margin-top: 3px;
 }
 
+#mailIcon{
+    margin-top: 4px;
+}
+
 .iconsWidth {
 	width: 38px;
 }
@@ -617,6 +621,11 @@ body {
 #map {
     float: none;
     display: none;
+}
+
+#mailIcon{
+    width: 71%;
+    margin-top: 6px;
 }
 
 #solutionsBackground {
