@@ -400,8 +400,10 @@ a:hover {
 }
 
 #textDivPromotion {
-    margin-top: 72px;
-    margin-left: 22%;
+    margin-top: 108px;
+    margin-left: 14%;
+    width: 58%;
+    height: 350px;
 }
 
 .textPR {
@@ -411,7 +413,7 @@ a:hover {
 }
 
 #textDivEvent {
-    margin-left: 22%;
+    margin-left: 14%;
 }
 
 .PrIcon {
@@ -596,6 +598,7 @@ body {
     color: black;
     overflow: hidden;
     height: 335px;
+    margin-top: 35px;
 }
 
 #textDivEvent {
@@ -611,8 +614,8 @@ body {
 }
 
 #promoter {
-    width: 48%;
-    margin-left: 52%;
+    width: 44%;
+    margin-left: 56%;
     margin-top: -138px;
 }
 
