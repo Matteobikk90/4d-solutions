@@ -387,6 +387,13 @@ a:hover {
     height: 428px;
 }
 
+#website {
+    width: 69%;
+    height: 324px;
+    background-color: white;
+    margin-left: 7%;
+}
+
 #textDivPromotion {
     margin-top: 72px;
     margin-left: 22%;
@@ -437,7 +444,7 @@ a:hover {
 }
 
 #textDivDigital {
-    width: 74%;
+    width: 57%;
     /* margin-top: 48px; */
     margin-left: 23%;
 }
@@ -573,13 +580,20 @@ body {
 }
 
 #textDivPromotion {
-    width: 35%;
+    width: 45%;
     position: absolute;
-    margin-left: 19%;
+    margin-left: 12%;
     color: black;
-    height: 282px;
     overflow: hidden;
-    height: 315px;
+    height: 335px;
+}
+
+#textDivEvent {
+    width: 68%;
+    height: 300px;
+    margin-left: 12%;
+    margin-top: 6%;
+    letter-spacing: 2px;
 }
 
 #textPRDasPromotion {
@@ -767,6 +781,14 @@ body {
 	margin-left: 19%;
 }
 
+#textDivEvent {
+    width: 68%;
+    height: 300px;
+    margin-left: 19%;
+    margin-top: 6%;
+    letter-spacing: 2px;
+}
+
 #email {
 	height: 243px;
 	width: 100%;
@@ -863,12 +885,12 @@ body {
     font-size: 15px;
 }
 
-#socialMediaEvent {
+/*#socialMediaEvent {
     width: 100%;
     height: 400px;
     font-size: 15px;
     color: black;
-}
+}*/
 
 }
 
@@ -946,6 +968,12 @@ body {
     font-size: 14px;
 }*/
 
+#socialMedia {
+    width: 100%;
+    height: 442px;
+    font-size: 14px;
+}
+
 #socialMediaEvent {
     width: 100%;
     height: 458px;
@@ -954,7 +982,7 @@ body {
 
 #website {
 	width: 100%;
-	height: 388px;
+	height: 425px;
 	font-size: 14px;
 }
 
