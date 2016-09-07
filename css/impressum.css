@@ -80,7 +80,7 @@ body {
 	position: relative;
 }
 #containerNav {
-	width: 100%;
+	width: 101%;
 }
 
 .navbar {
@@ -843,6 +843,13 @@ li {
     margin-right: 64%;
 }
 
+.nav, .navbar-nav, .navbar-right {
+    display: block;
+    margin-top: -5px;
+    margin-right: 64%;
+    width: 41%;
+}
+
 }
 
 
@@ -931,6 +938,13 @@ li {
     margin-left: -15%;
     margin-top: 31px;
     width: 120%;
+}
+
+.nav, .navbar-nav, .navbar-right {
+    display: block;
+    margin-top: -5px;
+    margin-right: 59%;
+    width: 47%;
 }
 
 
@@ -1119,6 +1133,14 @@ li {
     background-image: url("../img/4dSolutionsLogo.png");
     background-size: cover;
     background-position: center;
+}
+
+.nav, .navbar-nav, .navbar-right {
+    display: block;
+    margin-top: -5px;
+    margin-right: 50%;
+    float: left;
+    width: 57%;
 }
 
 

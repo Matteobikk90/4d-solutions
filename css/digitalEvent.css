@@ -956,6 +956,7 @@ body {
 #copyright {
     font-size: 7px;
     margin-top: 12px;
+    width: 108%;
 }
 
 }
@@ -1353,6 +1354,12 @@ navbar-collapse, .navHeaderCollapse, .collapse, .in {
     letter-spacing: 1px;
 }
 
+#copyright {
+    font-size: 6px;
+    height: 0px;
+    margin-top: -3px;
+}
+
 }
 
 @media only screen and (max-width: 350px) {
@@ -1488,6 +1495,14 @@ li {
     margin-top: 11px;
     font-size: 14px;
 }
+
+#copyright {
+    font-size: 7px;
+    height: 0px;
+    margin-top: 1px;
+}
+
+
 
 
 }
