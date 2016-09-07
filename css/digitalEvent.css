@@ -66,7 +66,7 @@ a:hover {
 }
 
 #solutionsBackgroundDigital {
-    height: 1500px;
+    height: 1000px;
 	width: 100%;
     background-image: url("../img/solutionDigital.png");
     background-size: cover;
@@ -74,7 +74,7 @@ a:hover {
 }
 
 #solutionsBackgroundEvent {
-    height: 1500px;
+    height: 1000px;
 	width: 100%;
     background-image: url("../img/icons/EVENT_HEADER.jpg");
     background-size: cover;
@@ -337,18 +337,18 @@ a:hover {
     margin-left: 22%;
 }
 
-#solutionsBackgroundCreative {
+#solutionsBackgroundDigital {
     height: 1500px;
     width: 100%;
-    background-image: url("../img/solutionCreative.png");
+    background-image: url("../img/solutionDigital.png");
     background-size: cover;
     background-position: center;
 }
 
-#solutionsBackgroundPr {
+#solutionsBackgroundEvent {
     height: 1500px;
     width: 100%;
-    background-image: url("../img/01_Pr_HEADER.png");
+    background-image: url("../img/icons/EVENT_HEADER.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -428,6 +428,11 @@ a:hover {
     margin-top: 48px;
 }
 
+.textPRDasDigital {
+    margin-top: 72px;
+    color: black;
+}
+
 #textPR {
     margin-top: 2px;
 }
@@ -450,7 +455,7 @@ a:hover {
 
 #textDivDigital {
     width: 57%;
-    /* margin-top: 48px; */
+    margin-top: 48px; 
     margin-left: 23%;
 }
 
