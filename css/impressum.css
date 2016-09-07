@@ -579,8 +579,7 @@ body {
 }
 
 #mailIcon{
-    width: 71%;
-    margin-top: 6px;
+    display: none;
 }
 
 .textDigital {
