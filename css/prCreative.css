@@ -956,6 +956,10 @@ li {
 	display: none;
 }
 
+#textDiv {
+    margin-top: 290px;
+}
+
 #changeHomeLogo4D {
 	display: initial;
 }
@@ -1011,6 +1015,16 @@ li {
 #prTextBackground {
     height: 380px;
     margin-top: -262px;
+    width: 100%;
+}
+
+.prTextBackground {
+    width: 100%;
+    margin-top: -267px;
+    height: 327px;
+    background-color: white;
+    letter-spacing: 2px;
+    height: 334px;
 }
 
 }
