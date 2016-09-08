@@ -907,14 +907,13 @@ nav {
     margin-top: 13px;
 }
 
-#firstBackground{
-    height: 330px;
+#firstBackground {
+    height: 352px;
     width: 100%;
-    background-image: url("../img/4dSolutionsLogo.png");
+    background-image: url(../img/4dSolutionsLogo.png);
     background-size: cover;
     background-position: center;
 }
-
 
 #solutionsText {
     margin-left: 3%;
