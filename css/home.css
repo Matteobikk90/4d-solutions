@@ -180,6 +180,14 @@ div li a:hover {
 	color: black;
 }
 
+.emailText:hover {
+    color: black;
+}
+
+.textContact:hover {
+    color: white;
+}
+
 .emailText1 {
     font-size: 26px;
 }

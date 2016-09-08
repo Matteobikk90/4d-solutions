@@ -150,6 +150,16 @@ body {
 	color: #f8f4f4;
 }
 
+.textContact:hover {
+    color: white;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+
 #solutionsLogoBottom {
     margin-left: 8%;
     margin-top: 2%;

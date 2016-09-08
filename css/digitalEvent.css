@@ -239,6 +239,10 @@ a:hover {
 	color: black;
 }
 
+.emailText:hover {
+    color: black;
+}
+
 #contactMap {
 	width: 100%;
 	height: 845px;	
@@ -280,6 +284,15 @@ a:hover {
 .textContact {
 	font-size: 24px;
 	color: #f8f4f4;
+}
+
+.textContact:hover {
+    color: white;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
 }
 
 #solutionsLogoBottom {
@@ -408,7 +421,7 @@ a:hover {
 
 #website {
     width: 69%;
-    height: 324px;
+    height: 357px;
     background-color: white;
     margin-left: 7%;
 }
@@ -477,7 +490,7 @@ a:hover {
 
 #textDivWebsite {
     width: 74%;
-    /* margin-top: 48px; */
+    margin-top: 71px;
     margin-left: 23%;
 }
 
