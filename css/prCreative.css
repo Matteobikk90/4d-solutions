@@ -369,11 +369,22 @@ a:hover {
     height: 111px;
     margin-left: 23%;
     margin-top: 310px;
+    color: black;
 }
 
 #copyright {
     font-size: 9px;
     margin-top: 10px;
+}
+
+.textPRDas {
+    color: black;
+    margin-top: 3px;
+}
+
+#textPRDas {
+    color: black;
+    margin-top: 30px;
 }
 
 }
@@ -1040,6 +1051,11 @@ navbar-collapse, .navHeaderCollapse, .collapse, .in {
     margin-top: -5px;
     margin-right: 46%;
     float: left;
+}
+
+#prTextBackground {
+    height: 425px;
+    width: 100%;
 }
 
 li {
