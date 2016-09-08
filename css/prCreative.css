@@ -112,7 +112,7 @@ a:hover {
     height: 327px;
     background-color: white;
     letter-spacing: 2px;
-    height: 302px;
+    height: 270px;
     color: black;
 }
 
@@ -630,7 +630,7 @@ body {
 }
 
 #prTextBackground {
-    height: 298px;
+    height: 246px;
 }
 
 #solutionsLogoBottom {
@@ -1035,8 +1035,8 @@ li {
     margin-top: -267px;
     height: 327px;
     background-color: white;
-    letter-spacing: 2px;
-    height: 334px;
+    letter-spacing: 1px;
+    height: 359px;
 }
 
 }
@@ -1090,6 +1090,13 @@ li {
 }
 .textContact {
     font-size: 14px;
+}
+
+
+
+.textPRDas {
+    color: black;
+    margin-top: -23px;
 }
 
 .PrIcon {
