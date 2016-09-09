@@ -1092,6 +1092,15 @@ li {
     font-size: 14px;
 }
 
+.prTextBackground {
+    width: 100%;
+    margin-top: -267px;
+    height: 327px;
+    background-color: white;
+    letter-spacing: 1px;
+    height: 314px;
+}
+
 
 
 .textPRDas {
