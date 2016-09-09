@@ -366,7 +366,7 @@ a:hover {
 }
 
 #textDiv {
-    width: 70%;
+    width: 59%;
     height: 111px;
     margin-left: 23%;
     margin-top: 310px;
@@ -479,6 +479,15 @@ body {
 
 #prTextBackground {
     height: 271px;
+}
+
+.prTextBackground {
+    width: 100%;
+    margin-top: -267px;
+    height: 327px;
+    background-color: white;
+    letter-spacing: 2px;
+    height: 326px;
 }
 
 .navbar-brand {
@@ -631,6 +640,15 @@ body {
 
 #prTextBackground {
     height: 246px;
+}
+
+.prTextBackground {
+    width: 100%;
+    margin-top: -267px;
+    height: 327px;
+    background-color: white;
+    letter-spacing: 2px;
+    height: 338px;
 }
 
 #solutionsLogoBottom {
@@ -805,6 +823,15 @@ body {
 #prTextBackground {
     height: 330px;
     margin-top: -262px;
+}
+
+.prTextBackground {
+    width: 100%;
+    margin-top: -267px;
+    height: 327px;
+    background-color: white;
+    letter-spacing: 2px;
+    height: 380px;
 }
 
 .navbar-brand {
@@ -1036,7 +1063,7 @@ li {
     height: 327px;
     background-color: white;
     letter-spacing: 1px;
-    height: 359px;
+    height: 380px;
 }
 
 }
@@ -1098,14 +1125,12 @@ li {
     height: 327px;
     background-color: white;
     letter-spacing: 1px;
-    height: 314px;
+    height: 350px;
 }
-
-
 
 .textPRDas {
     color: black;
-    margin-top: -23px;
+    margin-top: -9px;
 }
 
 .PrIcon {
