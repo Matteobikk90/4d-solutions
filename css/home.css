@@ -762,47 +762,13 @@ body {
     display: none;
 }
 
-#firstBackground {
+#firstBackground{
     height: 400px;
     width: 100%;
-    background-image: url(../img/4dSolutionsLogo.png);
+    background-image: url("../img/4dSolutionsLogo.png");
     background-size: cover;
     background-position: center;
-    margin-top: 55px;
-}
-
-#changeHomeLogo4D {
-    display: none;
-    margin-top: 7px;
-}
-
-.navbar-toggle {
-    margin-right: 0px;
-    margin-top: 12px;
-}
-
-.navbar-inverse .navbar-toggle .icon-bar {
-    /* background-color: #fff; */
-    color: black;
-    background-color: black;
-}
-
-#mailIcon{
-    display: none;
-}
-
-#hideMail {
-    display: initial;
-}
-
-#changeHomeLogo {
-    display: none;
-}
-
-#changeHomeLogo4D {
-    display: initial;
-    margin-top: 4px;
-    margin-left: -10px;
+    margin-top: 54px;
 }
 
 #home4d {
@@ -810,62 +776,10 @@ body {
     height: 400px;
 }
 
-.navbar-brand {
-    padding-top: 0px;
-    margin-top: 13px;
-    margin-left: -25px;
-}
-
-.navbar-nav {
-    display: inline-flex;
-    margin-top: 8%;
-    margin-left: -13%;
-    float: right;
-}
-
-navbar-collapse, .navHeaderCollapse, .collapse, .in {
-    width: 106%;
-}
-
-.nav, .navbar-nav, .navbar-right {
-    display: block;
-    margin-top: -5px;
-    margin-right: 64%;
-}
-
-
-li {
-    width: 147%;
-}
-
-.iconsWidth {
-    width: 77%;
-}
-
-#iconsWidth {
-    width: 33px;
-}
-
-.navbar, .navbar-inverse, .navbar-static-top {
-    width: 100%;
-    position: fixed;
-}
-
-.PrIcon {
-    display: inline;
-    margin-left: 15%;
-    color: black;
-}
-
 #PrIcon {
+    display: initial;
     color: black;
-    font-size: 14px;
-    display: inline;
-    margin-left: 15%;
-}
-
-#containerNav {
-    width: 101%;
+    margin-left: 40px;
 }
 
 #solutionsText {
@@ -874,6 +788,20 @@ li {
     margin-left: 4%;
     width: 91%;
     font-size: 12px;
+}
+
+#mailIcon {
+    display: none;
+}
+
+#changeHomeLogo {
+    display: none;
+}
+
+#changeHomeLogo4D {
+    display: initial;
+    margin-top: -10px;
+    margin-left: -21%;
 }
 
 #solutionsLogo {
@@ -1019,19 +947,60 @@ nav ul {
     /* margin-top: 12px; */
 }
 
-
+.nav>li {
+    /* position: relative; */
+    display: table-header-group;
 }
 
-/*@media only screen and (max-width: 425px) {
-
-.nav, .navbar-nav, .navbar-right {
-    display: block;
-    margin-top: -5px;
-    margin-right: 64%;
-    width: 41%;
+navbar-collapse, .navHeaderCollapse, .collapse, .in {
+    margin-top: 54px;
+    margin-left: -22px;
 }
 
-}*/
+#iconsWidth {
+    width: 33px;
+    margin-left: -4px;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: black;
+}
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 11px;
+    margin-right: 5px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+#moveThis {
+    color: black;
+    margin-left: 33%;
+    margin-top: -26px;
+}
+
+#e, #f, #g, #h {
+    width: 150%;
+}
+
+#l {
+    width: 150%;
+}
+
+#hideMail {
+    display: initial;
+    margin-left: -5px;
+    width: 38px;
+}
+
+
+}
 
 @media only screen and (max-width: 375px) {
 
