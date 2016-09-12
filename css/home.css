@@ -189,10 +189,6 @@ div li a:hover {
     background-position: center;
 }
 
-#referenzenText {
-    letter-spacing: 2px;
-}
-
 #referenzenLogo {
 	height: 1000px;
 	width: 100%;
@@ -235,9 +231,10 @@ div li a:hover {
 
 #referenzenText{
     position: absolute;
-    margin-left: 46%;
+    margin-left: 44%;
     margin-top: 103px;
     color: #f8f4f4;
+    letter-spacing: 2px;
 }
 
 #contactMap {
@@ -402,7 +399,7 @@ nav {
 
 #referenzenText {
     position: absolute;
-    margin-left: 47%;
+    margin-left: 46%;
     margin-top: 157px;
     color: #f8f4f4;
 }
@@ -501,9 +498,10 @@ nav {
     width: 100%;
 }
 
-#referenzenText {
-    margin-left: 44%;
-    margin-top: 47px;
+referenzenText {
+    margin-left: 43%;
+    margin-top: 40px;
+    font-size: 18px;
 }
 
 #iconsBackground {
@@ -669,8 +667,9 @@ nav {
 }
 
 #referenzenText {
-    margin-left: 44%;
+    margin-left: 42%;
     margin-top: 47px;
+    font-size: 16px;
 }
 
 #iconsBackground {
@@ -869,7 +868,8 @@ nav ul {
 }
 
 #referenzenText {
-    margin-left: 38%;
+    margin-left: 36%;
+    font-size: 13px;
     margin-top: 34px;
 }
 
@@ -1042,6 +1042,11 @@ navbar-collapse, .navHeaderCollapse, .collapse, .in {
     width: 99%;
 }
 
+#referenzenText {
+    margin-left: 35%;
+    margin-top: 34px;
+}
+
 nav {
     width: 95%;
     overflow: hidden;
@@ -1098,7 +1103,7 @@ nav {
 }
 
 #referenzenText {
-    margin-left: 35%;
+    margin-left: 32%;
     margin-top: 22px;
 }
 
