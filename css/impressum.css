@@ -693,12 +693,6 @@ body {
 	height: 474px;
 }
 
-#impressumText {
-    margin-left: 14%;
-    position: absolute;
-    text-align: center;
-}
-
 #referenzen {
 	width: 100%;
 	height: 600px;
@@ -1086,20 +1080,12 @@ body {
 #solutionsLogoBottom {
     margin-left: 14%;
     margin-top: 4%;
-    font-size: 11px;
+    font-size: 14px;
 }
 
 navbar-collapse, .navHeaderCollapse, .collapse, .in {
     width: 106%;
 }
-
-.nav, .navbar-nav, .navbar-right {
-    display: block;
-    margin-top: -5px;
-    margin-right: 50%;
-    float: left;
-}
-
 
 li {
     width: 147%;
@@ -1114,7 +1100,7 @@ li {
 }
 
 .navbar, .navbar-inverse, .navbar-static-top {
-    width: 100%;
+    width: 98%;
     position: fixed;
 }
 .textContact {
