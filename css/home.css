@@ -39,7 +39,7 @@ body {
 #solutionsText {
     text-align: center;
     position: absolute;
-    margin-top: 229px;
+    margin-top: 254px;
     margin-left: 18%;
     width: 63%;
     letter-spacing: 2px;
@@ -207,6 +207,10 @@ div li a:hover {
     letter-spacing: 2px;
 }
 
+#moveThis {
+    display: none;
+}
+
 .emailText {
 	font-size: 26px;
 	color: black;
@@ -365,6 +369,10 @@ nav {
     margin-top: -15%;
 }
 
+#moveThis {
+    display: none;
+}
+
 #solutionsText {
     text-align: center;
     position: absolute;
@@ -426,6 +434,10 @@ body {
     display: none;
 }
 
+#moveThis {
+    display: none;
+}
+
 #firstBackground {
     height: 500px;
     width: 100%;
@@ -446,9 +458,10 @@ body {
 
 #solutionsText {
     text-align: center;
-    margin-top: 154px;
+    margin-top: 176px;
     margin-left: 0%;
     width: 100%;
+    font-size: 17px;
 }
 
 #solutionsLogo {
@@ -597,6 +610,10 @@ body {
     display: none;
 }
 
+#moveThis {
+    display: none;
+}
+
 #firstBackground{
     height: 500px;
     width: 100%;
@@ -608,7 +625,7 @@ body {
 
 #solutionsText {
     text-align: center;
-    margin-top: 155px;
+    margin-top: 176px;
     margin-left: 1%;
     width: 97%;
     font-size: 14px;
@@ -980,8 +997,9 @@ navbar-collapse, .navHeaderCollapse, .collapse, .in {
 }
 
 #moveThis {
+    display: initial;
     color: black;
-    margin-left: 33%;
+    margin-left: 17%;
     margin-top: -26px;
 }
 
