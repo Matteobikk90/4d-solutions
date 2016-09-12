@@ -159,7 +159,6 @@ a:hover {
     text-decoration: none;
 }
 
-
 #solutionsLogoBottom {
     margin-left: 8%;
     margin-top: 2%;
@@ -855,11 +854,6 @@ li {
 
 @media only screen and (max-width: 425px) {
 
-.nav, .navbar-nav, .navbar-right {
-    display: block;
-    margin-top: -5px;
-    margin-right: 64%;
-}
 
 .nav, .navbar-nav, .navbar-right {
     display: block;
