@@ -404,7 +404,7 @@ body {
 
 #map {
     float: none;
-    display: none;
+    display: initial;
 }
 
 .mobileVersionImage {
@@ -524,7 +524,7 @@ body {
 }
 
 #textContact {
-    margin-left: 29%;
+    margin-left: -4%;
     margin-top: 0px;
 }
 

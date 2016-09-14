@@ -428,7 +428,7 @@ body {
 
 #map {
     float: none;
-    display: none;
+    display: initial;
 }
 
 #moveThis {
@@ -581,15 +581,13 @@ nav {
 }
 
 #contact {
-	margin-left: 38%;
-    width: 62%;
+    margin-left: 16%;
+    width: 74%;
 }
 
 #textContact {
-    width: 50%;
-    float: left;
-    margin-top: 8%;
-    margin-left: 3%;
+    margin-left: -4%;
+    margin-top: 0px;
 }
 
 #copyright {
@@ -778,6 +776,7 @@ nav {
 #contact {
 	margin-top: -1px;
     width: 62%;
+    margin-left: 38%;
 }
 
 #copyright {

@@ -260,7 +260,7 @@ body {
 
 #map {
     float: none;
-    display: none;
+    display: initial;
 }
 
 .textPR {
@@ -389,7 +389,7 @@ body {
 }
 
 #textContact {
-	margin-left: 33%;
+	margin-left: -4%;
 	margin-top: 0px;
 }
 
