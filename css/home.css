@@ -106,7 +106,7 @@ nav li a:hover {
 }
 
 #changeHomeLogo {
-    display: initial;
+    display: none;
     margin-top: 2px;
 }
 
@@ -355,7 +355,7 @@ nav {
 }
 
 #changeHomeLogo {
-    display: initial;
+    display: none;
 }
 
 #changeHomeLogo4D {
