@@ -91,13 +91,13 @@ nav li a:hover {
 }
 
 #iconsContainer {
-	height: 535px;
+	height: 480px;
 	width: 100%;
 	position: relative;
 }
 
 #iconsBackground {
-    height: 535px;
+    height: 480px;
 	width: 100%;
 }
 
@@ -121,7 +121,7 @@ nav li a:hover {
     text-align: center;
     margin-left: 2%;
     position: absolute;
-    margin-top: -27%;
+    margin-top: -23%;
 }
 
 div ul {
@@ -157,7 +157,6 @@ div li a:hover {
 
 .iconsWidth {
     width: 60%;
-    margin-top: 30px;
 }
 
 #iconsWidth {
@@ -272,8 +271,8 @@ div li a:hover {
 }
 
 #solutionsLogoBottom {
-    margin-left: 9%;
-    margin-top: 2%;
+    margin-left: 10%;
+    margin-top: 3%;
 }
 
 #logBottom {
@@ -320,11 +319,10 @@ div li a:hover {
 
 /*Media Queries*/
 
-
-@media only screen and (min-width: 1650px) {
+@media only screen and (min-width: 1550px) {
 
 .iconsWidth {
-    width: 55%;
+    width: 40%;
 }
 
 nav {
@@ -366,8 +364,6 @@ nav {
 
 #iconsLogo {
     margin-top: -19%;
-    width: 95%;
-    height: 288px;
 }
 
 #moveThis {
@@ -424,19 +420,53 @@ nav {
 
 }
 
-@media only screen and (min-width: 2200px) {
+@media only screen and (min-width: 1800px) {
 
 .iconsWidth {
     width: 40%;
 }
 
 #iconsLogo {
-    margin-top: -16%;
-    width: 95%;
-    height: 382px;
+    margin-top: -17%;
 }
 
 }
+
+@media only screen and (min-width: 2050px) {
+
+.iconsWidth {
+    width: 33%;
+}
+
+#iconsLogo {
+    margin-top: -15%;
+}
+
+}
+
+@media only screen and (min-width: 2330px) {
+
+.iconsWidth {
+    width: 30%;
+}
+
+#iconsLogo {
+    margin-top: -13%;
+}
+
+}
+
+/*@media only screen and (min-width: 2050px) {
+
+.iconsWidth {
+    width: 33%;
+}
+
+#iconsLogo {
+    margin-top: -15%;
+}
+
+}*/
 
 @media only screen and (max-width: 1024px) {
 
@@ -691,7 +721,7 @@ nav {
 }
 
 #iconsLogo {
-    margin-top: -212px;
+    margin-top: -200px;
 }
 
 #home4d {
