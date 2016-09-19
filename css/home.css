@@ -272,7 +272,7 @@ div li a:hover {
 
 #solutionsLogoBottom {
     margin-left: 9%;
-    margin-top: 3%;
+    margin-top: 2%;
 }
 
 #logBottom {
@@ -319,10 +319,11 @@ div li a:hover {
 
 /*Media Queries*/
 
-@media only screen and (min-width: 1550px) {
+
+@media only screen and (min-width: 1600px) {
 
 .iconsWidth {
-    width: 41%;
+    width: 55%;
 }
 
 nav {
@@ -363,7 +364,9 @@ nav {
 }
 
 #iconsLogo {
-    margin-top: -15%;
+    margin-top: -19%;
+    width: 95%;
+    height: 245px;
 }
 
 #moveThis {
@@ -417,6 +420,20 @@ nav {
     margin-top: 10px;
 }
 
+
+}
+
+@media only screen and (min-width: 2200px) {
+
+.iconsWidth {
+    width: 50%;
+}
+
+#iconsLogo {
+    margin-top: -16%;
+    width: 95%;
+    height: 382px;
+}
 
 }
 
