@@ -321,7 +321,7 @@ div li a:hover {
 /*Media Queries*/
 
 
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 1650px) {
 
 .iconsWidth {
     width: 55%;
@@ -367,7 +367,7 @@ nav {
 #iconsLogo {
     margin-top: -19%;
     width: 95%;
-    height: 245px;
+    height: 288px;
 }
 
 #moveThis {
@@ -427,7 +427,7 @@ nav {
 @media only screen and (min-width: 2200px) {
 
 .iconsWidth {
-    width: 50%;
+    width: 40%;
 }
 
 #iconsLogo {
