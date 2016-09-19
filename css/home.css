@@ -322,7 +322,7 @@ div li a:hover {
 @media only screen and (min-width: 1550px) {
 
 .iconsWidth {
-    width: 39%;
+    width: 41%;
 }
 
 nav {
@@ -969,8 +969,9 @@ nav ul {
 }
 
 #solutionsLogoBottom {
-    margin-left: 12%;
-    margin-top: 12px;
+    margin-left: 13%;
+    margin-top: 10px;
+    font-size: 14px;
 }
 
 #contact {

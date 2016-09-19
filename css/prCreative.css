@@ -505,8 +505,8 @@ body {
 }
 
 #solutionsLogoBottom {
-    margin-left: 15%;
-    margin-top: 10px;
+    margin-left: 13%;
+    margin-top: 12px;
 }
 
 #contactMap {
@@ -652,7 +652,7 @@ body {
 }
 
 #solutionsLogoBottom {
-    margin-left: 15%;
+    margin-left: 17%;
     margin-top: 12px;
 }
 
@@ -954,6 +954,12 @@ li {
     width: 100%;
 }
 
+#solutionsLogoBottom {
+    margin-left: 13%;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
 
 }
 
@@ -1055,6 +1061,12 @@ li {
     height: 310px;
     margin-top: -262px;
     width: 100%;
+}
+
+#solutionsLogoBottom {
+    margin-left: 15%;
+    margin-top: 10px;
+    font-size: 14px;
 }
 
 .prTextBackground {
@@ -1160,7 +1172,7 @@ li {
 }
 
 #solutionsLogoBottom {
-    margin-left: 13%;
+    margin-left: 16%;
     margin-top: 11px;
     font-size: 14px;
 }

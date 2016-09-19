@@ -296,7 +296,7 @@ a:hover {
 }
 
 #solutionsLogoBottom {
-    margin-left: 8%;
+    margin-left: 9%;
     margin-top: 12px;
 }
 
@@ -937,9 +937,8 @@ body {
 }
 
 #solutionsLogoBottom {
-    margin-left: 15%;
-    margin-top: 13px;
-    font-size: 19px;
+    margin-left: 17%;
+    margin-top: 12px;
 }
 
 .textContact {
@@ -1235,7 +1234,7 @@ navbar-collapse, .navHeaderCollapse, .collapse, .in {
 
 
 #solutionsLogoBottom {
-    margin-left: 11%;
+    margin-left: 13%;
     margin-top: 10px;
     font-size: 14px;
 }
@@ -1351,6 +1350,12 @@ navbar-collapse, .navHeaderCollapse, .collapse, .in {
     display: inline;
     margin-left: 15%;
     color: black;
+}
+
+#solutionsLogoBottom {
+    margin-left: 15%;
+    margin-top: 10px;
+    font-size: 14px;
 }
 
 #referenzen {
@@ -1520,7 +1525,7 @@ li {
 }
 
 #solutionsLogoBottom {
-    margin-left: 13%;
+    margin-left: 16%;
     margin-top: 11px;
     font-size: 14px;
 }
