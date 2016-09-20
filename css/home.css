@@ -326,7 +326,7 @@ div li a:hover {
 }
 
 nav {
-    margin-top: -5%;
+    margin-top: -8%;
 }
 
 #hideMail {
@@ -430,6 +430,10 @@ nav {
     margin-top: -17%;
 }
 
+nav {
+    margin-top: -7%;
+}
+
 }
 
 @media only screen and (min-width: 2050px) {
@@ -452,6 +456,10 @@ nav {
 
 #iconsLogo {
     margin-top: -13%;
+}
+
+nav {
+    margin-top: -5%;
 }
 
 }
