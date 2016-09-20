@@ -381,7 +381,7 @@ nav {
 }
 
 #solutionsLogoBottom {
-    margin-left: 5%;
+    margin-left: 6%;
     margin-top: 13px;
 }
 
@@ -1077,6 +1077,10 @@ navbar-collapse, .navHeaderCollapse, .collapse, .in {
     color: black;
     margin-left: 17%;
     margin-top: -26px;
+}
+
+.iconsWidth {
+    width: 70%;
 }
 
 .navbar-collapse, .navHeaderCollapse, .collapse-in {
