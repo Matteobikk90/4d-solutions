@@ -66,7 +66,7 @@ nav {
     text-align: center;
     margin-left: 2%;
     position: absolute;
-    margin-top: -6%;
+    margin-top: 230px;
 }
 
 nav ul {
@@ -121,7 +121,7 @@ nav li a:hover {
     text-align: center;
     margin-left: 2%;
     position: absolute;
-    margin-top: -14%;
+    margin-top: 106px;
 }
 
 div ul {
@@ -326,7 +326,7 @@ div li a:hover {
 }
 
 nav {
-    margin-top: -7%;
+    margin-top: 300px;
 }
 
 #hideMail {
@@ -363,7 +363,7 @@ nav {
 }
 
 #iconsLogo {
-    margin-top: -16%;
+    margin-top: 130px;
 }
 
 #moveThis {
@@ -424,7 +424,7 @@ nav {
 
 @media only screen and (min-width: 1800px) {
 
-.iconsWidth {
+/*.iconsWidth {
     width: 38%;
 }
 
@@ -434,7 +434,7 @@ nav {
 
 nav {
     margin-top: -5%;
-}
+}*/
 
 #solutionsLogoBottom {
     margin-left: 9%;
@@ -444,6 +444,7 @@ nav {
 #solutionsText {
     text-align: center;
     position: absolute;
+
     margin-top: 590px;
     margin-left: 27%;
     width: 45%;
@@ -461,14 +462,14 @@ nav {
 
 }
 
-@media only screen and (min-width: 2050px) {
+@media only screen and (min-width: 2000px) {
 
-.iconsWidth {
+/*.iconsWidth {
     width: 33%;
-}
+}*/
 
 #iconsLogo {
-    margin-top: -12%;
+    margin-top: 100px;
 }
 
 #solutionsLogoBottom {
@@ -480,17 +481,17 @@ nav {
 
 @media only screen and (min-width: 2330px) {
 
-.iconsWidth {
+/*.iconsWidth {
     width: 30%;
 }
 
 #iconsLogo {
-    margin-top: -10%;
+    margin-top: 104px;
 }
 
 nav {
-    margin-top: -3%;
-}
+    margin-top: 296px;
+}*/
 
 #textAboveIcons {
     position: absolute;
@@ -575,7 +576,7 @@ body {
 }
 
 #iconsLogo {
-    margin-top: -180px;
+    margin-top: 86px;
 }
 
 nav ul {
@@ -583,7 +584,7 @@ nav ul {
 }
 
 nav {
-    margin-top: -6%;
+    margin-top: 216px;
 }
 
 .emailText {
@@ -766,7 +767,7 @@ nav ul {
 }
 
 nav {
-	margin-top: -76px
+	margin-top: 180px
 }
 
 .emailText {
@@ -778,7 +779,7 @@ nav {
 }
 
 #iconsLogo {
-    margin-top: -163px;
+    margin-top: 78spx;
 }
 
 #home4d {
@@ -963,27 +964,27 @@ body {
     font-size: 14px;
 }
 
-nav {
+/*nav {
     width: 95%;
     overflow: hidden;
     text-align: center;
     margin-left: -2%;
     position: absolute;
     margin-top: -13%;
-}
+}*/
 
 nav ul {
 	font-size: 14px;
 }
 
-#iconsLogo {
+/*#iconsLogo {
     width: 95%;
     overflow: hidden;
     text-align: center;
     margin-left: -2%;
     position: absolute;
-    margin-top: -28%;
-}
+    margin-top: -94px;
+}*/
 
 .emailText {
 	font-size: 14px;
@@ -1169,7 +1170,16 @@ navbar-collapse, .navHeaderCollapse, .collapse, .in {
     text-align: center;
     margin-left: -2%;
     position: absolute;
-    margin-top: -33%;
+    margin-top: 94px;
+}
+
+nav {
+    width: 95%;
+    overflow: hidden;
+    text-align: center;
+    margin-left: -2%;
+    position: absolute;
+    margin-top: 178px;
 }
 
 #iconsContainer {
@@ -1220,7 +1230,7 @@ nav {
     text-align: center;
     margin-left: -4%;
     position: absolute;
-    margin-top: -13%;
+    margin-top: 176px;
 }
 
 #iconsLogo {
@@ -1229,7 +1239,7 @@ nav {
     text-align: center;
     margin-left: -4%;
     position: absolute;
-    margin-top: -34%;
+    margin-top: 100px;
 }
 
 #copyright {
@@ -1271,7 +1281,7 @@ nav {
     text-align: center;
     margin-left: -7%;
     position: absolute;
-    margin-top: -34%;
+    margin-top: 100px;
 }
 
 #referenzenText {
@@ -1311,7 +1321,7 @@ nav {
     text-align: center;
     margin-left: -8%;
     position: absolute;
-    margin-top: -15%;
+    margin-top: 174px;
 }
 
 }
