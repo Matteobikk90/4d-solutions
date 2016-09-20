@@ -347,7 +347,7 @@ div li a:hover {
 @media only screen and (min-width: 2000px) {
 
 #firstBackground {
-    height: 1090px;
+    height: 1200px;
     width: 100%;
     background-image: url(../img/HOME_HEADER.png);
     background-size: cover;
