@@ -478,6 +478,11 @@ nav {
     font-size: 17px;
 }
 
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #101010;
+    width: 99%;
+}
+
 #solutionsLogoBottom {
     margin-left: 9%;
     margin-top: 13px;
@@ -509,6 +514,11 @@ nav {
 
 .iconsWidth {
     width: 23%;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #101010;
+    width: 99%;
 }
 
 #solutionsText {
@@ -549,6 +559,29 @@ nav {
 
 
 }
+
+
+@media only screen and (min-width: 2304px) {
+#firstBackground {
+    height: 1406px;
+    width: 100%;
+    background-image: url(../img/HOME_HEADER.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#solutionsText {
+    text-align: center;
+    position: absolute;
+    margin-top: 730px;
+    margin-left: 27%;
+    width: 45%;
+    letter-spacing: 6px;
+    font-size: 17px;
+}
+    
+}
+
 
 /*@media only screen and (min-width: 2000px) {
 */
