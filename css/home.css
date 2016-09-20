@@ -346,12 +346,12 @@ nav {
     display: none;
 }
 
-#solutionsText {
-    text-align: center;
-    position: absolute;
-    margin-top: 874px;
-    margin-left: 47%;
-    color: #f8f4f4;
+#firstBackground {
+    height: 1508px;
+    width: 100%;
+    background-image: url(../img/HOME_HEADER.png);
+    background-size: cover;
+    background-position: center;
 }
 
 #changeHomeLogo {
@@ -373,7 +373,7 @@ nav {
 #solutionsText {
     text-align: center;
     position: absolute;
-    margin-top: 485px;
+    margin-top: 736px;
     margin-left: 27%;
     width: 45%;
     letter-spacing: 6px;
@@ -402,14 +402,6 @@ nav {
     margin-left: 46%;
     margin-top: 157px;
     color: #f8f4f4;
-}
-
-#firstBackground {
-    height: 1025px;
-    width: 100%;
-    background-image: url(../img/HOME_HEADER.png);
-    background-size: cover;
-    background-position: center;
 }
 
 #copyright {
