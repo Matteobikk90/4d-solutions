@@ -347,7 +347,7 @@ nav {
 }
 
 #firstBackground {
-    height: 100%;
+    height: 850px;
     width: 100%;
     background-image: url(../img/HOME_HEADER.png);
     background-size: cover;
