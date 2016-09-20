@@ -426,7 +426,7 @@ nav {
 @media only screen and (min-width: 1800px) {
 
 .iconsWidth {
-    width: 38%;
+    width: 30%;
 }
 
 /*#iconsLogo {
@@ -453,11 +453,19 @@ nav {
 }
 
 #firstBackground {
-    height: 1204px;
+    height: 1240px;
     width: 100%;
     background-image: url(../img/HOME_HEADER.png);
     background-size: cover;
     background-position: center;
+}
+
+}
+
+@media only screen and (min-width: 1800px) {
+
+.iconsWidth {
+    width: 23%;
 }
 
 }
