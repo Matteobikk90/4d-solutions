@@ -472,12 +472,39 @@ nav {
     width: 23%;
 }
 
+#solutionsText {
+    text-align: center;
+    position: absolute;
+    margin-top: 516px;
+    margin-left: 27%;
+    width: 45%;
+    letter-spacing: 6px;
+    font-size: 17px;
+}
+
+#solutionsLogoBottom {
+    margin-left: 9%;
+    margin-top: 13px;
+}
+
+#firstBackground {
+    height: 1240px;
+    width: 100%;
+    background-image: url(../img/HOME_HEADER.png);
+    background-size: cover;
+    background-position: center;
+}
+
 #referenzen {
     height: 1255px;
     width: 100%;
     background-image: url(../img/icons/01_HOME_Referenzen.png);
     background-size: cover;
     background-position: center;
+}
+
+#contact {
+    margin-top: 0%;
 }
 
 
