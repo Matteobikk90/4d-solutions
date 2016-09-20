@@ -423,11 +423,15 @@ nav {
 
 }*/
 
-@media only screen and (min-width: 1800px) {
+/*@media only screen and (min-width: 1800px) {
 
 .iconsWidth {
     width: 30%;
 }
+
+#contact {
+    margin-top: 0%;
+}*/
 
 /*#iconsLogo {
     margin-top: -13%;
@@ -437,7 +441,7 @@ nav {
     margin-top: -5%;
 }*/
 
-#solutionsLogoBottom {
+/*#solutionsLogoBottom {
     margin-left: 9%;
     margin-top: 13px;
 }
@@ -460,13 +464,23 @@ nav {
     background-position: center;
 }
 
-}
+}*/
 
 @media only screen and (min-width: 1800px) {
 
 .iconsWidth {
     width: 23%;
 }
+
+#referenzen {
+    height: 1255px;
+    width: 100%;
+    background-image: url(../img/icons/01_HOME_Referenzen.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
 
 }
 
