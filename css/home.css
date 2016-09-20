@@ -66,7 +66,7 @@ nav {
     text-align: center;
     margin-left: 2%;
     position: absolute;
-    margin-top: -8%;
+    margin-top: -6%;
 }
 
 nav ul {
@@ -91,13 +91,13 @@ nav li a:hover {
 }
 
 #iconsContainer {
-	height: 400px;
+	height: 334px;
 	width: 100%;
 	position: relative;
 }
 
 #iconsBackground {
-    height: 400px;
+    height: 334px;
 	width: 100%;
 }
 
@@ -121,7 +121,7 @@ nav li a:hover {
     text-align: center;
     margin-left: 2%;
     position: absolute;
-    margin-top: -19%;
+    margin-top: -14%;
 }
 
 div ul {
@@ -156,7 +156,7 @@ div li a:hover {
 }
 
 .iconsWidth {
-    width: 48%;
+    width: 36%;
 }
 
 #iconsWidth {
