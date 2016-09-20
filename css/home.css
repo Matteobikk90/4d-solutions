@@ -513,7 +513,7 @@ nav {
 @media only screen and (min-width: 1680px) {
 
 #firstBackground {
-    height: 900px;
+    height: 920px;
     width: 100%;
     background-image: url(../img/HOME_HEADER.png);
     background-size: cover;
