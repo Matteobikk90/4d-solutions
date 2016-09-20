@@ -317,71 +317,9 @@ div li a:hover {
     margin-top: 10px;
 }
 
-@media only screen and (min-width: 1700px) {
-
-#firstBackground {
-    height: 1090px;
-    width: 100%;
-    background-image: url(../img/HOME_HEADER.png);
-    background-size: cover;
-    background-position: center;
-}
-
-#solutionsText {
-    text-align: center;
-    position: absolute;
-    margin-top: 540px;
-    margin-left: 18%;
-    width: 63%;
-    letter-spacing: 2px;
-    font-size: 19px;
-}
-
-.iconsWidth {
-    width: 30%;
-}
-
-
-}
-
-@media only screen and (min-width: 2000px) {
-
-#firstBackground {
-    height: 1200px;
-    width: 100%;
-    background-image: url(../img/HOME_HEADER.png);
-    background-size: cover;
-    background-position: center;
-}
-
-#solutionsText {
-    text-align: center;
-    position: absolute;
-    margin-top: 540px;
-    margin-left: 18%;
-    width: 63%;
-    letter-spacing: 2px;
-    font-size: 19px;
-}
-
-.iconsWidth {
-    width: 26%;
-}
-
-
-}
-
-@media only screen and (min-width: 2300px) {
-
-.iconsWidth {
-    width: 20%;
-}
-
-
-}
 /*Media Queries*/
 
-/*@media only screen and (min-width: 1550px) {
+@media only screen and (min-width: 1550px) {
 
 .iconsWidth {
     width: 40%;
@@ -488,7 +426,7 @@ nav {
 
 .iconsWidth {
     width: 38%;
-}*/
+}
 
 /*#iconsLogo {
     margin-top: -13%;
@@ -498,7 +436,7 @@ nav {
     margin-top: -5%;
 }*/
 
-/*#solutionsLogoBottom {
+#solutionsLogoBottom {
     margin-left: 9%;
     margin-top: 13px;
 }
@@ -524,7 +462,7 @@ nav {
 }
 
 @media only screen and (min-width: 2000px) {
-*/
+
 /*.iconsWidth {
     width: 33%;
 }
@@ -534,7 +472,7 @@ nav {
 }
 */
 
-/*#firstBackground {
+#firstBackground {
     height: 1080px;
     width: 100%;
     background-image: url(../img/HOME_HEADER.png);
@@ -563,7 +501,7 @@ nav {
 
 .iconsWidth {
     width: 30%;
-}*/
+}
 
 /*#iconsLogo {
     margin-top: 104px;
@@ -573,7 +511,7 @@ nav {
     margin-top: 296px;
 }
 */
-/*#textAboveIcons {
+#textAboveIcons {
     position: absolute;
     color: black;
     width: 100%;
@@ -588,7 +526,7 @@ nav {
     margin-top: 13px;
 }
 
-}*/
+}
 
 /*@media only screen and (min-width: 2050px) {
 
