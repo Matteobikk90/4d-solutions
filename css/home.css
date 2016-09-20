@@ -466,21 +466,61 @@ nav {
 
 }*/
 
-
 @media only screen and (min-width: 1800px) {
+
+.iconsWidth {
+    width: 23%;
+}
 
 #solutionsText {
     text-align: center;
     position: absolute;
-    margin-top: 390px;
+    margin-top: 620px;
     margin-left: 27%;
     width: 45%;
     letter-spacing: 6px;
     font-size: 17px;
 }
 
-.iconsWidth {
-    width: 30%;
+#solutionsLogoBottom {
+    margin-left: 6%;
+    margin-top: 13px;
+}
+
+#firstBackground {
+    height: 1240px;
+    width: 100%;
+    background-image: url(../img/HOME_HEADER.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#referenzen {
+    height: 1255px;
+    width: 100%;
+    background-image: url(../img/icons/01_HOME_Referenzen.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#contact {
+    margin-top: 0%;
+}
+
+
+
+}
+
+@media only screen and (min-width: 1580px) {
+
+#solutionsText {
+    text-align: center;
+    position: absolute;
+    margin-top: 620px;
+    margin-left: 27%;
+    width: 45%;
+    letter-spacing: 6px;
+    font-size: 17px;
 }
 
 #solutionsLogoBottom {
@@ -489,7 +529,7 @@ nav {
 }
 
 #firstBackground {
-    height: 868px;
+    height: 1240px;
     width: 100%;
     background-image: url(../img/HOME_HEADER.png);
     background-size: cover;
