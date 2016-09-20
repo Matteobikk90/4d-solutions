@@ -347,7 +347,7 @@ nav {
 }
 
 #firstBackground {
-    height: 1290px;
+    height: 729px;
     width: 100%;
     background-image: url(../img/HOME_HEADER.png);
     background-size: cover;
@@ -373,7 +373,7 @@ nav {
 #solutionsText {
     text-align: center;
     position: absolute;
-    margin-top: 746px;
+    margin-top: 322px;
     margin-left: 27%;
     width: 45%;
     letter-spacing: 6px;
@@ -490,6 +490,16 @@ nav {
 
 nav {
     margin-top: -3%;
+}
+
+#textAboveIcons {
+    position: absolute;
+    color: black;
+    width: 100%;
+    height: 53px;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 24px;
 }
 
 #solutionsLogoBottom {
