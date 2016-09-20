@@ -322,7 +322,7 @@ div li a:hover {
 @media only screen and (min-width: 1550px) {
 
 .iconsWidth {
-    width: 28%;
+    width: 40%;
 }
 
 nav {
@@ -424,11 +424,11 @@ nav {
 
 @media only screen and (min-width: 1800px) {
 
-/*.iconsWidth {
+.iconsWidth {
     width: 38%;
 }
 
-#iconsLogo {
+/*#iconsLogo {
     margin-top: -13%;
 }
 
@@ -481,18 +481,18 @@ nav {
 
 @media only screen and (min-width: 2330px) {
 
-/*.iconsWidth {
+.iconsWidth {
     width: 30%;
 }
 
-#iconsLogo {
+/*#iconsLogo {
     margin-top: 104px;
 }
 
 nav {
     margin-top: 296px;
-}*/
-
+}
+*/
 #textAboveIcons {
     position: absolute;
     color: black;
