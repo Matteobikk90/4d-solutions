@@ -121,7 +121,7 @@ nav li a:hover {
     text-align: center;
     margin-left: 2%;
     position: absolute;
-    margin-top: -23%;
+    margin-top: -22%;
 }
 
 div ul {
@@ -156,7 +156,7 @@ div li a:hover {
 }
 
 .iconsWidth {
-    width: 60%;
+    width: 48%;
 }
 
 #iconsWidth {
@@ -624,8 +624,8 @@ nav {
 }
 
 #solutionsLogoBottom {
-    margin-left: 11%;
-    margin-top: 13px;
+    margin-left: 12%;
+    margin-top: 12px;
 }
 
 #contact {
