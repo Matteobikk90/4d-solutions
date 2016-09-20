@@ -19,7 +19,7 @@ body {
 }
 
 #firstBackground {
-    height: 630px;
+    height: 675px;
     width: 100%;
     background-image: url(../img/HOME_HEADER.png);
     background-size: cover;
@@ -39,7 +39,7 @@ body {
 #solutionsText {
     text-align: center;
     position: absolute;
-    margin-top: 254px;
+    margin-top: 276px;
     margin-left: 18%;
     width: 63%;
     letter-spacing: 2px;
