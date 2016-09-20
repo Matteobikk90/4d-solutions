@@ -426,6 +426,11 @@ nav {
     margin-top: -7%;
 }
 
+#solutionsLogoBottom {
+    margin-left: 9%;
+    margin-top: 13px;
+}
+
 }
 
 @media only screen and (min-width: 2050px) {
@@ -436,6 +441,11 @@ nav {
 
 #iconsLogo {
     margin-top: -15%;
+}
+
+#solutionsLogoBottom {
+    margin-left: 7%;
+    margin-top: 13px;
 }
 
 }
@@ -452,6 +462,11 @@ nav {
 
 nav {
     margin-top: -5%;
+}
+
+#solutionsLogoBottom {
+    margin-left: 7%;
+    margin-top: 13px;
 }
 
 }
