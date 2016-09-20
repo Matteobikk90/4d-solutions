@@ -513,7 +513,7 @@ nav {
 @media only screen and (min-width: 1680px) {
 
 #firstBackground {
-    height: 1000px;
+    height: 900px;
     width: 100%;
     background-image: url(../img/HOME_HEADER.png);
     background-size: cover;
@@ -523,7 +523,7 @@ nav {
 #solutionsText {
     text-align: center;
     position: absolute;
-    margin-top: 550px;
+    margin-top: 500px;
     margin-left: 27%;
     width: 45%;
     letter-spacing: 6px;
