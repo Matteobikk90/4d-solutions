@@ -319,7 +319,7 @@ div li a:hover {
 
 /*Media Queries*/
 
-@media only screen and (min-width: 1550px) {
+/*@media only screen and (min-width: 1550px) {
 
 .iconsWidth {
     width: 40%;
@@ -426,7 +426,7 @@ nav {
 
 .iconsWidth {
     width: 38%;
-}
+}*/
 
 /*#iconsLogo {
     margin-top: -13%;
@@ -436,7 +436,7 @@ nav {
     margin-top: -5%;
 }*/
 
-#solutionsLogoBottom {
+/*#solutionsLogoBottom {
     margin-left: 9%;
     margin-top: 13px;
 }
@@ -462,7 +462,7 @@ nav {
 }
 
 @media only screen and (min-width: 2000px) {
-
+*/
 /*.iconsWidth {
     width: 33%;
 }
@@ -472,7 +472,7 @@ nav {
 }
 */
 
-#firstBackground {
+/*#firstBackground {
     height: 1080px;
     width: 100%;
     background-image: url(../img/HOME_HEADER.png);
@@ -501,7 +501,7 @@ nav {
 
 .iconsWidth {
     width: 30%;
-}
+}*/
 
 /*#iconsLogo {
     margin-top: 104px;
@@ -511,7 +511,7 @@ nav {
     margin-top: 296px;
 }
 */
-#textAboveIcons {
+/*#textAboveIcons {
     position: absolute;
     color: black;
     width: 100%;
@@ -526,7 +526,7 @@ nav {
     margin-top: 13px;
 }
 
-}
+}*/
 
 /*@media only screen and (min-width: 2050px) {
 
