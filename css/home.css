@@ -452,7 +452,7 @@ nav {
 }
 
 #firstBackground {
-    height: 1200px;
+    height: 1260px;
     width: 100%;
     background-image: url(../img/HOME_HEADER.png);
     background-size: cover;
@@ -570,7 +570,7 @@ body {
 
 #textAboveIcons {
     text-align: center;
-    margin-top: 23px;
+    margin-top: 40px;
     font-size: 20px;
 }
 
@@ -757,7 +757,7 @@ body {
 
 #textAboveIcons {
     text-align: center;
-    margin-top: 46px;
+    margin-top: 30px;
     font-size: 15px;
 }
 
