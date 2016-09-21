@@ -489,7 +489,7 @@ nav {
 }
 
 #firstBackground {
-    height: 1700px;
+    height: 1240px;
     width: 100%;
     background-image: url(../img/HOME_HEADER.png);
     background-size: cover;
@@ -513,7 +513,7 @@ nav {
 @media only screen and (min-width: 1680px) {
 
 #firstBackground {
-    height: 920px;
+    height: 1054px;
     width: 100%;
     background-image: url(../img/HOME_HEADER.png);
     background-size: cover;
@@ -523,11 +523,19 @@ nav {
 #solutionsText {
     text-align: center;
     position: absolute;
-    margin-top: 410px;
+    margin-top: 494px;
     margin-left: 27%;
     width: 45%;
     letter-spacing: 6px;
     font-size: 17px;
+}
+
+#referenzenText {
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 128px;
+    color: #f8f4f4;
+    letter-spacing: 2px;
 }
 
 }
@@ -583,7 +591,7 @@ nav {
 }
 
 
-@media only screen and (min-width: 2304px) {
+@media only screen and (min-width: 2300px) {
 #firstBackground {
     height: 1406px;
     width: 100%;
