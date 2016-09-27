@@ -26,7 +26,7 @@
             
 <p>Telefon: +43 1 30 6161 – 0</p>
 
-<a href="4d-solutions.at">www.4d-solutions.at</a>
+<a href="http://4d-solutions.at/">http://4d-solutions.at/</a>
 
 <a href="mailto:office@4d-solutions.at">E-mail: office@4d-solutions.at</a>
 
