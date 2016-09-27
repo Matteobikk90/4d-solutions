@@ -26,6 +26,6 @@
             
 <p>Telefon: +43 1 30 6161 – 0</p>
 
-<a href="mailto:office@pinkorbit.at">E-mail: office@4d-solutions.at</a>
+<a href="mailto:office@4d-solutions.at">E-mail: office@4d-solutions.at</a>
 
 <p id="copyright">Copyright © 2016 4D solutions GmbH. Alle Rechte vorbehalten.</p>
