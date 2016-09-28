@@ -1386,6 +1386,12 @@ navbar-collapse, .navHeaderCollapse, .collapse, .in {
     width: 38px;
 }
 
+.navbar-nav {
+    margin: 7.5px -15px;
+    display: block;
+    margin-left: -4%;
+}
+
 }
 
 @media only screen and (max-width: 375px) {
@@ -1528,6 +1534,12 @@ nav {
     margin-left: -8%;
     position: absolute;
     margin-top: 174px;
+}
+
+.navbar-nav {
+    margin: 7.5px -15px;
+    display: block;
+    margin-left: -5%;
 }
 
 }
