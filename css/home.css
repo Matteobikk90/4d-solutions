@@ -19,7 +19,7 @@ body {
 }
 
 #firstBackground {
-    height: 675px;
+    height: 680px;
     width: 100%;
     background-image: url(../img/HOME_HEADER.png);
     background-size: cover;
@@ -43,7 +43,7 @@ body {
     margin-left: 18%;
     width: 63%;
     letter-spacing: 2px;
-    font-size: 19px;
+    font-size: 15px;
 }
 
 #pText {
@@ -466,7 +466,7 @@ nav {
 
 }*/
 
-@media only screen and (min-width: 1580px) {
+/*@media only screen and (min-width: 1580px) {
 
 #solutionsText {
     text-align: center;
@@ -497,7 +497,7 @@ nav {
 }
 
 #referenzen {
-    height: 1255px;
+    height: 1000px;
     width: 100%;
     background-image: url(../img/icons/01_HOME_Referenzen.png);
     background-size: cover;
@@ -508,7 +508,7 @@ nav {
     margin-top: 0%;
 }
 
-}
+}*/
 
 @media only screen and (min-width: 1680px) {
 
@@ -536,6 +536,11 @@ nav {
     margin-top: 128px;
     color: #f8f4f4;
     letter-spacing: 2px;
+}
+
+#copyright {
+    font-size: 15px;
+    margin-top: 10px;
 }
 
 }
@@ -592,8 +597,9 @@ nav {
 
 
 @media only screen and (min-width: 2300px) {
+
 #firstBackground {
-    height: 1406px;
+    height: 1500px;
     width: 100%;
     background-image: url(../img/HOME_HEADER.png);
     background-size: cover;
@@ -603,7 +609,7 @@ nav {
 #solutionsText {
     text-align: center;
     position: absolute;
-    margin-top: 730px;
+    margin-top: 782px;
     margin-left: 27%;
     width: 45%;
     letter-spacing: 6px;
@@ -1062,11 +1068,62 @@ nav {
 
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 568px) {
 
+#changeHomeLogo {
+    display: initial;
+    margin-top: 2px;
+}
+
+.navbar-toggle {
+    display: initial;
+    margin-top: 21px;
+}
+
+.navbar-nav {
+    margin: 7.5px -15px;
+    display: inline-flex;
+    margin-left: 24%;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: black;
+}
+
+
+}
+
+@media only screen and (max-width: 425px) {
+
+#iconsLogo {
+    width: 95%;
+    overflow: hidden;
+    text-align: center;
+    margin-left: -2%;
+    position: absolute;
+    margin-top: 94px;
+}
+
+nav {
+    width: 95%;
+    overflow: hidden;
+    text-align: center;
+    margin-left: -2%;
+    position: absolute;
+    margin-top: 178px;
+}
+
+#iconsContainer {
+    height: 235px;
+    width: 100%;
+}
+
+.iconsWidth {
+    width: 90%;
+}
 
 body {
-	font-size: 14px;
+    font-size: 14px;
 }
 
 .container {
@@ -1103,8 +1160,8 @@ body {
 #solutionsText {
     text-align: center;
     margin-top: 167px;
-    margin-left: 4%;
-    width: 91%;
+    /* margin-left: 4%; */
+    width: 100%;
     font-size: 12px;
 }
 
@@ -1144,7 +1201,7 @@ body {
 }*/
 
 nav ul {
-	font-size: 14px;
+    font-size: 14px;
 }
 
 /*#iconsLogo {
@@ -1157,7 +1214,7 @@ nav ul {
 }*/
 
 .emailText {
-	font-size: 14px;
+    font-size: 14px;
 }
 
 .emailText1 {
@@ -1195,13 +1252,13 @@ nav ul {
 }
 
 #solutionsBackground {
-	width: 100%;
-	height: 400px;
+    width: 100%;
+    height: 400px;
 }
 
 #solutionsPr {
-	width: 100%;
-	height: 400px;
+    width: 100%;
+    height: 400px;
 }
 
 #referenzen {
@@ -1213,31 +1270,31 @@ nav ul {
 }
 
 #referenzenLogo {
-	width: 100%;
-	height: 500px;
+    width: 100%;
+    height: 500px;
 }
 
 #textReferenzen {
-	margin-top: 61px;
+    margin-top: 61px;
 }
 
 #email {
-	height: 243px;
-	width: 100%;
+    height: 243px;
+    width: 100%;
 }
 
 .emailText {
-	margin-top: -45px;
+    margin-top: -45px;
 }
 
 #contactMap {
-	width: 100%;
-	height: 500PX;
+    width: 100%;
+    height: 500PX;
 }
 
 #footerBackground {
-	width: 100%;
-	height: 500PX;
+    width: 100%;
+    height: 500PX;
 }
 
 .textContact {
@@ -1251,7 +1308,7 @@ nav ul {
 }
 
 #contact {
-	margin-left: 38%;
+    margin-left: 38%;
     width: 62%;
 }
 
@@ -1329,38 +1386,6 @@ navbar-collapse, .navHeaderCollapse, .collapse, .in {
     width: 38px;
 }
 
-
-}
-
-@media only screen and (max-width: 425px) {
-
-#iconsLogo {
-    width: 95%;
-    overflow: hidden;
-    text-align: center;
-    margin-left: -2%;
-    position: absolute;
-    margin-top: 94px;
-}
-
-nav {
-    width: 95%;
-    overflow: hidden;
-    text-align: center;
-    margin-left: -2%;
-    position: absolute;
-    margin-top: 178px;
-}
-
-#iconsContainer {
-    height: 235px;
-    width: 100%;
-}
-
-.iconsWidth {
-    width: 90%;
-}
-
 }
 
 @media only screen and (max-width: 375px) {
@@ -1368,8 +1393,9 @@ nav {
 #solutionsText {
     text-align: center;
     margin-top: 153px;
-    margin-left: 6%;
-    width: 89%;
+    margin-left: 2.5%;
+    width: 95%;
+    font-size: 12px;
 }
 
 #contact {
@@ -1439,10 +1465,10 @@ nav {
 }
 
 #solutionsText {
-    margin-left: 3%;
-    margin-top: 104px;
-    width: 92%;
-    font-size: 11px;
+    margin-left: 1.5%;
+    margin-top: 120px;
+    width: 97%;
+    font-size: 10px;
 }
 
 #iconsLogo {
@@ -1452,6 +1478,16 @@ nav {
     margin-left: -7%;
     position: absolute;
     margin-top: 100px;
+}
+
+#textAboveIcons {
+    text-align: center;
+    margin-top: 46px;
+    font-size: 12px;
+}
+
+nav ul {
+    font-size: 11px;
 }
 
 #referenzenText {

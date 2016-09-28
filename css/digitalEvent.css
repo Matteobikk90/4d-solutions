@@ -71,7 +71,7 @@ a:hover {
 }
 
 #solutionsBackgroundDigital {
-    height: 675px;
+    height: 680px;
 	width: 100%;
     background-image: url("../img/solutionDigital.png");
     background-size: cover;
@@ -79,7 +79,7 @@ a:hover {
 }
 
 #solutionsBackgroundEvent {
-    height: 675px;
+    height: 680px;
 	width: 100%;
     background-image: url("../img/icons/EVENT_HEADER.jpg");
     background-size: cover;
@@ -365,7 +365,7 @@ a:hover {
 }
 
 #solutionsBackgroundDigital {
-    height: 1500px;
+    height: 1200px;
     width: 100%;
     background-image: url("../img/solutionDigital.png");
     background-size: cover;
@@ -373,7 +373,7 @@ a:hover {
 }
 
 #solutionsBackgroundEvent {
-    height: 1500px;
+    height: 1200px;
     width: 100%;
     background-image: url("../img/icons/EVENT_HEADER.jpg");
     background-size: cover;
@@ -391,7 +391,7 @@ a:hover {
 } 
 
 #referenzen {
-    height: 1500px;
+    height: 1255px;
     width: 100%;
     background-image: url("../img/icons/digital_REFERENZE.png");
     background-size: cover;
@@ -500,8 +500,28 @@ a:hover {
 }
 
 #copyright {
-    font-size: 9px;
+    font-size: 13px;
     margin-top: 10px;
+}
+
+}
+
+@media only screen and (min-width: 2560px) {
+
+#solutionsBackgroundDigital {
+    height: 1500px;
+    width: 100%;
+    background-image: url("../img/solutionDigital.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#solutionsBackgroundEvent {
+    height: 1500px;
+    width: 100%;
+    background-image: url("../img/icons/EVENT_HEADER.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 }

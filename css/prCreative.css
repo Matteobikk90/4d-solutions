@@ -67,7 +67,7 @@ a:hover {
 }
 
 #solutionsBackgroundCreative {
-    height: 675px;
+    height: 680px;
 	width: 100%;
     background-image: url("../img/solutionCreative.png");
     background-size: cover;
@@ -90,9 +90,9 @@ a:hover {
 }
 
 #solutionsBackgroundPr {
-	height: 675px;
-	width: 100%;
-    background-image: url("../img/01_PR_HEADER.png");
+    height: 680px;
+    width: 100%;
+    background-image: url(../img/01_PR_HEADER.png);
     background-size: cover;
     background-position: center;
 }
@@ -301,7 +301,7 @@ a:hover {
 }
 
 #solutionsBackgroundCreative {
-    height: 1500px;
+    height: 1200px;
 	width: 100%;
     background-image: url("../img/solutionCreative.png");
     background-size: cover;
@@ -309,9 +309,9 @@ a:hover {
 }
 
 #solutionsBackgroundPr {
-	height: 1500px;
-	width: 100%;
-    background-image: url("../img/01_PR_HEADER.png");
+    height: 1200px;
+    width: 100%;
+    background-image: url(../img/01_PR_HEADER.png);
     background-size: cover;
     background-position: center;
 }
@@ -327,7 +327,7 @@ a:hover {
 } 
 
 #referenzen {
-	height: 1500px;
+	height: 1255px;
 	width: 100%;
     background-image: url("../img/icons/PR_REFERENZE.png");
     background-size: cover;
@@ -374,7 +374,7 @@ a:hover {
 }
 
 #copyright {
-    font-size: 9px;
+    font-size: 13px;
     margin-top: 10px;
 }
 
@@ -386,6 +386,26 @@ a:hover {
 #textPRDas {
     color: black;
     margin-top: 30px;
+}
+
+}
+
+@media only screen and (min-width: 2560px) {
+
+#solutionsBackgroundPr {
+    height: 1500px;
+    width: 100%;
+    background-image: url(../img/01_PR_HEADER.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#solutionsBackgroundCreative {
+    height: 1500px;
+    width: 100%;
+    background-image: url("../img/solutionCreative.png");
+    background-size: cover;
+    background-position: center;
 }
 
 }
