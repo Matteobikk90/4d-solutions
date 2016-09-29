@@ -23,6 +23,10 @@ a:hover {
 	position: relative;
 }
 
+#logoFb {
+    margin-top: 31px;
+}
+
 #mailIcon{
     margin-top: 4px;
 }
@@ -609,6 +613,15 @@ body {
     display: initial;
 }
 
+#logBottom {
+    width: 30px;
+}
+
+#logoFb {
+    width: 30px;
+    margin-top: 3px;
+}
+
 .textPR {
 	font-size: 19px;
 }
@@ -618,7 +631,7 @@ body {
 }
 
 .textContact {
-	font-size: 19px;
+	font-size: 16px;
 }
 
 #solutionsBackground {
@@ -975,8 +988,9 @@ body {
 }
 
 #textContact {
-    margin-left: 27%;
-    margin-top: 14px;
+    margin-left: 20%;
+    margin-top: 58px;
+    width: 80%;
 }
 
 .navbar-brand {
@@ -1004,12 +1018,17 @@ body {
 }
 
 #solutionsLogoBottom {
-    margin-left: 17%;
-    margin-top: 12px;
+    margin-left: 8%;
+    margin-top: 7px;
 }
 
 .textContact {
-	font-size: 19px;
+    font-size: 15px;
+}
+
+#logoFb {
+    width: 25px;
+    margin-top: 18px;
 }
 
 .textPRDasDigital {
@@ -1251,9 +1270,9 @@ body {
 }
 
 #textContact {
-    margin-left: -6%;
-    margin-top: 29px;
-    width: 118%;
+    margin-left: 1%;
+    margin-top: 57px;
+    width: 100%;
 }
 
 .navbar-brand {
@@ -1301,13 +1320,15 @@ navbar-collapse, .navHeaderCollapse, .collapse, .in {
 
 
 #solutionsLogoBottom {
-    margin-left: 13%;
-    margin-top: 10px;
+    margin-left: 12%;
+    margin-top: 7px;
     font-size: 14px;
 }
 
+
+
 .textContact {
-	font-size: 14px;
+	font-size: 13px;
 }
 
 #textReferenzen {
@@ -1337,6 +1358,12 @@ navbar-collapse, .navHeaderCollapse, .collapse, .in {
     width: 100%;
     height: 440px;
     font-size: 14px;
+}
+
+#textContact {
+    margin-left: 2%;
+    margin-top: 60px;
+    width: 107%;
 }
 
 #website {
@@ -1420,8 +1447,9 @@ navbar-collapse, .navHeaderCollapse, .collapse, .in {
 	width: 100%;
 	position: fixed;
 }
+
 .textContact {
-    font-size: 14px;
+    font-size: 11px;
 }
 
 .PrIcon {
@@ -1431,8 +1459,8 @@ navbar-collapse, .navHeaderCollapse, .collapse, .in {
 }
 
 #solutionsLogoBottom {
-    margin-left: 15%;
-    margin-top: 10px;
+    margin-left: 11%;
+    margin-top: 6px;
     font-size: 14px;
 }
 
@@ -1636,9 +1664,25 @@ li {
     color: black;
 }
 
+#solutionsLogoBottom {
+    margin-left: 13%;
+    margin-top: 6px;
+    font-size: 14px;
+}
+
 #textPRDasEvent {
     margin-top: 6px;
     color: black;
+}
+
+.textContact {
+    font-size: 11px;
+}
+
+#textContact {
+    margin-left: -10%;
+    margin-top: 59px;
+    width: 126%;
 }
 
 

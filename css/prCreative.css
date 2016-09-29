@@ -466,6 +466,15 @@ body {
 	min-height: 0px;
 }
 
+#logBottom  {
+    width: 30px;
+}
+
+#logoFb {
+    width: 25px;
+    margin-top: -5px;
+}
+
 #map {
     float: none;
     display: initial;
@@ -593,7 +602,7 @@ body {
 }
 
 .textContact {
-    font-size: 19px;
+    font-size: 16px;
 }
 
 .PrIcon {
@@ -716,8 +725,8 @@ body {
 }
 
 #solutionsLogoBottom {
-    margin-left: 17%;
-    margin-top: 12px;
+    margin-left: 7%;
+    margin-top: 7px;
 }
 
 #contactMap {
@@ -735,12 +744,13 @@ body {
 }
 
 #textContact {
-    margin-left: 24%;
-    margin-top: 42px;
+    margin-left: 19%;
+    margin-top: 80px;
+    width: 94%;
 }
 
 .textContact {
-    font-size: 19px;
+    font-size: 15px;
 }
 
 .navbar-brand, .navbar>.container-fluid .navbar-brand {
@@ -1018,9 +1028,15 @@ li {
     width: 100%;
 }
 
+#textContact {
+    margin-left: -6%;
+    margin-top: 49px;
+    width: 119%;
+}
+
 #solutionsLogoBottom {
-    margin-left: 13%;
-    margin-top: 10px;
+    margin-left: 9%;
+    margin-top: 6px;
     font-size: 14px;
 }
 
@@ -1058,7 +1074,7 @@ li {
 	position: fixed;
 }
 .textContact {
-    font-size: 14px;
+    font-size: 11px;
 }
 
 #changeHomeLogo {
@@ -1128,8 +1144,8 @@ li {
 }
 
 #solutionsLogoBottom {
-    margin-left: 15%;
-    margin-top: 10px;
+    margin-left: 12%;
+    margin-top: 6px;
     font-size: 14px;
 }
 
@@ -1195,8 +1211,9 @@ li {
 	width: 100%;
 	position: fixed;
 }
+
 .textContact {
-    font-size: 14px;
+    font-size: 11px;
 }
 
 .prTextBackground {
@@ -1220,9 +1237,9 @@ li {
 }
 
 #textContact {
-    margin-left: -16%;
-    margin-top: 13px;
-    width: 131%;
+    margin-left: -15%;
+    margin-top: 58px;
+    width: 130%;
 }
 
 #contactMap {
@@ -1236,8 +1253,8 @@ li {
 }
 
 #solutionsLogoBottom {
-    margin-left: 16%;
-    margin-top: 11px;
+    margin-left: 12%;
+    margin-top: 7px;
     font-size: 14px;
 }
 

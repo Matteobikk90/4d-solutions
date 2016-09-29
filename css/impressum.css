@@ -19,6 +19,10 @@ body {
     background-position: center;
 }
 
+#logoFb {
+    margin-top: 21px;
+}
+
 #pText {
     width: 100%;
     height: 25px;
@@ -312,6 +316,14 @@ body {
     display: none;
 }
 
+#logBottom {
+    width: 30px;
+}
+
+#logoFb {
+    width: 30px;
+}
+
 .textDigital {
 	font-size: 19px;
 }
@@ -453,13 +465,18 @@ body {
 }
 
 #solutionsLogoBottom {
-    margin-left: 11%;
-    margin-top: 3%;
+    margin-left: 10%;
+    margin-top: 1.5%;
 }
 
 #copyright {
     font-size: 9px;
     margin-top: 9px;
+}
+
+.impressumAgbSize {
+    color: white;
+    font-size: 18px;
 }
 
 }
@@ -494,7 +511,7 @@ body {
 }
 
 .textContact {
-	font-size: 19px;
+    font-size: 16px;
 }
 
 #changeHomeLogo {
@@ -589,8 +606,12 @@ body {
 }
 
 #textContact {
-	margin-left: 30%;
-	margin-top: 8px;
+    margin-left: 23%;
+    margin-top: 55px;
+}
+
+#logoFb {
+    width: 25px;
 }
 
 #solutionsText {
@@ -623,13 +644,13 @@ body {
 }
 
 #solutionsLogoBottom {
-    margin-left: 15%;
-    margin-top: 4%;
-    font-size: 19px;
+    margin-left: 13%;
+    margin-top: 2%;
+    font-size: 15px;
 }
 
 .impressumAgbSize {
-    font-size: 19px;
+    font-size: 15px;
 }
 
 #firstBackground {
@@ -899,9 +920,15 @@ li {
 }
 
 #solutionsLogoBottom {
-    margin-left: 14%;
-    margin-top: 10px;
+    margin-left: 12%;
+    margin-top: 6px;
     font-size: 14px;
+}
+
+#textContact {
+    margin-left: 10%;
+    width: 95%;
+    margin-top: 60px;
 }
 
 }
@@ -989,9 +1016,9 @@ li {
 }
 
 #textContact {
-    margin-left: -15%;
-    margin-top: 31px;
-    width: 120%;
+    margin-left: 2%;
+    margin-top: 68px;
+    width: 105%;
 }
 
 .nav, .navbar-nav, .navbar-right {
@@ -1002,13 +1029,13 @@ li {
 }
 
 #solutionsLogoBottom {
-    margin-left: 15%;
-    margin-top: 10px;
+    margin-left: 11%;
+    margin-top: 6px;
     font-size: 14px;
 }
 
 #copyright {
-    font-size: 7px;
+    font-size: 9px;
 }
 
 
@@ -1042,7 +1069,7 @@ body {
 }
 
 .textContact {
-	font-size: 11px;
+	font-size: 13px;
 }
 
 #solutionsBackground {
@@ -1122,9 +1149,9 @@ body {
 }
 
 #textContact {
-    margin-left: -18%;
-    width: 130%;
-    margin-top: 8px;
+    margin-left: 6%;
+    width: 106%;
+    margin-top: 39px;
 }
 
 #solutionsText {
@@ -1135,8 +1162,8 @@ body {
 }
 
 #solutionsLogoBottom {
-    margin-left: 16%;
-    margin-top: 11px;
+    margin-left: 14%;
+    margin-top: 7px;
     font-size: 14px;
 }
 
@@ -1160,8 +1187,9 @@ li {
     width: 98%;
     position: fixed;
 }
+
 .textContact {
-    font-size: 14px;
+    font-size: 11px;
 }
 
 .PrIcon {
