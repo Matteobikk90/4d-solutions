@@ -279,6 +279,28 @@ a:hover {
 
 }*/
 
+@media only screen and (min-width: 1680px) {
+
+#solutionsBackgroundCreative {
+    height: 940px;
+    width: 100%;
+    background-image: url("../img/solutionCreative.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#solutionsBackgroundPr {
+    height: 940px;
+    width: 100%;
+    background-image: url(../img/01_PR_HEADER.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+}
+
 @media only screen and (min-width: 1800px) {
 
 #solutionsPr {
