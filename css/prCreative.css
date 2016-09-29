@@ -1093,9 +1093,9 @@ li {
 }
 
 #referenzenCreative {
-	height: 280px;
-	width: 100%;
-    background-image: url("../img/icons/CREATIVE_REFERENZE.png");
+    height: 380px;
+    width: 100%;
+    background-image: url(../img/icons/CREATIVE_REFERENZE.png);
     background-size: cover;
     background-position: center;
 }
