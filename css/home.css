@@ -1080,6 +1080,11 @@ nav {
     margin-top: 21px;
 }
 
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: white;
+    background-color: white;
+}
+
 .navbar-nav {
     margin: 7.5px -15px;
     display: inline-flex;
