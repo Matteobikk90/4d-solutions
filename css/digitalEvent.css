@@ -348,6 +348,31 @@ a:hover {
 
 }*/
 
+
+@media only screen and (min-width: 1441px) {
+
+#solutionsBackgroundDigital {
+    height: 900px;
+    width: 100%;
+    background-image: url("../img/solutionDigital.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#solutionsBackgroundEvent {
+    height: 900px;
+    width: 100%;
+    background-image: url("../img/icons/EVENT_HEADER.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+}
+
+
+
 @media only screen and (min-width: 1680px) {
 
 #solutionsBackgroundDigital {
