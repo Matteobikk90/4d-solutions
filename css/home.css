@@ -1116,6 +1116,11 @@ nav {
     margin-top: 21px;
 }
 
+#solutionsLogoBottom {
+    margin-left: 10%;
+    margin-top: 12px;
+}
+
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
     border-color: white;
     background-color: white;

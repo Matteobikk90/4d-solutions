@@ -669,6 +669,16 @@ body {
 
 }
 
+@media only screen and (max-width: 568px) {
+
+#solutionsLogoBottom {
+    margin-left: 18%;
+    margin-top: 3%;
+    font-size: 15px;
+}
+
+}
+
 /*iPhones and other mobiles*/
 
 @media only screen and (max-width: 480px) {

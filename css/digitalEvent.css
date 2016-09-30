@@ -1058,6 +1058,15 @@ body {
 
 }
 
+@media only screen and (max-width: 568px) {
+
+#solutionsLogoBottom {
+    margin-left: 11%;
+    margin-top: 7px;
+}
+
+}
+
 @media only screen and (max-width: 480px) {
 
 /*#socialMediaEvent {
