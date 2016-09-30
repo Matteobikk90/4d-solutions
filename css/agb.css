@@ -905,6 +905,12 @@ body {
 	font-size: 11px;
 }
 
+#mainContainer {
+    position: relative;
+    margin-top: -38%;
+    background-color: white;
+}
+
 #map {
     float: none;
     display: none;
@@ -1014,7 +1020,7 @@ body {
 #solutionsText {
     text-align: center;
     position: absolute;
-    margin-top: 212px;
+    margin-top: 208px;
     color: grey;
 }
 

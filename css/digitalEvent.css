@@ -575,6 +575,21 @@ a:hover {
     background-position: center;
 }
 
+#contact {
+    width: 71%;
+    height: 713px;
+    position: absolute;
+    margin-left: 21%;
+    margin-top: 5%;
+    letter-spacing: 2px;
+}
+
+#map {
+    width: 50%;
+    float: left;
+    margin-top: 10%;
+}
+
 }
 
 @media only screen and (max-width: 2300px) {
