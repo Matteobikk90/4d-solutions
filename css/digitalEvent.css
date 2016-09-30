@@ -1032,8 +1032,8 @@ body {
 }
 
 .textPRDasDigital {
-	margin-top: 33px;
-	color: black;
+    margin-top: 10px;
+    color: black;
 }
 
 /*#textPRDasPromotion {
@@ -1336,7 +1336,7 @@ navbar-collapse, .navHeaderCollapse, .collapse, .in {
 }
 
 .textPRDasDigital {
-    margin-top: 27px;
+    margin-top: 14px;
     color: black;
 }
 
@@ -1432,7 +1432,7 @@ navbar-collapse, .navHeaderCollapse, .collapse, .in {
 }
 
 #textPRDasPromotion {
-    margin-top: -62px;
+    margin-top: -2px;
 }
 
 .iconsWidth {
@@ -1478,10 +1478,6 @@ navbar-collapse, .navHeaderCollapse, .collapse, .in {
     background-image: url("../img/icons/EVENT_REFERENZE.png");
     background-size: cover;
     background-position: center;
-}
-
-#textPRDasPromotion {
-    margin-top: 10px;
 }
 
 #textDivWebsite {
