@@ -191,6 +191,12 @@ body {
     margin-left: -0.5%;
 }
 
+#mainContainer {
+    position: relative;
+    margin-top: -15%;
+    background-color: white;
+}
+
 #changeHomeLogo {
     display: initial;
 }
