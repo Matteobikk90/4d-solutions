@@ -452,6 +452,13 @@ a:hover {
     background-position: center;
 }
 
+#textContact {
+    width: 44%;
+    float: left;
+    margin-left: 6%;
+    margin-top: 8%;
+}
+
 #contact {
     width: 71%;
     height: 713px;
