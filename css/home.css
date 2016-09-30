@@ -1183,13 +1183,13 @@ body {
     display: none;
 }
 
-#firstBackground{
+#firstBackground {
     height: 400px;
     width: 100%;
-    background-image: url("../img/4dSolutionsLogo.png");
+    background-image: url(../img/4dSolutionsLogo.png);
     background-size: cover;
     background-position: center;
-    margin-top: 54px;
+    margin-top: 5px;
 }
 
 #home4d {
@@ -1205,7 +1205,7 @@ body {
 
 #solutionsText {
     text-align: center;
-    margin-top: 167px;
+    margin-top: 164px;
     /* margin-left: 4%; */
     width: 100%;
     font-size: 12px;
