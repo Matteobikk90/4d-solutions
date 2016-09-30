@@ -617,9 +617,9 @@ body {
 }
 
 #solutionsText {
-    text-align: center;
+    /* text-align: center; */
     position: absolute;
-    margin-top: 284px;
+    margin-top: 265px;
     width: 100%;
     color: grey;
 }
@@ -931,10 +931,18 @@ li {
     width: 41%;
 }
 
+#firstBackground {
+    height: 456px;
+    width: 100%;
+    background-image: url(../img/4dSolutionsLogo.png);
+    background-size: cover;
+    background-position: center;
+}
+
 #pText {
     font-size: 14px;
     color: #f8f4f4;
-    margin-top: 6px;
+    margin-top: 25px;
 }
 
 #iconsContainer {
@@ -1186,7 +1194,7 @@ body {
 #solutionsText {
     text-align: center;
     position: absolute;
-    margin-top: 123px;
+    margin-top: 212px;
     color: grey;
 }
 
@@ -1240,11 +1248,17 @@ li {
 }
 
 #firstBackground {
-    height: 330px;
+    height: 500px;
     width: 100%;
     background-image: url("../img/4dSolutionsLogo.png");
     background-size: cover;
     background-position: center;
+}
+
+#mainContainer {
+    position: relative;
+    margin-top: -40%;
+    background-color: white;
 }
 
 #pText {
