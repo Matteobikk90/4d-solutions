@@ -246,6 +246,20 @@ a:hover {
     display: none;
 }
 
+#textContact {
+    width: 44%;
+    float: left;
+    margin-top: 10%;
+}
+
+#contact {
+    width: 74%;
+    height: 713px;
+    position: absolute;
+    margin-left: 24%;
+    margin-top: 3%;
+}
+
 #iconsContainer {
     height: 634px;
     width: 100%;
