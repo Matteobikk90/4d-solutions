@@ -74,6 +74,7 @@ body {
 #iconsContainer {
     height: 560px;
     width: 100%;
+    background-color: white;
     margin-top: -120px;
 }
 
@@ -141,10 +142,10 @@ body {
 
 #contact {
     width: 74%;
-    height: 713px;
+    /* height: 713px; */
     position: absolute;
     margin-left: 15%;
-    margin-top: 5%;
+    margin-top: 9%;
 }
 
 #footerBackground {
@@ -261,7 +262,7 @@ a:hover {
 }
 
 #iconsContainer {
-    height: 634px;
+    height: 544px;
     width: 100%;
     position: relative;
     margin-top: -310px;
@@ -341,6 +342,13 @@ body {
 
 .textDigital {
 	font-size: 19px;
+}
+
+#iconsContainer {
+    height: 524px;
+    width: 100%;
+    background-color: white;
+    margin-top: -120px;
 }
 
 .textContact {
@@ -452,8 +460,12 @@ body {
 	height: 600px;
 }
 
+
 #contact {
-	height: 0px;
+    margin-left: 16%;
+    width: 74%;
+    margin-top: 11%;
+    height: 0px;
 }
 
 #textContact {
@@ -572,7 +584,7 @@ body {
 #impressumText {
     /* margin-left: 28%; */
     width: 100%;
-    margin-top: -40px;
+    margin-top: -12px;
     position: absolute;
     text-align: center;
 }
@@ -618,7 +630,9 @@ body {
 }
 
 #contact {
-	height: 0px;
+    margin-top: 9%;
+    width: 79%;
+    margin-left: 17%;
 }
 
 #textContact {
@@ -824,6 +838,7 @@ body {
 
 #contact {
 	height: 0px;
+    width: 71%;
 }
 
 #textContact {
@@ -965,6 +980,14 @@ li {
     margin-top: -120px;
 }
 
+#impressumText {
+    /* margin-left: 28%; */
+    width: 100%;
+    margin-top: -26px;
+    position: absolute;
+    text-align: center;
+}
+
 #solutionsLogoBottom {
     margin-left: 12%;
     margin-top: 6px;
@@ -990,6 +1013,14 @@ navbar-collapse, .navHeaderCollapse, .collapse, .in {
     display: block;
     margin-top: -5px;
     margin-right: 59%;
+}
+
+#impressumText {
+    /* margin-left: 28%; */
+    width: 100%;
+    margin-top: -35px;
+    position: absolute;
+    text-align: center;
 }
 
 #iconsContainer {
@@ -1070,6 +1101,12 @@ li {
     margin-left: 2%;
     margin-top: 68px;
     width: 105%;
+}
+
+#contact {
+    height: 0px;
+    width: 71%;
+    margin-top: 2%;
 }
 
 .nav, .navbar-nav, .navbar-right {
@@ -1196,7 +1233,9 @@ body {
 }
 
 #contact {
-	height: 0px;
+    height: 0px;
+    margin-top: 9%;
+    margin-left: 11%;
 }
 
 #textContact {
@@ -1235,7 +1274,7 @@ li {
 }
 
 .navbar, .navbar-inverse, .navbar-static-top {
-    width: 98%;
+    width: 100%;
     position: fixed;
 }
 

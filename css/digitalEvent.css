@@ -255,10 +255,10 @@ a:hover {
 
 #contact {
     width: 74%;
-    height: 713px;
+    /* height: 713px; */
     position: absolute;
-    margin-left: 15%;
-    margin-top: 5%;
+    margin-left: 13%;
+    margin-top: 10%;
     letter-spacing: 2px;
 }
 
@@ -416,7 +416,7 @@ a:hover {
 }
 
 #solutionsBackgroundDigital {
-    height: 1200px;
+    height: 1057px;
     width: 100%;
     background-image: url("../img/solutionDigital.png");
     background-size: cover;
@@ -424,7 +424,7 @@ a:hover {
 }
 
 #solutionsBackgroundEvent {
-    height: 1200px;
+    height: 1057px;
     width: 100%;
     background-image: url("../img/icons/EVENT_HEADER.jpg");
     background-size: cover;
@@ -807,8 +807,12 @@ body {
 	height: 550px;
 }
 
+
 #contact {
-	height: 0px;
+    margin-left: 16%;
+    width: 74%;
+    margin-top: 11%;
+    height: 0px;
 }
 
 #textContact {
@@ -1006,7 +1010,9 @@ body {
 }
 
 #contact {
-	height: 0px;
+    height: 0px;
+    margin-top: 6%;
+    margin-left: 16%;
 }
 
 #textContact {
@@ -1297,8 +1303,13 @@ body {
 }
 
 #contact {
-	height: 0px;
+    height: 0px;
+    width: 71%;
+    margin-top: 6%;
+    margin-left: 16%;
 }
+
+
 
 #textContact {
     margin-left: 1%;
@@ -1395,6 +1406,13 @@ navbar-collapse, .navHeaderCollapse, .collapse, .in {
     margin-left: 2%;
     margin-top: 60px;
     width: 107%;
+}
+
+#contact {
+    height: 0px;
+    width: 73%;
+    margin-top: 6%;
+    margin-left: 13%;
 }
 
 #website {
@@ -1695,6 +1713,13 @@ li {
     margin-left: 13%;
     margin-top: 6px;
     font-size: 14px;
+}
+
+#contact {
+    height: 0px;
+    width: 74%;
+    margin-top: 4%;
+    margin-left: 13%;
 }
 
 #textPRDasEvent {

@@ -198,10 +198,10 @@ a:hover {
 
 #contact {
     width: 71%;
-    height: 713px;
+    /* height: 713px; */
     position: absolute;
-    margin-left: 18%;
-    margin-top: 5%;
+    margin-left: 15%;
+    margin-top: 11%;
     letter-spacing: 2px;
 }
 
@@ -345,7 +345,7 @@ a:hover {
 }
 
 #solutionsBackgroundCreative {
-    height: 1200px;
+    height: 1057px;
 	width: 100%;
     background-image: url("../img/solutionCreative.png");
     background-size: cover;
@@ -353,7 +353,7 @@ a:hover {
 }
 
 #solutionsBackgroundPr {
-    height: 1200px;
+    height: 1057px;
     width: 100%;
     background-image: url(../img/01_PR_HEADER.png);
     background-size: cover;
@@ -615,7 +615,10 @@ body {
 }
 
 #contact {
-	height: 0px;
+    margin-left: 16%;
+    width: 74%;
+    margin-top: 11%;
+    height: 0px;
 }
 
 #textContact {
@@ -762,7 +765,9 @@ body {
 }
 
 #contact {
-	height: 0px;
+    height: 0px;
+    margin-top: 6%;
+    margin-left: 16%;
 }
 
 #textContact {
@@ -1024,7 +1029,10 @@ li {
 }
 
 #contact {
-	height: 0px;
+    height: 0px;
+    width: 71%;
+    margin-top: 6%;
+    margin-left: 16%;
 }
 
 .textContact {
