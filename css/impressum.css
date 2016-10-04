@@ -160,10 +160,11 @@ body {
     width:50%;
     float:left;
     margin-top: 8%;
+    letter-spacing: 1px;
 }
 
 .textContact {
-	font-size: 24px;
+	font-size: 21px;
 	color: #f8f4f4;
 }
 
@@ -204,9 +205,8 @@ a:hover {
 }
 
 #copyright {
-    width: 105%;
     font-size: 13px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 
@@ -254,11 +254,27 @@ a:hover {
 }
 
 #contact {
-    width: 74%;
-    height: 713px;
+    width: 71%;
+    height: 574px;
     position: absolute;
-    margin-left: 24%;
-    margin-top: 3%;
+    margin-left: 20%;
+    margin-top: 2%;
+    letter-spacing: 2px;
+}
+
+#contactMap {
+    width: 100%;
+    height: 708px;
+    position: absolute;
+}
+
+
+#footerBackground {
+    width: 100%;
+    height: 714px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/icons/footer.png);
 }
 
 #iconsContainer {
@@ -352,7 +368,7 @@ body {
 }
 
 .textContact {
-	font-size: 19px;
+	font-size: 17px;
 }
 
 #firstBackground {
@@ -631,8 +647,8 @@ body {
 
 #contact {
     margin-top: 9%;
-    width: 79%;
-    margin-left: 17%;
+    width: 83%;
+    margin-left: 10%;
 }
 
 #textContact {
@@ -706,6 +722,8 @@ body {
     margin-top: 3%;
     font-size: 15px;
 }
+
+
 
 }
 

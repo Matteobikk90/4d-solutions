@@ -135,7 +135,7 @@ a:hover {
 #textDivWebsite {
     width: 82%;
     margin-left: 14%;
-    letter-spacing: 2px;
+    
 }
 
 .textPRDasWebsite {
@@ -175,7 +175,7 @@ a:hover {
     position: absolute;
     margin-top: 105px;
     text-align: center;
-    letter-spacing: 2px;
+    
 }
 
 .textPR {
@@ -192,7 +192,7 @@ a:hover {
 	height: 300px;
     margin-left: 14%;
     margin-top: 6%;
-    letter-spacing: 2px;
+    
 }
 
 #textDivPromotion {
@@ -201,7 +201,7 @@ a:hover {
     height: 301px;
     margin-left: 18%;
     margin-top: 1px;
-    letter-spacing: 2px;
+    
 }
 
 .textDigital {
@@ -236,7 +236,7 @@ a:hover {
 	background-color: white;
 	text-align: center;
 	color: #1c1030;
-    letter-spacing: 2px;
+    
 }
 
 .emailText {
@@ -259,7 +259,7 @@ a:hover {
     position: absolute;
     margin-left: 13%;
     margin-top: 10%;
-    letter-spacing: 2px;
+    
 }
 
 #footerBackground {
@@ -283,10 +283,11 @@ a:hover {
     width:50%;
     float:left;
     margin-top: 8%;
+    letter-spacing: 1px;
 }
 
 .textContact {
-	font-size: 24px;
+	font-size: 21px;
 	color: #f8f4f4;
 }
 
@@ -550,6 +551,14 @@ a:hover {
     color: black;
 }
 
+#contact {
+    width: 71%;
+    /* height: 713px; */
+    position: absolute;
+    margin-left: 17%;
+    margin-top: 7%;
+}
+
 #copyright {
     font-size: 13px;
     margin-top: 10px;
@@ -577,12 +586,19 @@ a:hover {
 
 #contact {
     width: 71%;
-    height: 713px;
+    height: 574px;
     position: absolute;
     margin-left: 21%;
-    margin-top: 5%;
-    letter-spacing: 2px;
+    margin-top: 1%;
+    
 }
+
+#contactMap {
+    width: 100%;
+    height: 708px;
+    position: absolute;
+}
+
 
 #map {
     width: 50%;
@@ -590,11 +606,24 @@ a:hover {
     margin-top: 10%;
 }
 
+#footerBackground {
+    width: 100%;
+    height: 714px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/icons/footer.png);
+}
+
 #textContact {
     width: 44%;
     float: left;
     margin-left: 6%;
     margin-top: 8%;
+}
+
+#copyright {
+    font-size: 13px;
+    margin-top: 10px;
 }
 
 }
@@ -653,7 +682,7 @@ body {
 }
 
 .textContact {
-	font-size: 16px;
+	font-size: 17px;
 }
 
 #solutionsBackground {
@@ -761,7 +790,7 @@ body {
     height: 300px;
     margin-left: 12%;
     margin-top: 6%;
-    letter-spacing: 2px;
+    
 }
 
 #textPRDasPromotion {
@@ -835,8 +864,8 @@ body {
 }
 
 #solutionsLogoBottom {
-    margin-left: 12%;
-    margin-top: 3%;
+    margin-left: 11%;
+    margin-top: 1.5%;
 }
 
 .PrIcon {
@@ -1078,10 +1107,8 @@ body {
 }
 
 #copyright {
-    font-size: 7px;
-    margin-top: 7px;
-    width: 116%;
-    height: 0px;
+    font-size: 9px;
+    margin-top: 12px;
 }
 
 }
@@ -1091,6 +1118,12 @@ body {
 #solutionsLogoBottom {
     margin-left: 11%;
     margin-top: 7px;
+}
+
+#textContact {
+    margin-left: 11%;
+    margin-top: 80px;
+    width: 80%;
 }
 
 }
@@ -1312,9 +1345,9 @@ body {
 
 
 #textContact {
-    margin-left: 1%;
-    margin-top: 57px;
-    width: 100%;
+    margin-left: -1%;
+    margin-top: 43px;
+    width: 119%;
 }
 
 .navbar-brand {

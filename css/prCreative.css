@@ -102,7 +102,7 @@ a:hover {
     margin-top: -267px;
     height: 327px;
     background-color: white;
-    letter-spacing: 2px;
+    
     height: 312px;
 }
 
@@ -111,7 +111,7 @@ a:hover {
     margin-top: -267px;
     height: 327px;
     background-color: white;
-    letter-spacing: 2px;
+    
     height: 270px;
     color: black;
 }
@@ -160,7 +160,7 @@ a:hover {
     position: absolute;
     margin-top: 141px;
     text-align: center;
-    letter-spacing: 2px;
+    
 }
 
 #email {
@@ -169,7 +169,7 @@ a:hover {
 	background-color: white;
 	text-align: center;
 	color: #1c1030;
-    letter-spacing: 2px;
+    
 }
 
 .emailText {
@@ -202,7 +202,7 @@ a:hover {
     position: absolute;
     margin-left: 15%;
     margin-top: 11%;
-    letter-spacing: 2px;
+    
 }
 
 #footerBackground {
@@ -217,10 +217,11 @@ a:hover {
     width:50%;
     float:left;
     margin-top: 8%;
+    letter-spacing: 1px;
 }
 
 .textContact {
-	font-size: 24px;
+	font-size: 21px;
 	color: #f8f4f4;
 }
 
@@ -273,7 +274,7 @@ a:hover {
     margin-top: -267px;
     height: 327px;
     background-color: white;
-    letter-spacing: 2px;
+    
     height: 247px;
 }
 
@@ -339,7 +340,7 @@ a:hover {
     width: 90%;
     height: 327px;
     background-color: white;
-    letter-spacing: 2px;
+    
     height: 247px;
     margin-bottom: 80px;
 }
@@ -422,6 +423,14 @@ a:hover {
     margin-top: 10px;
 }
 
+#contact {
+    width: 71%;
+    /* height: 713px; */
+    position: absolute;
+    margin-left: 17%;
+    margin-top: 7%;
+}
+
 .textPRDas {
     color: black;
     margin-top: 3px;
@@ -459,13 +468,32 @@ a:hover {
     margin-top: 8%;
 }
 
+#footerBackground {
+    width: 100%;
+    height: 714px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/icons/footer.png);
+}
+
 #contact {
     width: 71%;
-    height: 713px;
+    height: 574px;
     position: absolute;
     margin-left: 21%;
-    margin-top: 5%;
-    letter-spacing: 2px;
+    margin-top: 1%;
+    
+}
+
+#contactMap {
+    width: 100%;
+    height: 708px;
+    position: absolute;
+}
+
+#copyright {
+    font-size: 13px;
+    margin-top: 10px;
 }
 
 #map {
@@ -581,7 +609,7 @@ body {
     margin-top: -267px;
     height: 327px;
     background-color: white;
-    letter-spacing: 2px;
+    
     height: 326px;
 }
 
@@ -600,8 +628,8 @@ body {
 }
 
 #solutionsLogoBottom {
-    margin-left: 13%;
-    margin-top: 12px;
+    margin-left: 11%;
+    margin-top: 6px;
 }
 
 #contactMap {
@@ -627,7 +655,7 @@ body {
 }
 
 .textContact {
-    font-size: 16px;
+    font-size: 17px;
 }
 
 .PrIcon {
@@ -745,7 +773,7 @@ body {
     margin-top: -267px;
     height: 327px;
     background-color: white;
-    letter-spacing: 2px;
+    
     height: 338px;
 }
 
@@ -817,7 +845,7 @@ body {
 }
 
 #copyright {
-    font-size: 6px;
+    font-size: 9px;
     margin-top: 12px;
 }
 
@@ -828,6 +856,12 @@ body {
 #solutionsLogoBottom {
     margin-left: 11%;
     margin-top: 7px;
+}
+
+#textContact {
+    margin-left: 11%;
+    margin-top: 80px;
+    width: 80%;
 }
 
 }
@@ -940,7 +974,7 @@ body {
     margin-top: -267px;
     height: 327px;
     background-color: white;
-    letter-spacing: 2px;
+    
     height: 380px;
 }
 
@@ -1071,6 +1105,11 @@ li {
     margin-left: -6%;
     margin-top: 49px;
     width: 119%;
+}
+
+#textDiv {
+    margin-top: 295px;
+    letter-spacing: 2px;
 }
 
 #solutionsLogoBottom {
@@ -1257,7 +1296,7 @@ li {
 
 .prTextBackground {
     width: 100%;
-    margin-top: -267px;
+    margin-top: -291px;
     height: 327px;
     background-color: white;
     letter-spacing: 1px;
