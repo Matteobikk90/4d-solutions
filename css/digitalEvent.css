@@ -381,7 +381,7 @@ a:hover {
 @media only screen and (min-width: 1680px) {
 
 #solutionsBackgroundDigital {
-    height: 940px;
+    height: 1054px;
     width: 100%;
     background-image: url("../img/solutionDigital.png");
     background-size: cover;
@@ -389,12 +389,14 @@ a:hover {
 }
 
 #solutionsBackgroundEvent {
-    height: 940px;
+    height: 1054px;
     width: 100%;
     background-image: url("../img/icons/EVENT_HEADER.jpg");
     background-size: cover;
     background-position: center;
 }
+
+
 
 
 
