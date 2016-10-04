@@ -4,6 +4,7 @@
 	box-sizing: border-box;
 }
 */
+
 body {
 	font-family: 'Josefin Sans', sans-serif; 
 	font-size: 22px;
@@ -411,7 +412,7 @@ a:hover {
 }
 
 #textDiv {
-    width: 59%;
+    width: 62%;
     height: 111px;
     margin-left: 23%;
     margin-top: 310px;
@@ -1102,9 +1103,15 @@ li {
 }
 
 #textContact {
-    margin-left: -6%;
-    margin-top: 49px;
-    width: 119%;
+    margin-left: 1%;
+    margin-top: 42px;
+    width: 115%;
+}
+
+#solutionsLogoBottom {
+    margin-left: 12%;
+    margin-top: 6px;
+    font-size: 14px;
 }
 
 #textDiv {
@@ -1112,10 +1119,10 @@ li {
     letter-spacing: 2px;
 }
 
-#solutionsLogoBottom {
-    margin-left: 9%;
-    margin-top: 6px;
-    font-size: 14px;
+#copyright {
+    font-size: 7px;
+    height: 0px;
+    margin-top: 12px;
 }
 
 
@@ -1300,7 +1307,7 @@ li {
     height: 327px;
     background-color: white;
     letter-spacing: 1px;
-    height: 350px;
+    height: 376px;
 }
 
 .textPRDas {
@@ -1315,9 +1322,9 @@ li {
 }
 
 #textContact {
-    margin-left: -15%;
-    margin-top: 58px;
-    width: 130%;
+    margin-left: -7%;
+    margin-top: 51px;
+    width: 104%;
 }
 
 #contactMap {
@@ -1331,8 +1338,8 @@ li {
 }
 
 #solutionsLogoBottom {
-    margin-left: 12%;
-    margin-top: 7px;
+    margin-left: 16%;
+    margin-top: 5px;
     font-size: 14px;
 }
 

@@ -231,12 +231,12 @@ a:hover {
 }
 
 #email {
-	width: 100%;
-	height: 301px;
-	background-color: white;
-	text-align: center;
-	color: #1c1030;
-    
+    width: 100%;
+    height: 301px;
+    background-color: white;
+    text-align: center;
+    margin-top: -44px;
+    color: #1c1030;
 }
 
 .emailText {
@@ -257,9 +257,8 @@ a:hover {
     width: 74%;
     /* height: 713px; */
     position: absolute;
-    margin-left: 13%;
-    margin-top: 10%;
-    
+    margin-left: 15%;
+    margin-top: 11%;
 }
 
 #footerBackground {
@@ -310,7 +309,7 @@ a:hover {
 }
 
 #map {
-    width:50%;
+    width:46%;
     float:left;
     margin-top: 12%;
 }
@@ -821,6 +820,7 @@ body {
 #email {
 	height: 243px;
 	width: 100%;
+    margin-top: 0px;
 }
 
 .emailText {
@@ -1344,12 +1344,10 @@ body {
     margin-left: 16%;
 }
 
-
-
 #textContact {
-    margin-left: -1%;
-    margin-top: 43px;
-    width: 119%;
+    margin-left: 1%;
+    margin-top: 42px;
+    width: 115%;
 }
 
 .navbar-brand {
@@ -1424,6 +1422,8 @@ navbar-collapse, .navHeaderCollapse, .collapse, .in {
 
 #copyright {
     font-size: 7px;
+    height: 0px;
+    margin-top: 12px;
 }
 
 
@@ -1697,10 +1697,11 @@ li {
 	position: fixed;
 }
 
+
 #textContact {
-    margin-left: -16%;
-    margin-top: 28px;
-    width: 131%;
+    margin-left: -7%;
+    margin-top: 51px;
+    width: 104%;
 }
 
 #referenzen {
@@ -1745,8 +1746,8 @@ li {
 }
 
 #solutionsLogoBottom {
-    margin-left: 13%;
-    margin-top: 6px;
+    margin-left: 16%;
+    margin-top: 5px;
     font-size: 14px;
 }
 
@@ -1767,10 +1768,12 @@ li {
 }
 
 #textContact {
-    margin-left: -10%;
-    margin-top: 59px;
-    width: 126%;
+    margin-left: 0%;
+    margin-top: 65px;
+    width: 104%;
 }
+
+
 
 
 
