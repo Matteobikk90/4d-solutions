@@ -572,6 +572,11 @@ nav {
     font-size: 17px;
 }
 
+#contact {
+    margin-top: 4%;
+    MARGIN-LEFT: 18%;
+}
+
 #solutionsLogoBottom {
     margin-left: 6%;
     margin-top: 13px;
@@ -593,9 +598,7 @@ nav {
     background-position: center;
 }
 
-#contact {
-    margin-top: 0%;
-}
+
 
 
 
@@ -767,7 +770,7 @@ body {
     margin-top: 176px;
     margin-left: 0%;
     width: 100%;
-    font-size: 17px;
+    font-size: 15px;
 }
 
 #solutionsLogo {
@@ -1229,10 +1232,10 @@ body {
 
 #solutionsText {
     text-align: center;
-    margin-top: 164px;
+    margin-top: 168px;
     /* margin-left: 4%; */
     width: 100%;
-    font-size: 12px;
+    font-size: 10px;
 }
 
 #mailIcon {
