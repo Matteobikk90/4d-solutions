@@ -232,11 +232,19 @@ a:hover {
 
 #email {
     width: 100%;
-    height: 301px;
+    height: 303px;
     background-color: white;
     text-align: center;
-    margin-top: -44px;
     color: #1c1030;
+}
+
+#emailEvent {
+    width: 100%;
+    height: 303px;
+    background-color: white;
+    text-align: center;
+    color: #1c1030;
+    margin-top: -44px;
 }
 
 .emailText {
@@ -248,22 +256,22 @@ a:hover {
 }
 
 #contactMap {
-	width: 100%;
-	height: 845px;	
-	position: absolute;
+    width: 100%;
+    height: 714px;
+    position: absolute;
 }
 
 #contact {
-    width: 74%;
+    width: 71%;
     /* height: 713px; */
     position: absolute;
     margin-left: 15%;
-    margin-top: 11%;
+    margin-top: 6%;
 }
 
 #footerBackground {
 	width: 100%;
-	height: 845px;
+	height: 714px;
     background-size: cover;
     background-position: center;
     background-image: url("../img/icons/footer.png");
@@ -279,8 +287,8 @@ a:hover {
 }
 
 #textContact {
-    width:50%;
-    float:left;
+    width: 50%;
+    float: left;
     margin-top: 8%;
     letter-spacing: 1px;
 }
@@ -309,7 +317,7 @@ a:hover {
 }
 
 #map {
-    width:46%;
+    width:50%;
     float:left;
     margin-top: 12%;
 }
@@ -395,6 +403,19 @@ a:hover {
     background-position: center;
 }
 
+#contact {
+    width: 71%;
+    /* height: 713px; */
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 3%;
+}
+
+#copyright {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
 
 
 
@@ -464,8 +485,8 @@ a:hover {
 }
 
 #solutionsLogoBottom {
-    margin-left: 7%;
-    margin-top: 12px;
+    margin-left: 8%;
+    margin-top: 11px;
 }
 
 #websiteEvent {
@@ -553,11 +574,8 @@ a:hover {
 }
 
 #contact {
-    width: 71%;
-    /* height: 713px; */
-    position: absolute;
-    margin-left: 17%;
-    margin-top: 7%;
+    margin-top: 4%;
+    margin-left: 18%;
 }
 
 #copyright {
@@ -616,9 +634,9 @@ a:hover {
 }
 
 #textContact {
-    width: 44%;
+    width: 40%;
     float: left;
-    margin-left: 6%;
+    margin-left: 9%;
     margin-top: 8%;
 }
 
@@ -629,12 +647,30 @@ a:hover {
 
 }
 
-@media only screen and (max-width: 2300px) {
-    #textDivPromotion {
-    margin-top: 61px;
-    margin-left: 14%;
-    width: 51%;
-    height: 315px;
+@media only screen and (min-width: 2300px) {
+
+#contact {
+    margin-top: 0%;
+    margin-left: 21.5%;
+    width: 68%;
+}
+
+#map {
+    width: 50%;
+    float: left;
+    margin-top: 12%;
+}    
+
+#textContact {
+    width: 40%;
+    float: left;
+    margin-top: 9%;
+    letter-spacing: 1px;
+}
+
+#solutionsLogoBottom {
+    margin-left: 8%;
+    margin-top: 13px;
 }
 
 }

@@ -165,12 +165,11 @@ a:hover {
 }
 
 #email {
-	width: 100%;
-	height: 303px;
-	background-color: white;
-	text-align: center;
-	color: #1c1030;
-    
+    width: 100%;
+    height: 303px;
+    background-color: white;
+    text-align: center;
+    color: #1c1030;
 }
 
 .emailText {
@@ -192,9 +191,9 @@ a:hover {
 
 
 #contactMap {
-	width: 100%;
-	height: 845px;	
-	position: absolute;
+    width: 100%;
+    height: 714px;
+    position: absolute;
 }
 
 #contact {
@@ -202,21 +201,20 @@ a:hover {
     /* height: 713px; */
     position: absolute;
     margin-left: 15%;
-    margin-top: 11%;
-    
+    margin-top: 6%;
 }
 
 #footerBackground {
 	width: 100%;
-	height: 845px;
+	height: 714px;
     background-size: cover;
     background-position: center;
     background-image: url("../img/icons/footer.png");
 }
 
 #textContact {
-    width:50%;
-    float:left;
+    width: 50%;
+    float: left;
     margin-top: 8%;
     letter-spacing: 1px;
 }
@@ -263,6 +261,10 @@ a:hover {
 
 #copyright {
     font-size: 13px;
+    margin-top: 10px;
+}
+
+#logoFb {
     margin-top: 10px;
 }
 
@@ -319,6 +321,19 @@ a:hover {
     background-image: url(../img/01_PR_HEADER.png);
     background-size: cover;
     background-position: center;
+}
+
+#contact {
+    width: 71%;
+    /* height: 713px; */
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 3%;
+}
+
+#copyright {
+    font-size: 15px;
+    margin-top: 10px;
 }
 
 
@@ -425,11 +440,8 @@ a:hover {
 }
 
 #contact {
-    width: 71%;
-    /* height: 713px; */
-    position: absolute;
-    margin-left: 17%;
-    margin-top: 7%;
+    margin-top: 4%;
+    margin-left: 18%;
 }
 
 .textPRDas {
@@ -440,6 +452,26 @@ a:hover {
 #textPRDas {
     color: black;
     margin-top: 30px;
+}
+
+}
+
+@media only screen and (min-width: 2300px) {
+    #contact {
+    margin-top: 0%;
+    margin-left: 27.5%;
+    width: 68%;
+}
+#textContact {
+    width: 40%;
+    float: left;
+    margin-top: 9%;
+    letter-spacing: 1px;
+}
+
+#solutionsLogoBottom {
+    margin-left: 8%;
+    margin-top: 13px;
 }
 
 }
@@ -462,12 +494,12 @@ a:hover {
     background-position: center;
 }
 
-#textContact {
-    width: 44%;
+/*#textContact {
+    width: 40%;
     float: left;
-    margin-left: 6%;
+    margin-left: 9%;
     margin-top: 8%;
-}
+}*/
 
 #footerBackground {
     width: 100%;
@@ -477,31 +509,35 @@ a:hover {
     background-image: url(../img/icons/footer.png);
 }
 
-#contact {
-    width: 71%;
-    height: 574px;
-    position: absolute;
-    margin-left: 21%;
-    margin-top: 1%;
-    
+/*#contact {
+    margin-top: 0%;
+    margin-left: 27.5%;
+    width: 68%;
 }
 
 #contactMap {
     width: 100%;
     height: 708px;
     position: absolute;
-}
+}*/
+
+/*#textContact {
+    width: 40%;
+    float: left;
+    margin-top: 9%;
+    letter-spacing: 1px;
+}*/
 
 #copyright {
     font-size: 13px;
     margin-top: 10px;
 }
 
-#map {
+/*#map {
     width: 50%;
     float: left;
     margin-top: 10%;
-}
+}*/
 
 }
 

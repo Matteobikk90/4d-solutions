@@ -135,30 +135,31 @@ body {
 }
 
 #contactMap {
-	width: 100%;
-	height: 845px;	
-	position: absolute;
+    width: 100%;
+    height: 714px;
+    position: absolute;
 }
 
 #contact {
-    width: 74%;
+    width: 71%;
     /* height: 713px; */
     position: absolute;
-    margin-left: 16%;
-    margin-top: 11%;
+    margin-left: 15%;
+    margin-top: 6%;
 }
+
 
 #footerBackground {
 	width: 100%;
-	height: 845px;
+	height: 714px;
     background-size: cover;
     background-position: center;
     background-image: url("../img/icons/footer.png");
 }
 
 #textContact {
-    width:50%;
-    float:left;
+    width: 50%;
+    float: left;
     margin-top: 8%;
     letter-spacing: 1px;
 }
@@ -178,8 +179,8 @@ a:hover {
 }
 
 #solutionsLogoBottom {
-    margin-left: 9%;
-    margin-top: 2.5%;
+    margin-left: 11%;
+    margin-top: 12px;
 }
 
 #logBottom {
@@ -234,6 +235,19 @@ a:hover {
     height: 76px;
 }
 
+#copyright {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+#contact {
+    width: 71%;
+    /* height: 713px; */
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 3%;
+}
+
 
 }
 
@@ -247,20 +261,17 @@ a:hover {
     display: none;
 }
 
-#textContact {
+/*#textContact {
     width: 44%;
     float: left;
     margin-top: 10%;
-}
+}*/
 
 #contact {
-    width: 71%;
-    height: 574px;
-    position: absolute;
-    margin-left: 20%;
-    margin-top: 2%;
-    letter-spacing: 2px;
+    margin-top: 4%;
+    margin-left: 18%;
 }
+
 
 #contactMap {
     width: 100%;
@@ -315,8 +326,8 @@ a:hover {
 }
 
 #solutionsLogoBottom {
-    margin-left: 6%;
-    margin-top: 13px;
+    margin-left: 8%;
+    margin-top: 11px;
 }
 
 #copyright {
@@ -326,6 +337,47 @@ a:hover {
 
 }
 
+@media only screen and (min-width: 2300px) {
+    #contact {
+    margin-top: 0%;
+    margin-left: 27.5%;
+    width: 68%;
+}
+#textContact {
+    width: 40%;
+    float: left;
+    margin-top: 9%;
+    letter-spacing: 1px;
+}
+
+#solutionsLogoBottom {
+    margin-left: 8%;
+    margin-top: 13px;
+}
+
+#logoFb {
+    margin-top: 31px;
+}
+
+}
+
+/*@media only screen and (min-width: 2560px) {
+
+
+    #contact {
+    margin-top: 0%;
+    margin-left: 27.5%;
+    width: 68%;
+}
+
+#textContact {
+    width: 40%;
+    float: left;
+    margin-top: 9%;
+    letter-spacing: 1px;
+}
+
+}*/
 
 /*iPads*/
 

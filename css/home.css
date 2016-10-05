@@ -195,12 +195,11 @@ div li a:hover {
 }
 
 #email {
-	width: 100%;
-	height: 337px;
-	background-color: white;
-	color: black;
-	text-align: center;
-    
+    width: 100%;
+    height: 303px;
+    background-color: white;
+    text-align: center;
+    color: #1c1030;
 }
 
 #moveThis {
@@ -277,8 +276,8 @@ div li a:hover {
 }
 
 #solutionsLogoBottom {
-    margin-left: 10%;
-    margin-top: 3%;
+    margin-left: 11%;
+    margin-top: 12px;
 }
 
 #logBottom {
@@ -544,6 +543,14 @@ nav {
     
 }
 
+#contact {
+    width: 71%;
+    /* height: 713px; */
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 3%;
+}
+
 #copyright {
     font-size: 15px;
     margin-top: 10px;
@@ -578,8 +585,8 @@ nav {
 }
 
 #solutionsLogoBottom {
-    margin-left: 6%;
-    margin-top: 13px;
+    margin-left: 8%;
+    margin-top: 11px;
 }
 
 #firstBackground {
@@ -596,6 +603,11 @@ nav {
     background-image: url(../img/icons/01_HOME_Referenzen.png);
     background-size: cover;
     background-position: center;
+}
+
+#copyright {
+    font-size: 13px;
+    margin-top: 10px;
 }
 
 
