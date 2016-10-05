@@ -853,15 +853,17 @@ body {
     margin-top: 40px;
 }
 
-#email {
-	height: 243px;
-	width: 100%;
+.emailText {
     margin-top: 0px;
+    font-size: 19px;
 }
 
-.emailText {
-	margin-top: -45px;
-	font-size: 19px;
+#email {
+    width: 100%;
+    height: 303px;
+    background-color: white;
+    text-align: center;
+    color: #1c1030;
 }
 
 #contactMap {
@@ -1053,12 +1055,12 @@ body {
 }
 
 #email {
-	height: 243px;
+	height: 300px;
 	width: 100%;
 }
 
 .emailText {
-	margin-top: -36px;
+	margin-top: 0px;
 	font-size: 19px;
 }
 
@@ -1352,6 +1354,11 @@ body {
 #email {
 	height: 243px;
 	width: 100%;
+}
+
+#emailEvent {
+    height: 243px;
+    width: 100%;
 }
 
 .emailText {

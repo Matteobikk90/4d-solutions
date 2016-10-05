@@ -1144,6 +1144,21 @@ li {
     width: 115%;
 }
 
+#email {
+    height: 243px;
+    width: 100%;
+}
+
+#emailEvent {
+    height: 243px;
+    width: 100%;
+}
+
+.emailText {
+    margin-top: -45px;
+    font-size: 14px;
+}
+
 #solutionsLogoBottom {
     margin-left: 12%;
     margin-top: 6px;
