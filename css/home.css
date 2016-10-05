@@ -538,9 +538,8 @@ nav {
 #referenzenText {
     position: absolute;
     margin-left: 45%;
-    margin-top: 128px;
+    margin-top: 106px;
     color: #f8f4f4;
-    
 }
 
 #contact {
@@ -598,7 +597,7 @@ nav {
 }
 
 #referenzen {
-    height: 1255px;
+    height: 1236px;
     width: 100%;
     background-image: url(../img/icons/01_HOME_Referenzen.png);
     background-size: cover;

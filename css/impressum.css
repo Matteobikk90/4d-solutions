@@ -68,7 +68,7 @@ body {
 
 .impressumAgbSize {
     color: white;
-    font-size: 24px;
+    font-size: 21px;
 }
 
 #iconsContainer {
@@ -338,11 +338,23 @@ a:hover {
 }
 
 @media only screen and (min-width: 2300px) {
-    #contact {
+
+#contact {
     margin-top: 0%;
     margin-left: 27.5%;
     width: 68%;
 }
+
+#map {
+    width: 50%;
+    float: left;
+    margin-top: 12%;
+}    
+
+#logoFb {
+    margin-top: 31px;
+}
+
 #textContact {
     width: 40%;
     float: left;
@@ -353,10 +365,6 @@ a:hover {
 #solutionsLogoBottom {
     margin-left: 8%;
     margin-top: 13px;
-}
-
-#logoFb {
-    margin-top: 31px;
 }
 
 }
