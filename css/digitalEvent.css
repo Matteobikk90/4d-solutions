@@ -387,7 +387,7 @@ a:hover {
 @media only screen and (min-width: 1680px) {
 
 #solutionsBackgroundDigital {
-    height: 1054px;
+    height: 954px;
     width: 100%;
     background-image: url("../img/solutionDigital.png");
     background-size: cover;
@@ -395,7 +395,7 @@ a:hover {
 }
 
 #solutionsBackgroundEvent {
-    height: 1054px;
+    height: 954px;
     width: 100%;
     background-image: url("../img/icons/EVENT_HEADER.jpg");
     background-size: cover;
@@ -634,15 +634,15 @@ a:hover {
 @media only screen and (min-width: 2560px) {
 
 #solutionsBackgroundDigital {
-    height: 1500px;
+    height: 1300px;
     width: 100%;
-    background-image: url("../img/solutionDigital.png");
+    background-image: url(../img/solutionDigital.png);
     background-size: cover;
     background-position: center;
 }
 
 #solutionsBackgroundEvent {
-    height: 1500px;
+    height: 1300px;
     width: 100%;
     background-image: url("../img/icons/EVENT_HEADER.jpg");
     background-size: cover;
@@ -735,25 +735,12 @@ body {
     display: initial;
 }
 
-#logBottom {
-    width: 30px;
-}
-
-#logoFb {
-    width: 30px;
-    margin-top: 3px;
-}
-
 .textPR {
 	font-size: 19px;
 }
 
 .textDigital {
 	font-size: 19px;
-}
-
-.textContact {
-	font-size: 17px;
 }
 
 #solutionsBackground {
@@ -900,29 +887,6 @@ body {
     color: #1c1030;
 }
 
-#contactMap {
-	width: 100%;
-	height: 550px;
-}
-
-#footerBackground {
-	width: 100%;
-	height: 550px;
-}
-
-
-#contact {
-    margin-left: 16%;
-    width: 74%;
-    margin-top: 11%;
-    height: 0px;
-}
-
-#textContact {
-    margin-left: -4%;
-    margin-top: 0px;
-}
-
 .navbar-brand {
     padding-top: 0px;
     margin-left: -25px;
@@ -937,19 +901,57 @@ body {
     display: inline-flex;
 }
 
-#solutionsLogoBottom {
-    margin-left: 11%;
-    margin-top: 1.5%;
+#contactMap {
+    width: 100%;
+    height: 600PX;
 }
 
-.PrIcon {
-	display: none;
+#footerBackground {
+    width: 100%;
+    height: 600PX;
+}
+
+#logBottom {
+    width: 30px;
+    margin-top: 6px;
+}
+
+.textContact {
+    font-size: 17px;
+}
+
+#solutionsLogoBottom {
+    margin-left: 10%;
+    margin-top: 12px;
+}
+
+#logoFb {
+    margin-top: 10px;
+    width: 25px;
+}
+
+#contact {
+    margin-left: 16%;
+    width: 74%;
+    margin-top: 11%;
+    height: 0px;
+}
+
+#textContact {
+    margin-left: -4%;
+    margin-top: 0px;
 }
 
 #copyright {
     font-size: 9px;
     margin-top: 9px;
 }
+
+.PrIcon {
+	display: none;
+}
+
+
 
 }
 
@@ -987,6 +989,12 @@ body {
 #solutionsBackground {
 	width: 100%;
 	height: 600px;
+}
+
+#emailEvent {
+    width: 100%;
+    height: 243px;
+
 }
 
 #solutionsBackgroundDigital {
@@ -1088,41 +1096,32 @@ body {
     letter-spacing: 1px;
 }
 
+.emailText {
+    font-size: 15px;
+}
+
+.emailText1 {
+    font-size: 15px;
+}
+
 #email {
-	height: 300px;
-	width: 100%;
+    height: 243px;
+    width: 100%;
+    font-size: 19px;
 }
 
 .emailText {
-	margin-top: 0px;
-	font-size: 19px;
+    margin-top: -45px;
 }
 
-#contactMap {
-	width: 100%;
-	height: 550px;
-}
 
-#footerBackground {
-	width: 100%;
-	height: 550px;
-}
+
+
 
 .textPR {
 	font-size: 19px;
 }
 
-#contact {
-    height: 0px;
-    margin-top: 6%;
-    margin-left: 16%;
-}
-
-#textContact {
-    margin-left: 20%;
-    margin-top: 58px;
-    width: 80%;
-}
 
 .navbar-brand {
     padding-top: 0px;
@@ -1148,18 +1147,11 @@ body {
     border-color: white;
 }
 
-#solutionsLogoBottom {
-    margin-left: 8%;
-    margin-top: 7px;
-}
 
-.textContact {
-    font-size: 15px;
-}
 
 #logoFb {
     width: 25px;
-    margin-top: 18px;
+    margin-top: 31px;
 }
 
 .textPRDasDigital {
@@ -1180,10 +1172,44 @@ body {
 	display: none;
 }
 
+#contactMap {
+    width: 100%;
+    height: 600px;
+}
+
+#footerBackground {
+    width: 100%;
+    height: 600px;
+}
+
+.textContact {
+    font-size: 15px;
+}
+
+#textContact {
+    width: 100%;
+    float: left;
+    margin-top: 68px;
+    margin-left: -9%;
+}
+
+#solutionsLogoBottom {
+    margin-left: 8%;
+    margin-top: 13px;
+}
+
+#contact {
+    margin-top: 5%;
+    width: 62%;
+    margin-left: 38%;
+}
+
 #copyright {
     font-size: 9px;
     margin-top: 12px;
 }
+
+
 
 }
 
@@ -1274,6 +1300,8 @@ body {
     width: 71%;
 }
 
+
+
 #map {
     float: none;
     display: none;
@@ -1290,7 +1318,7 @@ body {
 }
 
 #solutionsBackgroundDigital {
-    height: 400px;
+    height: 390px;
 	width: 100%;
     background-image: url("../img/solutionDigital.png");
     background-size: cover;
@@ -1324,7 +1352,7 @@ body {
 
 #mobileVersionImageEvent {
 	width: 100%;
-    height: 400px;
+    height: 474px;
     background-size: cover;
     background-position: center;
     background-image: url("../img/03_event_VISUAL_TOT.png");
@@ -1368,6 +1396,18 @@ body {
     background-position: center;
 }
 
+#referenzenText {
+    margin-left: 0%;
+    font-size: 13px;
+    margin-top: 34px;
+    width: 100%;
+    text-align: center;
+}
+
+.textPR {
+    font-size: 14px;
+}
+
 #referenzenEvent {
 	height: 400px;
 	width: 100%;
@@ -1381,9 +1421,7 @@ body {
 	height: 500px;
 }
 
-#textReferenzen {
-	margin-top: 61px;
-}
+
 
 #email {
 	height: 243px;
@@ -1400,42 +1438,9 @@ body {
 	font-size: 14px;
 }
 
-#contactMap {
-    width: 100%;
-    height: 500px;
-}
 
-#footerBackground {
-	width: 100%;
-	height: 500px;
-}
 
-.textPR {
-	font-size: 14px;
-}
 
-#contact {
-    height: 0px;
-    width: 71%;
-    margin-top: 6%;
-    margin-left: 16%;
-}
-
-#textContact {
-    margin-left: 1%;
-    margin-top: 42px;
-    width: 115%;
-}
-
-.navbar-brand {
-    padding-top: 0px;
-    margin-top: 13px;
-    margin-left: -25px;
-}
-
-.navbar-toggle {
-    margin-right: 0px;
-}
 
 #textDivEvent {
     font-size: 14px;
@@ -1443,53 +1448,114 @@ body {
 }
 
 #textDivPromotion {
-	font-size: 14px;
-    letter-spacing: 1px;
+    width: 74%;
+    position: absolute;
+    margin-left: 15%;
+    font-size: 15px;
 }
 
+
 navbar-collapse, .navHeaderCollapse, .collapse, .in {
-	width: 106%;
+    width: 106%;
+}
+
+.nav, .navbar-nav, .navbar-right {
+    display: block;
+    margin-top: -5px;
+    margin-right: 45%;
+    float: left;
+    width: 61%;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: white;
+    background-color: white;
+}
+
+li {
+    width: 147%;
+}
+
+.navbar-toggle {
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+.navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-top: 13px;
+    margin-left: -7%;
 }
 
 .iconsWidth {
     width: 33px;
 }
 
-.navbar-inverse, .navbar-collapse, .navbar-inverse, .navbar-form {
-    border-color: white;
-}
+
 
 .navbar, .navbar-inverse, .navbar-static-top {
-	width: 100%;
-	position: fixed;
+    width: 100%;
+    position: fixed;
+    height: 64px;
 }
-
 .PrIcon {
     display: inline;
     margin-left: 15%;
     color: black;
 }
 
+#contactMap {
+    width: 100%;
+    height: 500PX;
+}
+
+#footerBackground {
+    width: 100%;
+    height: 500PX;
+}
+
+.textContact {
+    font-size: 13px;
+}
 
 #solutionsLogoBottom {
-    margin-left: 12%;
-    margin-top: 7px;
+    margin-left: 11%;
+    margin-top: 12px;
     font-size: 14px;
 }
 
-
-
-.textContact {
-	font-size: 13px;
+#logoFb {
+    width: 25px;
+    margin-top: 31px;
 }
 
-#textReferenzen {
-    margin-top: 36px;
+#contact {
+    margin-left: 35%;
+    width: 62%;
+    margin-top: 0%;
 }
+
+#textContact {
+    margin-left: -29%;
+    width: 130%;
+    margin-top: 58px;
+}
+
+#copyright {
+    font-size: 7px;
+    height: 0px;
+    /* margin-top: 12px; */
+}
+
 
 .textPRDasDigital {
     margin-top: 14px;
     color: black;
+}
+
+#textReferenzen {
+    margin-top: 35px;
+    width: 100%;
+    text-align: center;
 }
 
 .textPRDasWebsite {
@@ -1514,18 +1580,7 @@ navbar-collapse, .navHeaderCollapse, .collapse, .in {
     font-size: 14px;
 }
 
-#textContact {
-    margin-left: 2%;
-    margin-top: 60px;
-    width: 107%;
-}
 
-#contact {
-    height: 0px;
-    width: 73%;
-    margin-top: 6%;
-    margin-left: 13%;
-}
 
 #website {
     width: 100%;
@@ -1554,9 +1609,9 @@ navbar-collapse, .navHeaderCollapse, .collapse, .in {
 }
 
 #solutionsBackgroundDigital {
-    height: 380px;
-	width: 100%;
-    background-image: url("../img/solutionDigital.png");
+    height: 347px;
+    width: 100%;
+    background-image: url(../img/solutionDigital.png);
     background-size: cover;
     background-position: center;
 }
@@ -1570,7 +1625,7 @@ navbar-collapse, .navHeaderCollapse, .collapse, .in {
 }
 
 navbar-collapse, .navHeaderCollapse, .collapse, .in {
-	width: 106%;
+    width: 106%;
 }
 
 .nav, .navbar-nav, .navbar-right {
@@ -1579,6 +1634,26 @@ navbar-collapse, .navHeaderCollapse, .collapse, .in {
     margin-right: 45%;
     float: left;
     width: 61%;
+}
+
+li {
+    width: 147%;
+}
+
+.iconsWidth {
+    width: 33px;
+}
+
+.navbar-inverse, .navbar-collapse, .navbar-inverse, .navbar-form {
+    border-color: white;
+}
+
+.navbar, .navbar-inverse, .navbar-static-top {
+    width: 100%;
+    position: fixed;
+}
+.textContact {
+    font-size: 11px;
 }
 
 #socialMediaEvent {
@@ -1600,18 +1675,11 @@ navbar-collapse, .navHeaderCollapse, .collapse, .in {
     width: 33px;
 }
 
-.navbar-inverse, .navbar-collapse, .navbar-inverse, .navbar-form {
-    border-color: white;
-}
 
-.navbar, .navbar-inverse, .navbar-static-top {
-	width: 100%;
-	position: fixed;
-}
 
-.textContact {
-    font-size: 11px;
-}
+
+
+
 
 .PrIcon {
     display: inline;
@@ -1619,11 +1687,7 @@ navbar-collapse, .navHeaderCollapse, .collapse, .in {
     color: black;
 }
 
-#solutionsLogoBottom {
-    margin-left: 11%;
-    margin-top: 6px;
-    font-size: 14px;
-}
+
 
 #referenzen {
 	height: 380px;
@@ -1647,8 +1711,28 @@ navbar-collapse, .navHeaderCollapse, .collapse, .in {
     letter-spacing: 1px;
 }
 
+
+#contact {
+    width: 83%;
+    position: absolute;
+    margin-left: 16%;
+    margin-top: 5%;
+}
+#textContact {
+    margin-left: 3%;
+    margin-top: 35px;
+    width: 99%;
+}
+.textContact {
+    font-size: 11px;
+}
 #copyright {
     font-size: 7px;
+}
+
+.navbar-toggle {
+    margin-right: 11px;
+    margin-top: 15px;
 }
 
 }
@@ -1806,7 +1890,7 @@ li {
 #copyright {
     font-size: 7px;
     height: 0px;
-    margin-top: 1px;
+
     width: 99%;
 }
 
@@ -1823,16 +1907,57 @@ li {
 }
 
 #solutionsLogoBottom {
-    margin-left: 16%;
-    margin-top: 5px;
-    font-size: 14px;
+    margin-left: 14%;
+    margin-top: 13px;
+}
+#solutionsText {
+    margin-left: 1.5%;
+    margin-top: 105px;
+    width: 97%;
+    font-size: 10px;
+}
+#textContact {
+    margin-left: -38%;
+    margin-top: 40px;
+    width: 161%;
 }
 
 #contact {
+    width: 53%;
+    position: absolute;
+    margin-left: 34%;
+    margin-top: 5%;
+}
+
+.navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-top: 13px;
+    margin-left: -8.5%;
+}
+
+#solutionsLogoBottom {
+    margin-left: 14%;
+    margin-top: 13px;
+}
+#solutionsText {
+    margin-left: 1.5%;
+    margin-top: 105px;
+    width: 97%;
+    font-size: 10px;
+}
+
+#copyright {
+    font-size: 7px;
     height: 0px;
-    width: 74%;
-    margin-top: 4%;
-    margin-left: 13%;
+
+}
+
+.textContact {
+    font-size: 11px;
+}
+
+.navbar-toggle {
+    margin-right: 3px;
+    margin-top: 15px;
 }
 
 #textPRDasEvent {
@@ -1840,14 +1965,42 @@ li {
     color: black;
 }
 
-.textContact {
-    font-size: 11px;
+#solutionsBackgroundDigital {
+    height: 296px;
+    width: 100%;
+    background-image: url(../img/solutionDigital.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
 }
 
+#solutionsLogoBottom {
+    margin-left: 14%;
+    margin-top: 13px;
+}
+#solutionsText {
+    margin-left: 1.5%;
+    margin-top: 105px;
+    width: 97%;
+    font-size: 10px;
+}
 #textContact {
-    margin-left: 0%;
-    margin-top: 65px;
-    width: 104%;
+    margin-left: -38%;
+    margin-top: 40px;
+    width: 161%;
+}
+
+#contact {
+    width: 53%;
+    position: absolute;
+    margin-left: 34%;
+    margin-top: 5%;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: white;
+    background-color: white;
+    width: 109%;
 }
 
 
