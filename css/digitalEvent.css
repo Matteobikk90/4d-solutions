@@ -620,6 +620,24 @@ a:hover {
     margin-top: 13px;
 }
 
+#solutionsBackgroundDigital {
+    height: 1200px;
+    width: 100%;
+    background-image: url(../img/solutionDigital.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#solutionsBackgroundEvent {
+    height: 1200px;
+    width: 100%;
+    background-image: url(../img/icons/EVENT_HEADER.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
 #textDivPromotion {
     margin-top: 112px;
     margin-left: 14%;

@@ -481,6 +481,22 @@ a:hover {
     font-size: 17px;
 }
 
+#solutionsBackgroundPr {
+    height: 1200px;
+    width: 100%;
+    background-image: url(../img/01_PR_HEADER.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#solutionsBackgroundCreative {
+    height: 1200px;
+    width: 100%;
+    background-image: url(../img/solutionCreative.png);
+    background-size: cover;
+    background-position: center;
+}
+
 #textContact {
     width: 40%;
     float: left;
