@@ -767,7 +767,7 @@ body {
 }
 
 #solutionsBackgroundDigital {
-    height: 500px;
+    height: 554px;
 	width: 100%;
     background-image: url("../img/solutionDigital.png");
     background-size: cover;
@@ -775,7 +775,7 @@ body {
 }
 
 #solutionsBackgroundEvent {
-    height: 500px;
+    height: 554px;
 	width: 100%;
     background-image: url("../img/solutionsEvent.png");
     background-size: cover;
